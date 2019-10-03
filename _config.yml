@@ -14,11 +14,11 @@ baseurl: "/amsterdam.pydata.org" # the subpath of your site, e.g. /blog
 url: "https://pydataamsterdam.github.io" # the base hostname & protocol for your site
 
 
-tickets_url: https://pydata.org/amsterdam2019/cfp
-cfp_url: https://pydata.org/amsterdam2019/cfp
+tickets_url:
+cfp_url:
 
-dates: May 10 - 12th, 2019
-location: Booking.com & GoDataDriven
+dates:
+location:
 
 greeting:
   title: About PyData
