@@ -4,9 +4,28 @@ on: [push]
 
 jobs: 
   build_and_deploy:
+    container: ruby:2.6.5
     runs-on: ubuntu-latest
     env: 
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
     steps:
+      - uses: actions/checkout@v1
       - name: Build & Deploy to GitHub Pages
-        uses: BryanSchuetz/jekyll-deploy-gh-pages@1.0
+        run: |
+          gem install jekyll bundler
+          bundle exec jekyll build
+          cd build
+          remote_repo="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" && \
+          remote_branch="gh-pages" && \
+          git init && \
+          git config user.name "${GITHUB_ACTOR}" && \
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+          git add . && \
+          echo -n 'Files to Commit:' && ls -l | wc -l && \
+          git commit -m'action build' && \
+          git push --force $remote_repo master:$remote_branch && \
+          rm -fr .git && \
+          cd ../
+
+
+
