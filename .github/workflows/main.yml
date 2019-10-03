@@ -1,0 +1,23 @@
+name: Jekyll Deploy
+
+on: [push]
+
+jobs: 
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    env: 
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version:  '>= 2.5'
+      - name: Build & Deploy to GitHub Pages
+        run: |
+          gem install jekyll bundler
+          bundle exec jekyll build
+      - name: deploy
+        uses: maxheld83/ghpages@v0.2.1
+        env:
+          BUILD_DIR: build/
+          GH_PAT: ${{ secrets.GH_PAT }}
