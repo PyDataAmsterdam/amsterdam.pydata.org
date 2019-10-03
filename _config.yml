@@ -1,0 +1,64 @@
+# Site settings
+title: PyData Amsterdam
+description:
+  PyData Amsterdam is a conference <br />
+  to bring together users and deve-<br />
+  lopers of open source software in<br />
+  in the scientific computing and/or<br />
+  python ecosystem.<br /> <br />
+
+  Preparations for the next edition <br />
+  are in full swing. Check back soon <br />
+  for updates.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+
+tickets_url: https://pydata.org/amsterdam2019/cfp
+cfp_url: https://pydata.org/amsterdam2019/cfp
+
+dates: May 10 - 12th, 2019
+location: Booking.com & GoDataDriven
+
+greeting:
+  title: About PyData
+  text:
+    PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States.
+    PyData provides a forum for the international community of users and developers of data analysis tools to
+    share ideas and learn from each other.<br /><br />
+
+    The global PyData network promotes discussion of best practices, new approaches,
+    and emerging technologies for data management, processing, analytics, and visualization.
+    PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.<br /><br />
+
+    The PyData Code of Conduct governs this meetup. To discuss any issues or concerns relating to the code of
+    conduct or the behavior of anyone at a PyData meetup, please contact NumFOCUS Executive Director Leah Silen
+    (+1 512-222-5449; leah@numfocus.org ) or the local organisers at amsterdam@pydata.org.
+
+social:
+  twitter: https://twitter.com/PyDataAmsterdam
+  github: https://github.com/PyDataAmsterdam
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 3
+
+include: ['_pages']
+
+# Misc settings
+featured-image-source:
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/PyDataAmsterdam
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/pydataamsterdam
+
+# Build settings
+markdown: kramdown
