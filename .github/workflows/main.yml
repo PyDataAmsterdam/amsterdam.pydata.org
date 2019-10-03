@@ -1,0 +1,12 @@
+name: Jekyll Deploy
+
+on: [push]
+
+jobs: 
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    env: 
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+    steps:
+      - name: Build & Deploy to GitHub Pages
+        uses: BryanSchuetz/jekyll-deploy-gh-pages@1.0
