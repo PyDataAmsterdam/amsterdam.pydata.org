@@ -10,8 +10,8 @@ description:
   Preparations for the next edition <br />
   are in full swing. Check back soon <br />
   for updates.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/amsterdam.pydata.org" # the subpath of your site, e.g. /blog
+url: "https://pydataamsterdam.github.io" # the base hostname & protocol for your site
 
 
 tickets_url: https://pydata.org/amsterdam2019/cfp
