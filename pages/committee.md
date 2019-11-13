@@ -59,7 +59,7 @@ The committee currently consists of the following people:
     </li>
     <li>
         <h3>Fahimeh Alizadeh </h3>
-        <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        <p>Machine Learning Engineer at Randstad Groep Nederland</p>
     </li>
 </ul>
 
