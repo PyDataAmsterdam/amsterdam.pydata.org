@@ -20,6 +20,7 @@ jobs:
           gem install jekyll bundler
           bundle install
           bundle exec jekyll build
+          echo amsterdam.pydata.org >> CNAME
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
