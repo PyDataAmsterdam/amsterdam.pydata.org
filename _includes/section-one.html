@@ -3,6 +3,7 @@
 	  <header class="major">
 		<h2>{% if site.greeting.title %}{{ site.greeting.title }}{% else %}{{ site.title }}{% endif %}</h2>
 		<p>{% if site.greeting.text %}{{ site.greeting.text | markdownify }}{% else %}{{ site.description | markdownify }}{% endif %}</p>
+		<a href="pages/numfocus.html">Read more about NumFocus here.</a>
 	  </header>
 	  <ul class="icons major">{%
 	  for socloc in site.social limit:3 %}
