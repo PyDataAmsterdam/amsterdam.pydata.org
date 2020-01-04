@@ -1,4 +1,36 @@
-<li>
-    <a href="{{ include.url | absolute_url}}" target="_blank"><h3>{{ include.name }}</h3></a>
-    <img src="{{ "" | absolute_url }}/assets/images/{{ include.file}}" width='300px'/>
-</li>
+<style>
+    #container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+
+    #left-container {
+        width: 250px;
+        margin-right: 30px;
+    }
+
+    .content {
+        height: 100%;
+    }
+
+    #right {
+        flex-grow: 1;
+    }
+</style>
+
+<div id="container">
+    <div id="left-container">
+        <div class="content">
+            <img src="{{ " " | absolute_url }}/assets/images/{{ include.file}}" width='250px' />
+        </div>
+    </div>
+    <div id="right">
+        <div class="content">
+            <h3>{{ include.name }}</h3>
+            <a href="{{ include.url | absolute_url}}" target="_blank">{{ include.url | absolute_url }}</a>
+            <p>{{ include.desc }}</p>
+        </div>
+    </div>
+</div>
