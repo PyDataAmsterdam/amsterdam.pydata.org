@@ -12,7 +12,7 @@ Download the [Sponsor Prospectus](https://pydata.org/wp-content/uploads/2019/04/
 
 ## Hosts
 <ul>
-    {% include sponsor.html name="Booking.com" url="https://booking.com" file="sponsors/booking.svg" 
+    {% include sponsor.html name="Booking.com" url="https://booking.com" file="sponsors/booking.png" 
        desc="
        <p>Booking.com is one of the world’s largest e-commerce companies, and the number one destination to book any type of accommodation. Our mission is to empower people to experience the world. Helping us do this is a diverse community of over 17,000 employees across 200+ global offices, all connected by a love of travel and a passion for innovation.</p>
        
