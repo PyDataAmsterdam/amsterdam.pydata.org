@@ -2359,7 +2359,6 @@
 		}
 
 /* Features */
-
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2434,7 +2433,17 @@
 					}
 
 			}
+			@media screen and (min-width: 736px) {
+				.features > li.project {
+							width: 20%;
+							padding-left: 30px;
+							padding-top: 30px;
+							padding-bottom: 30px;
+							padding-right: 30px;
+							text-align: center
+			}
 
+		}
 			@media screen and (max-width: 736px) {
 
 				.features li {
