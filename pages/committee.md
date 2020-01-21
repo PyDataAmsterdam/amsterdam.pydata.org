@@ -79,10 +79,5 @@ The committee currently consists of the following people:
         desc="Fahimeh is a Machine Learning Engineer at Randstad Groep Nederland"
         linkedin_url="https://www.linkedin.com/in/fahimeh-alizadeh-moghaddam/"
     %}
-    {% include committee_member.html
-        name="" 
-        desc=""
-    %}
-
 </ul>
 
