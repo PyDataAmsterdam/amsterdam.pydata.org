@@ -14,6 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
 
+future: true
+
 tickets_url:
 cfp_url:
 
@@ -43,7 +45,7 @@ social:
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 3
 
-include: ['_pages']
+include: ['_pages', '_meetups']
 
 # Misc settings
 featured-image-source:
