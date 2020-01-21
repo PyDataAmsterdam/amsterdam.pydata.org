@@ -66,8 +66,9 @@ The committee currently consists of the following people:
     %}
     {% include committee_member.html
         name="Cor Zuurmond"
-        desc="Cor is a data scientist at GoDataDriven. "
+        desc="Cor is a machine learning engineer at GoDataDriven."
         linkedin_url="https://www.linkedin.com/in/cor-zuurmond/"
+		github_url="https://github.com/JCZuurmond/"
     %}
     {% include committee_member.html
         name="Ada Zamora"
