@@ -45,7 +45,7 @@ social:
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 3
 
-include: ['_pages', '_meetups']
+include: ['_pages']
 
 # Misc settings
 featured-image-source:
