@@ -35,7 +35,7 @@ Are you a first-time speaker, or just want some extra help preparing your propos
 of your proposal and/or talk. Reach out to us on amsterdam@pydata.org if you are interested. 
 
 ## Tutorials
-These are 90 minutes hands-on sessions where you have the opportunity to lead a classroom so attendees can learn about a new skill/library/technology in a self-contained way, and have said materials available to students before-hand so they can follow suit. Guidelines for the tutorial proposal are the same as above, but the abstract should make clear what are the requirements for the class and how the materials are going to be distributed (e.g. github repo, links, etc).
+These are 180 minutes hands-on sessions where you have the opportunity to lead a classroom so attendees can learn about a new skill/library/technology in a self-contained way, and have said materials available to students before-hand so they can follow suit. Guidelines for the tutorial proposal are the same as above, but the abstract should make clear what are the requirements for the class and how the materials are going to be distributed (e.g. github repo, links, etc).
 
 
 ## Suggestions
@@ -62,7 +62,7 @@ Here are some common pitfalls that could lead to the proposal not being understo
 
 ## Examples from last year
 
-Some proposals from last year which are good examples to reference include:
+Some good proposals from last year include:
 
 - [Online machine learning with creme](https://pydata.org/amsterdam2019/schedule/presentation/7/online-machine-learning-with-creme/)
 - [High on cardinality low on memory](https://pydata.org/amsterdam2019/schedule/presentation/10/high-on-cardinality-low-on-memory/)

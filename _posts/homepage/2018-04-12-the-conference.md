@@ -25,5 +25,5 @@ The PyData Amsterdam conference is an annual event which brings together users a
 In addition to all the great talks  and workshops there is no place like PyData Amsterdam to meet other like minded people
 and get to talk to the developers of the libraries we all use and love.
 
-PyData Amsterdam will take place from June 12 - 15.
+PyData Amsterdam 2020 will take place from June 12 - 15.
 >>>>>>> preconf announcements
