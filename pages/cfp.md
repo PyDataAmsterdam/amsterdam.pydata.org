@@ -4,7 +4,6 @@ title: Call for Proposals
 description: 
 ---
 
-
 PyData brings together analysts, scientists, developers, engineers, architects and others from the data science community
 to discuss new techniques and tools for management, analytics and visualization of data. PyData welcomes presentations
 focusing on Python as well as other languages used in data science (e.g. R, Julia). Presentation content can be at a novice, 
@@ -15,28 +14,26 @@ intermediate or advanced level.
 # Proposal Guidelines
 ## Structure
 A talk proposal is a short description of a talk that is aiming to convince someone to part with 30 minutes of their time, 
-in order to learn about something. A good proposal should disclose:
+to learn about something. A good proposal should disclose:
 
 - The topic (the WHAT) and WHY it is interesting
 - The audience to WHOM the talk is addressed
 - The TYPE of talk (lots of maths, hands-on, etc)
 - The TAKEAWAY, a.k.a. what will I learn
 
-
 There are two parts to a proposal:
 
-**Brief Summary** - This informs the attendee what the talk is about. Discloses the topic, domain and overall purpose. This is at most a few lines long, and will be printed in the conference program.
+**Brief Summary** - This informs the attendee what the talk is about. Discloses the topic, domain and overall purpose. This is at most a few lines long and will be printed in the conference program.
 
 **Description** - This is a self-contained statement that summarizes the aspects of the talk. It should be structured and present the objective of the talk, its outline, central thesis and key takeaways. After reading the abstract, the audience should have an idea of the overall presentation and know what to expect. The abstract should also make clear what background knowledge is expected from the attendees.
+
 While there is no strict template for this, you should make sure that the audience can understand why your talk is relevant for them.
 
 ## Mentorship
-Are you a first-time speaker, or just want some extra help preparing your proposal? PyData Amsterdam offers mentorship to help you make the most
-of your proposal and/or talk. Reach out to us on amsterdam@pydata.org if you are interested. 
+Are you a first-time speaker, or just want some extra help preparing your proposal? PyData Amsterdam offers mentorship to help you make the most of your proposal and/or talk. Reach out to us on amsterdam@pydata.org if you are interested. 
 
 ## Tutorials
-These are 180 minutes hands-on sessions where you have the opportunity to lead a classroom so attendees can learn about a new skill/library/technology in a self-contained way, and have said materials available to students before-hand so they can follow suit. Guidelines for the tutorial proposal are the same as above, but the abstract should make clear what are the requirements for the class and how the materials are going to be distributed (e.g. github repo, links, etc).
-
+These are 180 minutes hands-on sessions where you have the opportunity to lead a classroom so attendees can learn about a new skill/library/technology in a self-contained way, and have said materials available to students before-hand so they can follow suit. Guidelines for the tutorial proposal are the same as above, but the abstract should make clear what are the requirements for the class and how the materials are going to be distributed (e.g. GitHub repo, links, etc).
 
 ## Suggestions
 **Who’s the target audience?** - Think about your target audience in terms of job role (data scientist, engineer, researcher, etc.) and experience. Being clear about who you are speaking to (and the background knowledge you can expect them to have) is helpful both to you as you prepare your proposal or talk, as well as to the audience considering whether your talk is a good fit for them to attend.
@@ -58,7 +55,7 @@ Here are some common pitfalls that could lead to the proposal not being understo
 
 **Sales pitches:** We are a community of developers and users of open-source scientific computing tools. You can reference your closed-source product or platform, but the audience will find the talk more interesting if they can try your techniques with the PyData stack. Your problem definition, proposed techniques and business domain are also interesting, but sales pitches are typically rejected.
 
-**Repeated talks:** We have a strong preference for new talks, and new speakers, and as such, if your talk is already available online or it has been already presented in PyData, it is unlikely to be accepted for the conference.
+**Repeated talks:** We have a strong preference for new talks and new speakers, and as such, if your talk is already available online or it has been already presented in PyData, it is unlikely to be accepted for the conference.
 
 ## Examples from last year
 
