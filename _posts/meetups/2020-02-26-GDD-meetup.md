@@ -1,7 +1,7 @@
 ---
 layout: post
-title: GDD Meetup
-description: Here a cool name for the meetup
+title: Meetup at GDD
+description: PyData Amsterdam February 2020 Meetup
 category: [meetup]
-meetup-url: https://www.meetup.com/nl-NL/PyData-NL/events/266890846/
+meetup-url: https://www.meetup.com/nl-NL/PyData-NL/events/268164960/
 ---
