@@ -9,6 +9,8 @@ to discuss new techniques and tools for management, analytics and visualization 
 focusing on Python as well as other languages used in data science (e.g. R, Julia). Presentation content can be at a novice, 
 intermediate or advanced level.
 
+## We're accepting proposals until March 29th
+
 <a href="https://pydata.org/amsterdam2020/accounts/login/" target="_blank" class="button fit special">Submit a proposal here</a>
 
 # Proposal Guidelines
