@@ -28,13 +28,14 @@ Download the [Sponsor Prospectus](https://pydata.org/wp-content/uploads/2019/04/
     %}
 </ul>
 
-
-## Platinum Sponsors
-
-## Gold Sponsors
-
-## Silver Sponsors
-
 ## Bronze Sponsors
-
-## Supporting Sonsors
+<ul>
+    {% include sponsor.html name="Big Data Republic" url="https://www.bigdatarepublic.nl" file="sponsors/bdr.png" 
+       desc="
+       <p>BigData Republic is an expert data consultancy firm, specialized in data science and data engineering since 2015. We do not only offer full-stack technical expertise, but also help clients with building up the right skills, knowledge and processes to create business value with data products in a sustainable way. </p>
+       <p>Our lead consultants advise on data science strategy, use cases, team organization, and technology decisions. Our data scientists convert use cases into innovative predictive models that enable value-generating decision making processes. Our data engineers and platform architects implement and deploy data products in a scalable, robust and maintainable way. In addition, we provide both technical and organizational training to both teams and business leads.</p>
+       <p>Our client portfolio consists of a variety of organizations across different domains, such as ING, KLM, Randstad, VodafoneZiggo, KPN, Heineken, Nutreco, Ahold, NS and ProRail. For these and other clients we have enabled increased business value through predictive maintenance, financial forecasting, churn prevention, anomaly detection, recommendation systems and other use cases.</p>
+       <p>As a boutique consultancy firm, we know and understand each other and our clients well. We value a down-to-earth relationship of openness and knowledge sharing, both internally as well as with our clients.</p>
+      "
+      %}
+</ul>
