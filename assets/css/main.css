@@ -2492,6 +2492,7 @@
 			.spotlight .image img {
 				border-radius: 0;
 				width: 100%;
+				background-color: white;
 			}
 
 		.spotlight .content {

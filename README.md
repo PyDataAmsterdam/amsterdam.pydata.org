@@ -15,7 +15,7 @@ Contributions are always welcome. Please open an issue first to discuss what you
 
 ## Installation
 
-The PyData site is developed using [Jekyll](https://jekyllrb.com), a static site generator in Ruby. 
+The PyData site is developed using [Jekyll](https://jsekyllrb.com), a static site generator in Ruby. 
 It's adivsable to use some kind of environment manager like `rbenv` before installing jekyll. After installing
 `gem install jekyll bundler`, you can run `bundle exec jekyll serve` 
 
