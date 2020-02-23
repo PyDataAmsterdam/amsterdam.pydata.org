@@ -4,26 +4,21 @@ This repository is used to build amsterdam.pydata.org
 
 ## Usage
 
-New homepage posts can be made in the `_posts` folder with category set to `homepage` 
-General pages can be made as markdown files, preferably in the `pages` folder
+New homepage posts can be made in the `_posts` folder with category set to `homepage`. General pages can be made as markdown files, preferably in the `pages` folder
 
 Dates, ticket sale urls, and CFP urls can be set in the `config.yml`
 
 ## Contributing
-Contributions are always welcome. Please open an issue first to discuss what you want to add.
 
+Contributions are always welcome. Please open an issue first to discuss what you want to add.
 
 ## Installation
 
-The PyData site is developed using [Jekyll](https://jsekyllrb.com), a static site generator in Ruby. 
-It's adivsable to use some kind of environment manager like `rbenv` before installing jekyll. After installing
-`gem install jekyll bundler`, you can run `bundle exec jekyll serve` 
+The PyData site is developed using [Jekyll](https://jekyllrb.com), a static site generator in Ruby. It's adivsable to use some kind of environment manager like `rbenv` before installing jekyll. After installing `gem install jekyll bundler`, you can run `bundle exec jekyll serve`
 
 ## Attribution
 
-This website is inspired by the stunning website of [PyData Berlin](https://berlin.pydata.org) and is built using 
-the template provided by [Arkadian River](https://github.com/arkadianriver/arkadianriver.com),
-based on the [Spectral](http://html5up.net/spectral) theme
+This website is inspired by the stunning website of [PyData Berlin](https://berlin.pydata.org) and is built using the template provided by [Arkadian River](https://github.com/arkadianriver/arkadianriver.com), based on the [Spectral](http://html5up.net/spectral) theme
 
 ## Credits
 
