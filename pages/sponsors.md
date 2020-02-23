@@ -28,6 +28,18 @@ Download the [Sponsor Prospectus](https://pydata.org/wp-content/uploads/2019/04/
     %}
 </ul>
 
+## Gold Sponsors
+<ul>
+    {% include sponsor.html name="Xomnia" url="https://www.xomnia.com" file="sponsors/xomnia.png" 
+       desc="
+      <p>We are Xomnia. The AI consulting company. A team of independent craftsmen who breathe AI. Proven to be at the frontier of data driven innovation.</p>
+    <p>Data & AI is changing the world. The way we live, work and communicate. Contributing to this revolutionary change in a positive way, is what drives us. </p>
+    <p>Our top-talented data scientists & engineers, analytics translators solve data science and engineering projects, from start to finish. From developing an application for real-time fraud detection on Google Cloud Platform, to setting up a customized recommender engine in an existing Microsoft Azure environment, to  - we develop and deploy tailor-made data science solutions.</p>
+"
+      %}
+</ul>
+
+
 ## Bronze Sponsors
 <ul>
     {% include sponsor.html name="Big Data Republic" url="https://www.bigdatarepublic.nl" file="sponsors/bdr.png" 
