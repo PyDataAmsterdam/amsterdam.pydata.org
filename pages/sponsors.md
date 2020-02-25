@@ -37,6 +37,14 @@ Download the [Sponsor Prospectus](https://pydata.org/wp-content/uploads/2019/04/
     <p>Our top-talented data scientists & engineers, analytics translators solve data science and engineering projects, from start to finish. From developing an application for real-time fraud detection on Google Cloud Platform, to setting up a customized recommender engine in an existing Microsoft Azure environment, to  - we develop and deploy tailor-made data science solutions.</p>
 "
       %}
+     {% include sponsor.html name="Anchormen" url="https://anchormen.nl" file="sponsors/anchormen.png" 
+       desc="
+     <p>Data is valuable, but it needs to be activated in order to create value. This calls for analysis, development, implementation, and optimization. Innovation is more than a process, it’s in our DNA.</p>
+     <p>At Anchormen we are continuously updating our knowledge and sharing it. Leading to innovative and efficient new ideas and projects. Projects we plan and run together with our clients with whom we build solid partnerships.</p>
+     <p>We are result-driven from start to finish. Always looking for ways to create business value with data. This is our primary responsibility, from kick-off meeting to final delivery. We believe that data is only valuable if you activate it. That makes us who we are.</p>
+     <p>We are Anchormen. Data activators.</p>
+     "
+      %}
 </ul>
 
 
