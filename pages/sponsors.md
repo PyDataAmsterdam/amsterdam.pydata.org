@@ -45,6 +45,13 @@ Download the [Sponsor Prospectus](https://pydata.org/wp-content/uploads/2019/04/
      <p>We are Anchormen. Data activators.</p>
      "
       %}
+      {% include sponsor.html name="TerminusDB" url="https://terminusdb.com/" file="sponsors/terminusdb.png" 
+       desc="
+       <p>TerminusDB is an open source database built for data people. Terminus is a model driven graph database designed specifically for the web-age.</p>
+       <p>The result is unified, well-structured & refined data - the jet fuel of future business. TerminusDB greatly reduces the time and effort required to build any application that shares, manipulates or edits data.</p>
+       <p>The use of advanced CI/CD workflows for databases has not been practical due to the lack of tool-chain support. TerminusDB makes possible collaborative CI/CD type operations in the universe of data management. TerminusDB provides a practical tool for enabling branch, merge, rollback, and the various automated and manual testing regimes which are facilitated on a transactional database management system.</p>
+     "
+      %}
 </ul>
 
 
