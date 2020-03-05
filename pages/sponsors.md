@@ -28,6 +28,16 @@ Download the [Sponsor Prospectus](https://pydata.org/wp-content/uploads/2019/04/
     %}
 </ul>
 
+## Platinum Sponsors
+<ul>
+{% include sponsor.html name="ING" url="https://www.ing.com/" file="sponsors/ing.png" 
+       desc="
+    <p><b>Our promise</b><br>ING promises to make banking clear and easy, anywhere, anytime. We are constantly innovating to deliver a differentiating customer experience that’s refreshingly smart, surprisingly personal and remarkably easy. We have launched the Think Forward strategy to challenge the traditional ways of banking. Not just for the sake of it, but driven by our common purpose to empower people to stay a step ahead in life and in business.</p>
+    <p><b>Data is the next frontier for banking</b><br>The next frontier for banking is data. Data combined with superior analytics leads insight and foresight that allows us to delight our customers with personal solutions delivered at the right moment. As bringing value to our customers is central to our purpose. The success of our Think Forward strategy relies on our mastery of data to understand what customers want and need.</p>
+    "
+      %}
+</ul>
+
 ## Gold Sponsors
 <ul>
     {% include sponsor.html name="Xomnia" url="https://www.xomnia.com" file="sponsors/xomnia.png" 
