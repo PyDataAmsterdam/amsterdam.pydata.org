@@ -1,16 +1,10 @@
 ---
 layout: page
-title: Open-source sprint
+title: Open-source sprints
 description: 
 ---
 
-# Open-source sprints
-
-This years PyData conference includes an open-source sprint! During the sprint
-you can contribute to an open source project you regularly use. A maintainer
-will be present to guide the sprint and explain the internals of the project. A
-perfect way of deep diving into a project. We aim to have a contribution merged
-into the project!
+This year's PyData conference includes an open-source sprint! During the sprint, you can contribute to an open-source project you regularly use. A maintainer will be present to guide the sprint and explain the internals of the project; a perfect way of deep diving into a project. We aim to have a contribution merged into the project!
 
 <ul>
 <q>
@@ -24,6 +18,7 @@ The open source sprint is hosted by our sponsor Xomnia. It will be held at
 their office at Raamstraat 7-1, Amsterdam.
 
 ## Projects
+
 <ul>
     {% include sprint-projects.html name="plotnine" url="https://plotnine.readthedocs.io/en/stable/" file="os-sprints/plotnine.png" 
        desc="
