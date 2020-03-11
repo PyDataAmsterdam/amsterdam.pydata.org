@@ -1,21 +1,16 @@
 # Site settings
 title: PyData Amsterdam
 description:
-  PyData Amsterdam is a conference <br />
-  to bring together users and deve-<br />
-  lopers of open source software in<br />
-  the scientific computing and/or<br />
-  python ecosystem.<br /> <br />
+  PyData Amsterdam brings together<br />
+  users and developers of open-source<br />
+  software in the scientific computing<br />
+  and python ecosystem.<br /> <br />
 
-  PyData Amsterdam will take place on <br />
-  june 12th - 15th. Friday will have a <br />
-  range of exciting workshops. Saturday <br />
-  and Sunday an extensive repertoire of <br />
-  talks, and Monday will see the first <br />
-  ever edition of PyData Amsterdam open <br />
-  source sprints.<br /><br />
+  12 June - Workshops<br />
+  13-14 June - Main Conference<br />
+  15 June - Open Source Sprints<br /><br />
 
-  <a href="https://numfocus.org/blog/statement-on-coronavirus"><b>NumFOCUS guidance for PyData events regarding COVID-19</b></a>
+  <a href="https://numfocus.org/blog/statement-on-coronavirus">NumFOCUS guidance for PyData events regarding COVID-19</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
