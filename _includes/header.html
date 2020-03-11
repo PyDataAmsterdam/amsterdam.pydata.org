@@ -26,6 +26,14 @@
 							<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 							{% endif %} {% endfor %}
 							<li>
+								<a href="">Past Conferences</a>
+								<ul class="meetup-list">
+									{% for post in site.categories.conference %}
+									<li past-date='{{ post.date | date: "%-Y-%m-%d" }}'><a href="{{ post.conference-url | absolute_url }}" target="_blank" class="meetup-link"> - {{ post.title }}</a></li>
+									{% endfor %}
+								</ul>
+							</li>
+							<li>
 								<a href="">Upcoming Meetups</a>
 								<ul class="meetup-list">
 									{% for post in site.categories.meetup %}
