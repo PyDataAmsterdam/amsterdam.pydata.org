@@ -13,7 +13,9 @@ description:
   and Sunday an extensive repertoire of <br />
   talks, and Monday will see the first <br />
   ever edition of PyData Amsterdam open <br />
-  source sprints.
+  source sprints.<br /><br />
+
+  <a href="https://numfocus.org/blog/statement-on-coronavirus"><b>NumFOCUS guidance for PyData events regarding COVID-19</b></a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
