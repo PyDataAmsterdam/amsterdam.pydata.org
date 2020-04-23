@@ -4,6 +4,7 @@ image: disc.png
 title: Diversity Scholarships
 description: PyData Amsterdam
 category: [homepage]
+published: false
 ---
 
 One of PyData's goals is to increase awareness and excitement around opportunities for underrepresented groups in software engineering and data analytics. To increase diversity in scientific computing, our outreach program ranges from hosting workshops that introduce programming to young women to encouraging diversity in speakers at PyData.

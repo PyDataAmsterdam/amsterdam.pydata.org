@@ -2480,6 +2480,13 @@
 		display: flex;
 	}
 
+	.spotlight.wide {
+		-moz-flex-direction: row-reverse;
+		-webkit-flex-direction: row-reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+	}
+
 		.spotlight .image {
 			-moz-order: 1;
 			-webkit-order: 1;
@@ -2505,6 +2512,14 @@
 			width: 60%;
 		}
 
+		.spotlight .content-wide {
+			padding: 2em 4em 0.1em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			width: 90%;
+		}
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
@@ -2512,44 +2527,12 @@
 			flex-direction: row-reverse;
 		}
 
-		.spotlight:nth-child(1) {
+		.spotlight:nth-child(even) {
 			background-color: rgba(0, 0, 0, 0.075);
 		}
 
-		.spotlight:nth-child(2) {
+		.spotlight:nth-child(odd) {
 			background-color: rgba(0, 0, 0, 0.15);
-		}
-
-		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
-		}
-
-		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
-		}
-
-		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
-		}
-
-		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
-		}
-
-		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
-		}
-
-		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
-		}
-
-		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
-		}
-
-		.spotlight:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
 		}
 
 		@media screen and (max-width: 1280px) {
