@@ -3,6 +3,7 @@ layout: post
 title: The Meetup
 image: meetup.jpeg
 category: [homepage]
+published: false
 ---
 
 Next to the conference, there is also a [PyData Amsterdam Meetup](https://meetup.com/nl-NL/PyData-NL/). Meetups happen
