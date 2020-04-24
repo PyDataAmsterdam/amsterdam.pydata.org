@@ -1,15 +1,14 @@
 # Site settings
 title: PyData Amsterdam
 description:
-  PyData Amsterdam brings together<br />
-  users and developers of open-source<br />
-  software in the scientific computing<br />
-  and python ecosystem.<br /> <br />
+  After careful consideration, the PyData Amsterdam<br />
+  conference organizing committee has made the decision to<br />
+  postpone the PyData Amsterdam conference to 2021.<br /><br />
 
-  PyData Amsterdam 2020 is postponed<br />
-  due to COVID-19 concerns.<br /><br />
+  The PyData Amsterdam committee will instead continue to focus<br />
+  efforts on organizing smaller virtual events throughout the <br />
+  year and resume with a strong conference in the spring of 2021.
 
-  <a href="https://numfocus.org/blog/pydata-covid-19-response">NumFOCUS guidance for PyData events regarding COVID-19</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
