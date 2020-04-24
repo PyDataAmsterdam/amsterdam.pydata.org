@@ -22,7 +22,7 @@ Ralf has been deeply involved in the SciPy and PyData communities for over a dec
 Ines is a co-founder of Explosion, known for developing of spaCy, a leading open-source NLP library. In  “Let Them Write Code”, she shares Explosions philosophy for building developer tools, and why spaCy’s user-facing API works the way it does. This talk is not only useful when you build developer-focused tools, but will also help you structure your own internal codebases.
 
 ### Seasonality modelling from scratch - Vadim Nelidov (PyData Amsterdam Code Breakfast)
-https://godatadriven.com/topic/recording-online-code-breakfast-seasonality-modelling-from-scratch/ password: Breakfast
+[Seasonality modelling from scratch](https://godatadriven.com/topic/recording-online-code-breakfast-seasonality-modelling-from-scratch/) password: Breakfast
 
 In case you missed it, this is the recording of our previous virtual PyData Amsterdam Code Breakfast. In this session Vadim explained how time series are built up,how to decompose them into seasonal components and some of the dangers with naive approaches to detecting seasonality.
 
