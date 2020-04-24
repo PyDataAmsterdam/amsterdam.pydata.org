@@ -29,7 +29,7 @@ In case you missed it, this is the recording of our previous virtual PyData Amst
 A new code breakfast:  Chatbots from the Command Line
 It’s once again code breakfast time! We meet online, but we’ll keep the positive vibe kept share some breakfast recipes! You’ll get to build your first chatbot from the command line using the open source tool Rasa open source and python. The breakfast will be hosted by Vincent Warmerdam, Research advocate at Rasa.
 
-We'll also briefly discuss topics in NLP in general, like named entity recognition but the main goal is to get a working assistant running locally. Rasa works on top of Tensorflow 2 but you won't need to be familiar with it to get it to run. If you want to join, please sign up here: https://www.meetup.com/nl-NL/PyData-NL/events/270156567/
+We'll also briefly discuss topics in NLP in general, like named entity recognition but the main goal is to get a working assistant running locally. Rasa works on top of Tensorflow 2 but you won't need to be familiar with it to get it to run. If you want to join, please sign up [at the meetup page](https://www.meetup.com/nl-NL/PyData-NL/events/270156567/)
 
 ## Other news:
 The Python Pizza Conference is happening this weekend, on April 25th. It’s a fully virtual conference featuring several talks by old friends of PyData Amsterdam like Alexander Hendorf, Vincent Warmerdam, Cheuk Ting Ho and Ian Ozsvald. Tickets are €30  and all proceeds go to Doctors Without Borders. For more info, visit [remote.python.pizza](https://remote.python.pizza/).
