@@ -17,7 +17,7 @@ Ralf has been deeply involved in the SciPy and PyData communities for over a dec
 
 
 ### Let them write code - Ines Montani (PyCon India 2019)
-https://www.youtube.com/watch?v=Ivb4AAuj5JY
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ivb4AAuj5JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Ines is a co-founder of Explosion, known for developing of spaCy, a leading open-source NLP library. In  “Let Them Write Code”, she shares Explosions philosophy for building developer tools, and why spaCy’s user-facing API works the way it does. This talk is not only useful when you build developer-focused tools, but will also help you structure your own internal codebases.
 
