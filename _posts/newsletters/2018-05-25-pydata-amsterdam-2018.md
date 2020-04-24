@@ -9,7 +9,7 @@ Due to the unfortunate circumstances surrounding COVID-19, we can not come toget
 ## Our picks:
 
 ### The evolution of array computing in Python - Ralf Gommers (PyData Amsterdam 2019)
-https://www.youtube.com/watch?v=HVLPJnvInzM
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HVLPJnvInzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Have you ever wanted to run your NumPy based code on multiple cores, or on a distributed system, or on your GPU? Wouldn't it be nice to do this without changing your code? In this talk, Ralf describes the addition of two protocols to numpy which attempt to provide a bridge between those different array implementations
 
