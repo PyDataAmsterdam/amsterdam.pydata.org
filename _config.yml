@@ -1,15 +1,17 @@
 # Site settings
-title: PyDataFest Amsterdam
+title: PyData Festival Amsterdam
 description:
+  <h1>June 15 - 20th</h1> <br>
+  <br>
   PyData Amsterdam will not be held in-person this year <br>
   In its stead, we are glad to annouce *PyDataFest Amsterdam 2020*! <br>
   <br>
-  A week-long digital event from June 15th till June 20th <br>
-  with a mix of talks, interviews, workshops, discussions <br>
-  and open-source sprints. <br>
+  A week-long digital event with a mix of talks, interviews, <br>
+  workshops, discussions and open-source sprints. <br>
   <br>
   All proceeds of the conference go to [NumFocus](https://numfocus.org/), <br>
-  a non-profit that helps sustain Python's scientific computing ecosystem
+  a non-profit that helps sustain Python's <br>
+  scientific computing ecosystem
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
