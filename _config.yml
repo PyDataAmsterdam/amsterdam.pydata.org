@@ -18,7 +18,7 @@ url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
 future: true
 
-tickets_url:
+tickets_url: https://www.eventbrite.com/e/pydatafest-amsterdam-2020-tickets-105751621948
 cfp_url:
 
 dates:
