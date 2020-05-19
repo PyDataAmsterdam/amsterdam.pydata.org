@@ -1,22 +1,25 @@
 # Site settings
-title: PyData Amsterdam
+title: PyData Festival Amsterdam
 description:
-  After careful consideration, the PyData Amsterdam<br />
-  conference organizing committee has made the decision to<br />
-  postpone the PyData Amsterdam conference to 2021.<br /><br />
-
-  The PyData Amsterdam committee will instead continue to focus<br />
-  efforts on organizing smaller virtual events throughout the <br />
-  year and resume with a strong conference in the spring of 2021.
-
+  <h1>June 15 - 20th</h1> <br>
+  <br>
+  PyData Amsterdam will not be held in-person this year <br>
+  In its stead, we are glad to annouce *PyDataFest Amsterdam 2020*! <br>
+  <br>
+  A week-long digital event with a mix of talks, interviews, <br>
+  workshops, discussions and open-source sprints. <br>
+  <br>
+  All proceeds of the conference go to [NumFocus](https://numfocus.org/), <br>
+  a non-profit that helps sustain Python's <br>
+  scientific computing ecosystem
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
 
 future: true
 
-tickets_url:
-cfp_url: pages/cfp
+tickets_url: https://www.eventbrite.com/e/pydatafest-amsterdam-2020-tickets-105751621948
+cfp_url:
 
 dates:
 location:

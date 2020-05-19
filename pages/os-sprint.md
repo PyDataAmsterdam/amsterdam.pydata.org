@@ -14,8 +14,6 @@ This year's PyData conference includes an open-source sprint! During the sprint,
 </q>
 </ul>
 
-The open source sprint is hosted by our sponsor Xomnia. It will be held at
-their office at Raamstraat 7-1, Amsterdam.
 
 ## Projects
 

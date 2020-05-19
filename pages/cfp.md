@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Call for Proposals
-description: 
+description:
+published: false
 ---
 
 PyData brings together analysts, scientists, developers, engineers, architects and others from the data science community
@@ -11,7 +12,7 @@ intermediate or advanced level.
 
 ## We're accepting proposals until March 29th
 
-<a href="https://pydata.org/amsterdam2020/accounts/login/" target="_blank" class="button fit special">Submit a proposal here</a>
+<a href="https://pydata.org/amsterdam2020/accwwounts/login/" target="_blank" class="button fit special">Submit a proposal here</a>
 
 # Proposal Guidelines
 ## Structure

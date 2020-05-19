@@ -22,14 +22,7 @@
     <section class="spotlight wide">
         <div class="content-wide">
             <h2>Newsletter</h2>
-            <p>Due to the unfortunate circumstances surrounding COVID-19, we can not come together in person.
-				That doesn't mean though that PyData Amsterdam is done.</p>
-
-			<p>Over the years we've been building up a fantastic repertoire of recordings at both PyData Amsterdam
-				and at other PyData events across the world. In the coming period, we'll highlight some of our
-				favourites for you to enjoy.</p>
-
-            <p>Sign up here or read the newsletter by clicking on the links below:</p>
+            <p>Want to stay up to date with all we're doing? Sign up here or read the newsletter by clicking on the links below:</p>
 
             <form class="form-inline" action="https://tinyletter.com/PyDataAmsterdam" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/PyDataAmsterdam', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
                 <span class="form-row">
@@ -42,19 +35,6 @@
                     <a href="https://tinyletter.com" target="_blank"><span class="small">powered by TinyLetter</span></a>
                 </span>
             </form>
-
-
-            <h3>Newsletter archive: </h3>
-            <ul>
-                <li>
-                    {% for post in site.categories.newsletter %}{% if site.tiles-source == 'posts' %}
-                    <a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a>
-                        {% endif %}{% endfor %}
-                </li>
-            </ul>
-
-
-
         </div>
     </section>
 

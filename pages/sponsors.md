@@ -2,6 +2,7 @@
 layout: page
 title: Our sponsors
 description: 
+published: false
 ---
 
 # Sponsors
