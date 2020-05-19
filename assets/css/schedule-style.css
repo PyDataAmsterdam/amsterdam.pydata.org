@@ -133,12 +133,13 @@ Main Components
   }
   .cd-schedule .timeline li span {
     display: none;
+    font-size: 13px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .cd-schedule .timeline li::after {
-    width: calc(100% - 60px);
+    width: calc(100% - 80px);
     left: 60px;
   }
   .cd-schedule .timeline li span {
@@ -173,6 +174,7 @@ Main Components
   line-height: 1.2;
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .cd-schedule .events .events-group > ul {
@@ -329,14 +331,15 @@ Main Components
 }
 
 .cd-schedule .event-name {
-  font-size: 1.2rem;
+  font-size: 0.7rem;
 }
 .cd-schedule .event-details {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: normal;
 }
 @media only screen and (min-width: 800px) {
   .cd-schedule .event-name {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 }
 
