@@ -74,7 +74,8 @@ Main Components
 -------------------------------- */
 .cd-schedule {
   position: relative;
-  margin: 2em 0;
+  /*margin: 2em 0;*/
+  margin-bottom: 4em;
   margin-left: 0 !important;
 }
 
@@ -86,9 +87,9 @@ Main Components
 
 @media only screen and (min-width: 800px) {
   .cd-schedule {
-    width: 90%;
+    /*width: 90%;*/
     max-width: 1400px;
-    margin: 2em auto;
+    /*margin: 2em auto;*/
   }
   .cd-schedule::after {
     clear: both;
@@ -112,11 +113,11 @@ Main Components
     left: 0;
     height: 100%;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 75px;
   }
   .cd-schedule .timeline li {
     position: relative;
-    height: 50px;
+    height: 75px;
   }
   .cd-schedule .timeline li::after {
     /* this is used to create the table horizontal lines */
@@ -219,6 +220,7 @@ Main Components
 .cd-schedule .events .single-event a {
   display: block;
   height: 100%;
+  line-height: 1.1;
   padding: .8em;
 }
 
@@ -246,7 +248,7 @@ Main Components
   .cd-schedule .events .top-info {
     /* vertically center its content */
     display: table;
-    height: 50px;
+    height: 75px;
     border-bottom: 1px solid #EAEAEA;
     /* reset style */
     padding: 0;
@@ -262,7 +264,7 @@ Main Components
     margin-bottom: 0;
   }
   .cd-schedule .events .events-group > ul {
-    height: 1200px;
+    height: 1800px;
     /* reset style */
     display: block;
     overflow: visible;
@@ -293,7 +295,7 @@ Main Components
     margin-right: 0;
   }
   .cd-schedule .events .single-event a {
-    padding: 1.2em;
+    padding: 0.2em;
     border-bottom: 0px;
   }
   .cd-schedule .events .single-event:last-of-type {
@@ -331,10 +333,12 @@ Main Components
 }
 
 .cd-schedule .event-name {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .cd-schedule .event-details {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: normal;
 }
 @media only screen and (min-width: 800px) {
