@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
 		this.modalHeaderBg = this.modal.find('.header-bg');
 		this.modalBody = this.modal.find('.body');
 		this.modalBodyBg = this.modal.find('.body-bg');
-		this.modalMaxWidth = 800;
+		this.modalMaxWidth = 1200;
 		this.modalMaxHeight = 480;
 
 		this.animating = false;
@@ -112,11 +112,12 @@ jQuery(document).ready(function($){
 
 		//update event name and time
 		this.modalHeader.find('.event-name').text(event.find('.event-name').text());
-		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
+		this.modalHeader.find('.event-details').text(event.find('.event-details').text());
+
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
 		//update event content
-		this.modalBody.find('.event-info').load(event.parent().attr('data-content')+'.html .event-info > *', function(data){
+		this.modalBody.find('.event-info').load('pages/talks/' + event.parent().attr('data-content')+'.html', function(data){
 			//once the event content has been loaded
 			self.element.addClass('content-loaded');
 		});
@@ -137,7 +138,7 @@ jQuery(document).ready(function($){
 			var eventTop = event.offset().top - $(window).scrollTop(),
 				eventLeft = event.offset().left,
 				eventHeight = event.innerHeight(),
-				eventWidth = event.innerWidth();
+				eventWidth = 300;
 
 			var windowWidth = $(window).width(),
 				windowHeight = $(window).height();
@@ -223,6 +224,7 @@ jQuery(document).ready(function($){
 
 			self.element.removeClass('animation-completed modal-is-open');
 
+			this.modalBody.find('.event-info').text("")
 			//change modal width/height and translate it
 			this.modal.css({
 				width: eventWidth+'px',

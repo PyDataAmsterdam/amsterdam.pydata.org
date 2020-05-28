@@ -397,6 +397,7 @@ Main Components
   z-index: 3;
   top: 0;
   right: 0;
+  background-color: white;
   height: 100%;
   width: 100%;
   visibility: hidden;
@@ -420,6 +421,8 @@ Main Components
   /* vertically center its content */
   display: table;
   width: 100%;
+  scroll-behavior: auto;
+  overflow: auto;
 }
 
 .cd-schedule .event-modal .header .content {
@@ -428,7 +431,9 @@ Main Components
   /* vertically center inside its parent */
   display: table-cell;
   vertical-align: middle;
-  padding: .6em 5%;
+  padding: .2em 5%;
+  max-width: 100%;
+  width: 100%;
 }
 
 .cd-schedule .event-modal .body {
@@ -443,12 +448,18 @@ Main Components
   z-index: 2;
   line-height: 1.4;
   height: 100%;
-  overflow: hidden;
+  color: black;
+  scroll-behavior: auto;
+  overflow: auto;
 }
-
+.cd-schedule .event-modal .event-info {
+  padding: 15px;
+}
 .cd-schedule .event-modal .event-info > div {
   overflow: auto;
   height: 100%;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  margin: 5px;
   padding: 1.4em 5%;
 }
 
