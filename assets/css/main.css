@@ -2518,7 +2518,7 @@
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			width: 90%;
+			width: 95%;
 		}
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
