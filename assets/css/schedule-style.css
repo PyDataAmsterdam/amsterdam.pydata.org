@@ -502,6 +502,11 @@ Main Components
   width: 70px;
 }
 
+@media only screen and (max-width: 800px) {
+  .cd-schedule .event-modal .close {
+    left: 0;
+  }
+}
 .cd-schedule .event-modal .close::before, .cd-schedule .event-modal .close::after {
   /* these are the two lines of the 'X' icon */
   content: '';
