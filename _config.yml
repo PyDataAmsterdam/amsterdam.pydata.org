@@ -3,15 +3,15 @@ title: PyData Festival Amsterdam
 description:
   <h1>June 15th - 20th</h1> <br>
   <br>
-  PyData Amsterdam will not be held in-person this year <br>
-  In its stead, we are glad to announce *PyDataFest Amsterdam 2020*! <br>
+  PyData Amsterdam will not be held in-person this year. <br>
+  Instead, we are glad to announce *PyDataFest Amsterdam 2020*! <br>
   <br>
   A week-long digital event with a mix of talks, interviews, <br>
-  workshops, discussions and open-source sprints. <br>
+  workshops, discussions and an open-source sprint. <br>
   <br>
   All proceeds of the conference go to [NumFocus](https://numfocus.org/), <br>
   a non-profit that helps sustain Python's <br>
-  scientific computing ecosystem
+  scientific computing ecosystem.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amsterdam.pydata.org" # the base hostname & protocol for your site
 
@@ -36,7 +36,7 @@ greeting:
     PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.<br /><br />
 
     The PyData Code of Conduct governs this conference. To discuss any issues or concerns relating to the code of
-    conduct or the behavior of anyone at a PyData conference (or meetup), please contact NumFOCUS Executive Director 
+    conduct or the behavior of anyone at a PyData conference (or meetup), please contact NumFOCUS Executive Director
     Leah Silen (+1 512-222-5449; leah@numfocus.org ) or the local organisers at amsterdam@pydata.org.
 
 social:
