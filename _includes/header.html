@@ -1,5 +1,4 @@
-<!-- Page Wrapper -->
-<style>
+<!-- Page Wrapper --> <style>
 	.meetup-link {
 		font-size: 11px !important;
 		margin-left: 15px
@@ -25,31 +24,6 @@
 							{% endif %} {% endfor %} {% for page in site.pages %} {% if page.layout == "page" %}
 							<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 							{% endif %} {% endfor %}
-							<li>
-								<a href="">Past Conferences</a>
-								<ul class="meetup-list">
-									{% for post in site.categories.conference %}
-									<li past-date='{{ post.date | date: "%-Y-%m-%d" }}'><a href="{{ post.conference-url | absolute_url }}" target="_blank" class="meetup-link"> - {{ post.title }}</a></li>
-									{% endfor %}
-								</ul>
-							</li>
-							<li>
-								<a href="">Upcoming Meetups</a>
-								<ul class="meetup-list">
-									{% for post in site.categories.meetup %}
-									<li future-date='{{post.date | date: "%-Y-%m-%d" }}'><a href="{{post.meetup-url | absolute_url}}" target="_blank" class="meetup-link"> - {{post.date | date: "%-d %b" }} | {{post.title}}</a></li>
-									{% endfor %}
-								</ul>
-							</li>
-							<li>
-								<a href="">Past Meetups</a>
-								<ul class="meetup-list">
-									{% for post in site.categories.meetup %}
-									<li past-date='{{post.date | date: "%-Y-%m-%d" }}'><a href="{{post.meetup-url | absolute_url}}" target="_blank" class="meetup-link"> - {{post.date | date: "%d/%m/%y" }} | {{post.title}}</a></li>
-									{% endfor %}
-								</ul>
-							</li>
-
 						</ul>
 					</div>
 				</li>

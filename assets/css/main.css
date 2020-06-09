@@ -1593,6 +1593,12 @@
 		text-align: right;
 	}
 
+        /* Diego: helps center posts without images/content */
+        .div-center {
+                margin-left: auto;
+                margin-right: auto
+        }
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2048,18 +2054,19 @@
 		ul.actions {
 			cursor: default;
 			list-style: none;
-			padding-left: 0;
+                        /* Diego: tickets button didn't have enough padding on sides*/
 		}
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1.5em 0 0;
+				padding: 0 1.5em 0 1.5em;
 				vertical-align: middle;
 			}
 
-				ul.actions li:last-child {
-					padding-right: 0;
-				}
+                                /* Diego: no clue why this was here */
+				/*ul.actions li:last-child {*/
+					/*padding-right: 0;*/
+				/*}*/
 
 			ul.actions.small li {
 				padding: 0 0.75em 0 0;
@@ -2934,7 +2941,7 @@
 				color: #2E3842;
 			}
 
-			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
+			.wrapper.style5 h1, .wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
 				color: #2E3842;
 			}
 
@@ -3516,6 +3523,11 @@
 
 		}
 
+                /* Diego: banner button should not shift left */
+                #banner ul {
+                    padding-left: 0;
+                }
+
 	body.is-loading #banner h2 {
 		-moz-transform: scale(0.95);
 		-webkit-transform: scale(0.95);
@@ -3568,7 +3580,10 @@
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
+                        /* Diego: tickets button not wide enough to fit
+                         * 'coming soon' message.
 			width: 30%;
+                        */
 		}
 
 		@media screen and (max-width: 980px) {
