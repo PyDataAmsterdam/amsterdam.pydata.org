@@ -140,8 +140,8 @@ Main Components
 
 @media only screen and (min-width: 1000px) {
   .cd-schedule .timeline li::after {
-    width: calc(100% - 80px);
-    left: 60px;
+    width: calc(100% - 100px);
+    left: 100px;
   }
   .cd-schedule .timeline li span {
     display: inline-block;
@@ -297,7 +297,10 @@ Main Components
   .cd-schedule .events .single-event a {
     padding: 0.2em;
     border-bottom: 0px;
+    line-height:0.85;
+
   }
+
   .cd-schedule .events .single-event:last-of-type {
     /* reset style */
     margin-right: 0;
@@ -311,8 +314,8 @@ Main Components
 @media only screen and (min-width: 1000px) {
   .cd-schedule .events {
     /* 60px is the .timeline element width */
-    width: calc(100% - 60px);
-    margin-left: 60px;
+    width: calc(100% - 100px);
+    margin-left: 100px;
   }
 }
 
@@ -334,12 +337,14 @@ Main Components
 
 .cd-schedule .event-name {
   font-size: 0.8rem;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  line-height:0.9;
+  margin-bottom: 0px;
 }
 .cd-schedule .event-details {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: normal;
+  /*letter-spacing: 0.025em;*/
 }
 @media only screen and (min-width: 800px) {
   .cd-schedule .event-name {
@@ -451,6 +456,7 @@ Main Components
   color: black;
   scroll-behavior: auto;
   overflow: auto;
+  font-size: 0.8em;
 }
 .cd-schedule .event-modal .event-info {
   padding: 15px;
