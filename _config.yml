@@ -2,15 +2,17 @@
 title: PyData Global 2020
 description:
   <h1>November 11th - 15th</h1> <br>
-  <br>
-  Online for the first time, the world's premier data science conference. <br>
-  <br>
-  A five day digital event packed with talks, tutorials, posters, <br>
-  open-source sprints and a <b>digital hallway track</b>.<br>
-  <br>
-  All proceeds of the conference go to [NumFOCUS](https://numfocus.org/), <br>
-  a non-profit that helps sustain the world's open<br>
-  scientific computing ecosystem.
+
+  <p>
+  Online for the first time, the world's premier data science conference.</p>
+
+  <p>A five day digital event packed with talks, tutorials, posters,
+  open-source sprints and a <b>digital hallway track</b>.</p>
+
+  <p>All proceeds of the conference go to <a href="https://numfocus.org/">NumFOCUS</a>,
+  a non-profit that helps sustain the world's open
+  scientific computing ecosystem.</p>
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://global.pydata.org" # the base hostname & protocol for your site
 

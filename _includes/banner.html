@@ -2,7 +2,7 @@
 <section id="banner">
 	<div class="inner">
 		<h2>{{ site.title }}</h2>
-		<p>{{ site.description | markdownify }}</p>
+		<div class="div-center banner-text">{{ site.description | markdownify }}</div>
 		<ul class="actions">
 			{% if site.cfp_url %}
 			<li><a href={{ site.cfp_url }} class="button special">Submit a proposal</a></li>
