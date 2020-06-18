@@ -21,6 +21,7 @@ jobs:
           bundle install
           bundle exec jekyll build
           echo global.pydata.org >> build/CNAME
+          touch build/.nojekyll
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
