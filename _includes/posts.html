@@ -18,7 +18,11 @@
                 {% else %}
 		<div class="content align-center div-center">
                 {% endif %}
+                {% if post.customurl %}
+			<h2><a href="{{ post.customurl}}" class="link">{{ post.title }}</a></h2>
+                {% else %}
 			<h2><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h2>
+                {% endif %}
 			<p>{{ post.content }}</p>
 		</div>
 	</section>

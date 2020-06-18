@@ -1485,6 +1485,11 @@
 			text-decoration: none;
 		}
 
+	h1 {
+		font-size: 1.5em;
+		line-height: 1.75em;
+	}
+
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
@@ -2588,7 +2593,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3252,10 +3257,9 @@
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			position: absolute;
+                        display: inline-block;
 			top: 0;
+                        font-size: 1em;
 		}
 
 			#header h1 a {
@@ -3347,7 +3351,7 @@
 			background: transparent;
 		}
 
-			#header.alt h1 {
+			#header.alt h1, #header.alt img {
 				-moz-pointer-events: none;
 				-webkit-pointer-events: none;
 				-ms-pointer-events: none;
@@ -3807,3 +3811,13 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* Diego: header pydata logo */
+#header-title {
+    height: 100%;
+}
+#header-logo {
+    vertical-align: middle;
+    height: 70%;
+    display: inline-block;
+}
