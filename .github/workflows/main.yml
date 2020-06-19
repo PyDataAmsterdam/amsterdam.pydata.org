@@ -3,7 +3,7 @@ name: Jekyll Deploy
 on:
   push:
     branches:
-      - master
+      - truemaster
 
 jobs: 
   build_and_deploy:
