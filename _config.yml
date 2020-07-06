@@ -9,7 +9,7 @@ description:
   <p>Five days packed with talks, tutorials, posters,
   open-source sprints and a <b>digital hallway track</b>.</p>
 
-  <p><a href="pages/cfp.html">CFP guidelines now public!</a></p>
+  <p><a href="pages/cfp.html">CFP now live!</a></p>
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://global.pydata.org" # the base hostname & protocol for your site

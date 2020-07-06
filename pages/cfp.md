@@ -3,6 +3,10 @@ layout: page
 title: Call For Proposals
 ---
 
+# [Go directly the CFP portal](https://pydata.org/global2020/dashboard/)
+
+*If you haven't read the guidelines below, please do so before submitting your talk. They contain the details of the application process as well as crucial information for submitting a successful proposal.*
+
 # Why PyData Global?
 
 PyData Global 2020 will be a first-of-its-kind virtual/hybrid event to promote open source scientific computing, acting in place of several long-established flagship events which would otherwise have been held in-person this year; namely, PyData London, PyData Delhi, PyData NYC, PyData Berlin, and PyData Los Angeles. **Please read the CFP closely and in full.**
@@ -65,11 +69,28 @@ Although you may submit multiple proposals, you can expect a maximum of one acce
 
 * * *
 
+# Deadlines
+
+**The deadline for the general CFP is August 2nd.** Proposals submitted by this deadline will receive a decision in mid-August. The extended CFP deadline is August 16th. Proposals submitted during the extended CFP will be considered for a second round of acceptances.
+
+Please note: **Proposals submitted during the general CFP will be given priority. Proposals submitted after August 2nd will be less likely to be selected for the conference, as we will fill at least 80% of our schedule from the general CFP. Proposals submitted during the extended CFP will also receive later notice of acceptance, leaving less time to prepare and record your presentation.**
+
+* * *
+
 # FAQ
+
+## When will I receive a decision for my proposal?
+
+Proposals submitted by the general deadline (August 2nd) will receive a decision by mid-August. Proposals submitted during the extended CFP will receive a decision in late August or early September.
+
+## When will talk recordings be due?
+
+Recordings will be due in mid-October.
 
 ## If accepted, what do I get?
 
 Anyone selected to speak/present/host from the categories above will receive a free, all-access pass to PyData Global 2020 live and asynchronous events plus materials. Talks and tutorials will be made publicly available on an official PyData platform (such as YouTube) after the event. Sprints are encouraged to track and report the number of PRs opened/merged during the event, and we will work with you to create a blog post or other similarly lasting artifact of the event.
+
 
 ## Does my proposal need to represent English-language content?
 
@@ -131,10 +152,8 @@ Great question. [#PyDataGlobal2020](https://twitter.com/hashtag/PyDataGlobal2020
 
 Thank you so much for considering submitting to PyData Global! We are looking forward to reading your proposal, and appreciate you being a part of our community. If you got this far, please submit and encourage your colleagues / coworkers / to submit as well!
 
-# Apply now (Coming soon!)
+# [Apply now through our CFP portal](https://pydata.org/global2020/dashboard/)
 
-The links to the CFP forms will be posted here shortly.
-
-*   Give a Talk / Short Talk / Tutorial
-*   Submit a Poster
-*   Run a Sprint
+*   Give a talk, short talk or tutorial
+*   Submit a poster
+*   Run a sprint
