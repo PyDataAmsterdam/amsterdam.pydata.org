@@ -3,7 +3,7 @@ layout: page
 title: Call For Proposals
 ---
 
-# [Go directly the CFP portal](https://pydata.org/global2020/dashboard/)
+# [Go directly to the CFP portal](https://pydata.org/global2020/dashboard/)
 
 *If you haven't read the guidelines below, please do so before submitting your talk. They contain the details of the application process as well as crucial information for submitting a successful proposal.*
 
