@@ -7,6 +7,16 @@ title: Call For Proposals
 
 *If you haven't read the guidelines below, please do so before submitting your talk. They contain the details of the application process as well as crucial information for submitting a successful proposal.*
 
+
+# Deadlines
+
+**The deadline for the general CFP is August 2nd.** Proposals submitted by this deadline will receive a decision in mid-August. The extended CFP deadline is August 16th. Proposals submitted during the extended CFP will be considered for a second round of acceptances.
+
+Please note: **Proposals submitted during the general CFP will be given priority. Proposals submitted after August 2nd will be less likely to be selected for the conference, as we will fill at least 80% of our schedule from the general CFP. Proposals submitted during the extended CFP will also receive later notice of acceptance, leaving less time to prepare and record your presentation.**
+
+* * *
+
+
 # Why PyData Global?
 
 PyData Global 2020 will be a first-of-its-kind virtual/hybrid event to promote open source scientific computing, acting in place of several long-established flagship events which would otherwise have been held in-person this year; namely, PyData London, PyData Delhi, PyData NYC, PyData Berlin, and PyData Los Angeles. **Please read the CFP closely and in full.**
@@ -69,14 +79,6 @@ Although you may submit multiple proposals, you can expect a maximum of one acce
 
 * * *
 
-# Deadlines
-
-**The deadline for the general CFP is August 2nd.** Proposals submitted by this deadline will receive a decision in mid-August. The extended CFP deadline is August 16th. Proposals submitted during the extended CFP will be considered for a second round of acceptances.
-
-Please note: **Proposals submitted during the general CFP will be given priority. Proposals submitted after August 2nd will be less likely to be selected for the conference, as we will fill at least 80% of our schedule from the general CFP. Proposals submitted during the extended CFP will also receive later notice of acceptance, leaving less time to prepare and record your presentation.**
-
-* * *
-
 # FAQ
 
 ## When will I receive a decision for my proposal?
@@ -118,7 +120,7 @@ We will work with all of our accepted speakers to ensure that their audio and vi
 
 ## Do speakers receive payment in exchange for speaking?
 
-No. We will have a number of modest speaker stipends available based on need; the quantity available will depend on successful sponsorship of this effort. If a stipend would make a difference in your ability to prepare and record your material, and participate in live Q&A, you can indicate that you would like to be considered for these funds through the CFP. Proposal selection is need-blind; asking to be considered for need-based stipends will have no bearing on the consideration or likelihood of acceptance of your proposal.
+We will have a number of modest speaker stipends available based on need; the quantity available will depend on successful sponsorship of this effort. If a stipend would make a difference in your ability to prepare and record your material, and participate in live Q&A, you can indicate that you would like to be considered for these funds through the CFP. Proposal selection is need-blind; asking to be considered for need-based stipends will have no bearing on the consideration or likelihood of acceptance of your proposal.
 
 ## Are speakers able to attend the full conference for free?
 
@@ -138,7 +140,7 @@ Yes, we ask that you commit to presenting if your proposal is accepted. If you a
 
 ## Is the proposal selection process double-blind?
 
-No. It is double-open, meaning reviewers will be able to see your name on your proposal(s) and you will be able to see theirs.
+No, proposal selection will be double-open. This means reviewers will be able to see your name on your proposal(s) and you will be able to see theirs.
 
 ## Do you have any tips on how to prepare the proposal?
 
