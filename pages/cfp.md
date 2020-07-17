@@ -14,6 +14,11 @@ title: Call For Proposals
 
 Please note: **Proposals submitted during the general CFP will be given priority. Proposals submitted after August 2nd will be less likely to be selected for the conference, as we will fill at least 80% of our schedule from the general CFP. Proposals submitted during the extended CFP will also receive later notice of acceptance, leaving less time to prepare and record your presentation.**
 
+
+# Proposal Writing Workshops
+
+Not sure where to start after reading the guidelines? Looking for help brainstorming or distilling your idea into words? Sign up for an hour-long workshop session with a mentor to work on your proposal [here](https://www.eventbrite.com/e/pydata-global-proposal-writing-workshops-tickets-113829101908)!
+
 * * *
 
 
