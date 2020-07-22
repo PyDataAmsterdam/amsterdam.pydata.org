@@ -4,7 +4,7 @@ description:
   <h1>November 11th - 15th</h1> <br>
 
   <p>
-  Online for the first time, the world's premier data science conference.</p>
+  Online for the first time, the world's premier data science conference&colon; <a href="https://twitter.com/hashtag/PyDataGlobal2020">#PyDataGlobal2020</a>.</p>
 
   <p>Five days packed with talks, tutorials, posters,
   open-source sprints and a <b>digital hallway track</b>.</p>
@@ -38,7 +38,7 @@ greeting:
     Leah Silen (+1 512-222-5449; leah@numfocus.org ) or the local organisers at global@pydata.org.
 
 social:
-  twitter: https://twitter.com/PyDataGlobal
+  twitter: https://twitter.com/PyData
   github: https://github.com/PyDataGlobal
 
 # Homepage tiles

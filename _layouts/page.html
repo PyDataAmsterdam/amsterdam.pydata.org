@@ -14,6 +14,12 @@
     <article id="main">
         <header{% if page.image %} style="background-image: url('{% if site.featured-image-source %}{{ page.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ page.image }}{% endif %}');"{% endif %}>
             <h2>{{ page.title }}</h2>
+            {% if page.subtitle %}
+            <h3>{{ page.subtitle }}</h2>
+            {% endif %}
+            {% if page.subtitle2 %}
+            <h3>{{ page.subtitle2 }}</h2>
+            {% endif %}
             <p>{{ page.description }}</p>
         </header>
         <section class="wrapper style5">

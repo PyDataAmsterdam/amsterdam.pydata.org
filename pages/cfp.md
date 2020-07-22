@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Call For Proposals
+subtitle: Deadline&colon; August 2nd
+subtitle2: Sign up for a <a href="https://www.eventbrite.com/e/pydata-global-proposal-writing-workshops-tickets-113829101908">proposal workshop</a> (space limited)
 ---
 
 # [Go directly to the CFP portal](https://pydata.org/global2020/dashboard/)
@@ -151,7 +153,7 @@ No, proposal selection will be double-open. This means reviewers will be able to
 
 Yes, see here for [some general guidance](cfp_tips.html), adapted from PyData London.
 
-## What’s our hashtag?
+## What’s the conference's hashtag?
 
 Great question. [#PyDataGlobal2020](https://twitter.com/hashtag/PyDataGlobal2020). Maybe consider sharing this CFP on social media?
 
