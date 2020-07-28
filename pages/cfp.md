@@ -16,10 +16,9 @@ subtitle2: Sign up for a <a href="https://www.eventbrite.com/e/pydata-global-pro
 
 Please note: **Proposals submitted during the general CFP will be given priority. Proposals submitted after August 2nd will be less likely to be selected for the conference, as we will fill at least 80% of our schedule from the general CFP. Proposals submitted during the extended CFP will also receive later notice of acceptance, leaving less time to prepare and record your presentation.**
 
+# English language review
 
-# Proposal Writing Workshops
-
-Not sure where to start after reading the guidelines? Looking for help brainstorming or distilling your idea into words? Sign up for an hour-long workshop session with a mentor to work on your proposal [here](https://www.eventbrite.com/e/pydata-global-proposal-writing-workshops-tickets-113829101908)!
+If you do not feel comfortable writing in English, you may email your proposal to [global-proposal-review@pydata.org](mailto:global-proposal-review@pydata.org) for an initial language review before submitting it. This review will be carried out separately from proposal review, by a different group of people. Reviewers will not judge your writing style, grammar, or spelling. Proposals emailed before July 31st will receive feedback before August 2nd, and those sent after July 31st will receive it before August 14th. Thereby, you will be able to submit your proposal on time.
 
 * * *
 
