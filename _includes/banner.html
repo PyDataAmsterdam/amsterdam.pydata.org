@@ -1,7 +1,9 @@
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<h2>{{ site.title }}</h2>
+                <h2>
+                    <img class="logo" src="{{ site.logo }}"/>
+                </h2>
 		<div class="div-center banner-text">{{ site.description | markdownify }}</div>
 		<ul class="actions">
 			{% if site.cfp_url %}
