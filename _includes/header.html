@@ -12,6 +12,7 @@
 
 	<!-- Header -->
 	<header id="header" {% if page.layout == 'default' %} class="alt" {% endif %}>
+                {% include header-imports.html %}
                 <div id="header-title">
                     <img id="header-logo" src="{{ "" | absolute_url }}assets/images/pydata.png"/><h1><a href="{{ "" | absolute_url }}/">{{ site.title }}</a></h1>
                 </div>
