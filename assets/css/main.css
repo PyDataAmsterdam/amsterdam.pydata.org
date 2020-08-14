@@ -1683,13 +1683,10 @@
 	input[type="email"],
 	select,
 	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
 		appearance: none;
 		background: rgba(144, 144, 144, 0.25);
-		border-radius: 3px;
-		border: none;
+                border-radius: 3px;
+                border: none;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -3382,6 +3379,10 @@
 		text-align: center;
 	}
 
+        #banner .inner {
+	    /*height: 100vh;*/
+        }
+
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
@@ -3398,6 +3399,11 @@
 			position: relative;
 			z-index: 1;
 		}
+
+                        #banner .logo {
+                            max-height: 15vh;
+                            max-width: 100%; 
+                        }
 
 			#banner h2:before, #banner h2:after {
 				-moz-transition: width 0.85s ease;

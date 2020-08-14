@@ -16,10 +16,9 @@ subtitle2: Sign up for a <a href="https://www.eventbrite.com/e/pydata-global-pro
 
 Please note: **Proposals submitted during the general CFP will be given priority. Proposals submitted after August 2nd will be less likely to be selected for the conference, as we will fill at least 80% of our schedule from the general CFP. Proposals submitted during the extended CFP will also receive later notice of acceptance, leaving less time to prepare and record your presentation.**
 
+# English language review
 
-# Proposal Writing Workshops
-
-Not sure where to start after reading the guidelines? Looking for help brainstorming or distilling your idea into words? Sign up for an hour-long workshop session with a mentor to work on your proposal [here](https://www.eventbrite.com/e/pydata-global-proposal-writing-workshops-tickets-113829101908)!
+If you do not feel comfortable writing in English, you may email your proposal to [global-proposal-review@pydata.org](mailto:global-proposal-review@pydata.org) for an initial language review before submitting it. This review will be carried out separately from proposal review, by a different group of people. Reviewers will not judge your writing style, grammar, or spelling. Proposals emailed before July 31st will receive feedback before August 2nd, and those sent after July 31st will receive it before August 14th. Thereby, you will be able to submit your proposal on time.
 
 * * *
 
@@ -28,7 +27,7 @@ Not sure where to start after reading the guidelines? Looking for help brainstor
 
 PyData Global 2020 will be a first-of-its-kind virtual/hybrid event to promote open source scientific computing, acting in place of several long-established flagship events which would otherwise have been held in-person this year; namely, PyData London, PyData Delhi, PyData NYC, PyData Berlin, and PyData Los Angeles. **Please read the CFP closely and in full.**
 
-PyData is the fundraising and educational outreach arm of NumFOCUS, and proposals should have some identifiable linkage to the analysis, interpretation, storage, or processing of data. Python, R, Julia, and other languages in the data science stack are welcome. Use of open source tools and licensing is highly encouraged. All proposals and content submitted must adhere to the [NumFOCUS Code of Conduct](pages/code_of_conduct.html).
+PyData is the fundraising and educational outreach arm of NumFOCUS, and proposals should have some identifiable linkage to the analysis, interpretation, storage, or processing of data. Python, R, Julia, and other languages in the data science stack are welcome. Use of open source tools and licensing is highly encouraged. All proposals and content submitted must adhere to the [NumFOCUS Code of Conduct](code_of_conduct.html).
 
 Beyond this broad mandate, the theme of this year’s event is _“Open Code, Better Science”_. Our goal is to identify content that not only highlights open source tools and their applications (“open code”) but also makes space in the global conversation for how to do “better science”. While we don’t expect that every proposal will cover real-world applications, doing Better Science demands that open source tools and methods make scientific computing more diverse, accessible, reproducible, inclusive, impactful, and sustainable. Please consider how you may incorporate elements of the theme into your proposal.
 
