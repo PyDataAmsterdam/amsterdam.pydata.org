@@ -1,0 +1,15 @@
+- name: "Diego Torres Quintanilla"
+  title: Executive Chair
+  desc: "Diego builds data science tools and infrastructure at Two Sigma. He was born and raised in Mexico, loves to volunteer as a teacher and read fiction."
+  twitter_url: "https://twitter.com/MatthijsBrs"
+  linkedin_url: "https://www.linkedin.com/in/mbrouns/"
+  github_url: "https://github.com/mbrouns"
+  image: /assets/images/organizers/diego_torres.jpg
+
+- name: Jane Adams
+  title: Executive Chair
+  desc: Jane works at Two Sigma, where her job is to think about how data fail and how to deal with it. When she’s not doing that, she’s making sourdough or ceramics.
+  twitter_url: "https://twitter.com/artemiish"
+  linkedin_url: "https://www.linkedin.com/in/marysia-winkels-b1012610b/"
+  github_url: "https://github.com/marysia"
+  image: /assets/images/organizers/jane_adams.jpg
