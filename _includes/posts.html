@@ -1,3 +1,8 @@
+<!-- switching from a bunch of if statement to elsif statement kept giving error:
+"Liquid syntax error (/Users/rinchen/pydataglobal.github.io/_includes/posts.html line 23): 'endif' is not a valid delimiter for for tags. use endfor included in /_layouts/default.html". 
+I was ultimately unable to figure this out.  -->
+
+
 <section id="posts" class="wrapper alt style2">
 
 	{% for post in site.categories.homepage %}{% if site.tiles-source == 'posts' %}
@@ -9,12 +14,10 @@
 			<iframe width="100%" height="370" src={{ post.youtube }} frameborder="0"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
-			{% endif %}
-			{% if post.image %}
+			{% elsif post.image %}
 			<img src="{% if site.featured-image-source %}{{ post.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ post.image }}{% endif %}"
 				alt="" />
-			{% endif %}
-			{% if post.twitter %}
+			{% elsif post.twitter %}
 			<a class="twitter-timeline" data-width="800" data-height="500" data-theme="dark"
 				href="https://twitter.com/PyData?ref_src=twsrc%5Etfw">Tweets by PyData</a>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
