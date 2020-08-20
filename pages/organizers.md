@@ -4,7 +4,7 @@ title: Organizing Committee
 description: 
 ---
 
-PyData is organized in full by volunteers. Are you interested in helping out? Contact us at [amsterdam@pydata.org](mailto:amsterdam@ydata.org) or come visit any of the staff at a meetup or conference.
+PyData is organized in full by volunteers. Are you interested in helping out? Contact us at [global@pydata.org](mailto:global@pydata.org) or come visit any of the staff at a meetup or conference.
 
 The committee currently consists of the following people:
 

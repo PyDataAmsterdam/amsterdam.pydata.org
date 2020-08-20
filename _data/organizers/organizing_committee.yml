@@ -67,22 +67,6 @@
   website_url: https://sites.google.com/view/chetanchawla
   image: /assets/images/organizers/chetan_chawla.jpg
 
-- name: Sanket Verma
-  desc: Sanket works at Dunnhumby as a Research Data Scientist where he builds data science tools and is also Organizer of PyData Delhi. He loves to play the violin, computer games and sometimes think of saving the world!
-  twitter_url: https://twitter.com/msankeys963
-  linkedin_url: https://www.linkedin.com/in/msankeys963/
-  github_url: https://github.com/msankeys963
-  website_url: https://sanketverma.me/
-  image: /assets/images/organizers/sanket_verma.jpg
-
-- name: Matthijs Brouns
-  desc: Matthijs is the Data Science lead at Xccelerated where he trains junior Data Scientists. He joined the PyData Amsterdam committee as chair in 2019 
-  twitter_url: https://twitter.com/MatthijsBrs
-  linkedin_url: https://www.linkedin.com/in/mbrouns/
-  github_url: https://github.com/MBrouns
-  website_url: https://www.mbrouns.com/
-  image: /assets/images/organizers/matthijs.jpeg
-
 - name: Nancy Woo
   desc: Nancy works at CVS Health, where she serves as a product manager and strategist to utilize data to shift people’s behaviors and make members healthier. In her free time, she enjoys traveling (not during a pandemic), learning, and watching sports.
   linkedin_url: https://www.linkedin.com/in/nancyw19/
