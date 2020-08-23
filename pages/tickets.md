@@ -32,9 +32,10 @@ so that we can keep supporting you in the future.
 Scholarships will be granted to a limited number of attendees from
 underrepresented backgrounds in our community, based on an application. Beyond
 a ticket fee waiver, scholars will have special access to select conference
-sessions and opportunities designed to enrich their experience. Subscribe to 
-[our newsletter](https://tinyletter.com/PyDataGlobal) to receive a notification
-when applications are open.
+sessions and opportunities designed to enrich their experience.
+
+To apply for a scholarship, please fill out [the
+application form](https://forms.gle/gggUk7Z9rxEoRXk18).
 
 ### Pricing and ticket purchases
 
