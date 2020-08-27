@@ -17,28 +17,17 @@
 
 #ticket-buy {
   width: 40%;
-}
-
-#ticket-buy.coming-soon {
-  width: 40%;
-  height: 550px;
-  min-width: 300px;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
-  background-color: #eee;
-  border: solid 3px #eb8e41;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 300px;
 }
 
 @media (max-width: 767px) {
   .ticket-wrapper {
     flex-direction: column;
   }
-  .ticket-suggestion,
-  .ticket-buy {
+  .ticket-suggestion,.ticket-buy {
     width: auto;
   }
 }
@@ -291,21 +280,12 @@
         ["ZW", {name: "Zimbabwe", value: 0.638857348877785}],
     ]);
 
-    /*
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
     window.EBWidgets.createWidget({
-        // Required
         widgetType: 'checkout',
-        eventId: '######',
+        eventId: '116375236465',
         iframeContainerId: 'ticket-buy',
-
-        // Optional
-        iframeContainerHeight: 550,
-        // onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });*/
+        iframeContainerHeight: 850,
+    });
 
     var nearestFive = function(num) {
         return Math.ceil(num / 5) * 5;
@@ -487,9 +467,8 @@
         </div>
 
     </div>
-    <div id="ticket-buy" class="coming-soon" style="display: none;">
-        <p>Ticket sales opening soon, right here!</p>
-    </div>
+
+    <div id="ticket-buy" class='ticket-buy' style="display: none;"></div>
 </div>
 
 <script>
