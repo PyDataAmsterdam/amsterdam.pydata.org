@@ -39,7 +39,7 @@ application form](https://forms.gle/gggUk7Z9rxEoRXk18).
 
 ### Pricing and ticket purchases
 
-Please answer the questions below to see prices and buy your ticket.
+Please answer the questions below to see pricing and buy your ticket.
 
 {% include tickets.html %}
 
