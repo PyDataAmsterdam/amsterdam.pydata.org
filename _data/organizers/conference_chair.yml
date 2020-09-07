@@ -1,0 +1,34 @@
+- name: Jane Adams
+  title: Executive Chair
+  desc: Jane works at Two Sigma, where her job is to think about how data fail and how to deal with it. When she’s not doing that, she’s making sourdough or ceramics.
+  twitter_url: "https://twitter.com/artemiish"
+  linkedin_url: "https://www.linkedin.com/in/marysia-winkels-b1012610b/"
+  github_url: "https://github.com/marysia"
+  image: /assets/images/organizers/jane_adams.jpg
+
+- name: "Diego Torres Quintanilla"
+  title: Executive Chair
+  desc: "Diego builds data science tools and infrastructure at Two Sigma. He was born and raised in Mexico, loves to volunteer as a teacher and read fiction."
+  twitter_url: "https://twitter.com/MatthijsBrs"
+  linkedin_url: "https://www.linkedin.com/in/mbrouns/"
+  github_url: "https://github.com/mbrouns"
+  image: /assets/images/organizers/diego_torres.jpg
+
+- name: Matthijs Brouns
+  title: Executive Vice-Chair
+  desc: Matthijs is the Data Science lead at Xccelerated where he trains junior Data Scientists. He joined the PyData Amsterdam committee as chair in 2019 
+  twitter_url: https://twitter.com/MatthijsBrs
+  linkedin_url: https://www.linkedin.com/in/mbrouns/
+  github_url: https://github.com/MBrouns
+  website_url: https://www.mbrouns.com/
+  image: /assets/images/organizers/matthijs.jpeg
+  
+- name: Sanket Verma
+  title: Executive Vice-Chair
+  desc: Sanket works at Dunnhumby as a Research Data Scientist where he builds data science tools and is also Organizer of PyData Delhi. He loves to play the violin, computer games and sometimes think of saving the world!
+  twitter_url: https://twitter.com/msankeys963
+  linkedin_url: https://www.linkedin.com/in/msankeys963/
+  github_url: https://github.com/msankeys963
+  website_url: https://sanketverma.me/
+  image: /assets/images/organizers/sanket_verma.jpg
+

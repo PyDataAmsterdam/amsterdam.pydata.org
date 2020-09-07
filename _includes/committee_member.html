@@ -1,20 +1,53 @@
 
 <li class="p30">
-    <h3>{{ include.name }}</h3>
-    <p>{{ include.desc }}</p>
+    
+    {% if include.image %}
+    <img src="{{ include.image }}" width="100%">
+    {% endif %}
+    <h3 style="margin-bottom: 0;">{{ include.name }}</h3>
+    {% if include.title %}
+    <h4 style="color:#686868">{{ include.title }}</h4>
+    {% endif %}
+
+    <p><span>{{ include.desc }}</span></p>
+
     <ul class="icons" style="list-style: none; margin-bottom: 5px">
-         {% if include.twitter_url %}
+        {% if include.twitter_url %}
         <li style="background-color: rgba(0, 0, 0, 0); display: inline;">
             <a href="{{ include.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a>
         </li>
-        {% endif %} {% if include.linkedin_url %}
+        {% endif %} 
+
+        {% if include.linkedin_url %}
         <li style="background-color: rgba(0, 0, 0, 0); display: inline;">
-            <a href="{{ include.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">Twitter</span></a>
-        </li>
-        {% endif %} {% if include.github_url %}
-        <li style="background-color: rgba(0, 0, 0, 0); display: inline">
-            <a href="{{ include.github_url }}" class="icon fa-github" target="_blank"><span class="label">Twitter</span></a>
+            <a href="{{ include.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a>
         </li>
         {% endif %}
+
+        {% if include.github_url %}
+        <li style="background-color: rgba(0, 0, 0, 0); display: inline">
+            <a href="{{ include.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a>
+        </li>
+        {% endif %} 
+
+        {% if include.website_url %}
+        <li style="background-color: rgba(0, 0, 0, 0); display: inline">
+            <a href="{{ include.website_url }}" class="icon fa-globe" target="_blank"><span class="label">Website</span></a>         
+        </li>
+        {% endif %}
+        
+        {% if include.twitch_url%}
+        <li style="background-color: rgba(0, 0, 0, 0); display: inline">
+            <a href="{{ include.twitch_url }}" class="icon fa-twitch" target="_blank"><span class="label">Twitch</span></a>         
+        </li>
+        {% endif %}
+
+        {% if include.email%}
+        <li style="background-color: rgba(0, 0, 0, 0); display: inline">
+            <a href="mailto:{{ include.email }}" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a>         
+        </li>
+        {% endif %}
+
+
     </ul>
 </li>
