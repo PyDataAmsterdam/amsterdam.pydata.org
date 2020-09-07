@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Mine your own data - Analyze your Facebook Timeline"
+kind: "Tutorial"
+speakers: "Isabel Yepes"
+---
+
+# Mine your own data - Analyze your Facebook Timeline
+
+Companies benefit from analyzing your data on social networks but, what can you do with your own data? This tutorial shows how to run some NLP over you own downloaded Facebook information and get some insights like your main subjects, how you change interests through time and how positive or not is your speech.
+
+## Speakers
+
+### Isabel Yepes
+
+Electronics Engineer with experience in IT Infrastructure, Networking and Software Development. Previous experience as Technical Instructor and Evangelist.

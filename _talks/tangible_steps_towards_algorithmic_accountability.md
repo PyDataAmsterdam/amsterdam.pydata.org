@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Tangible Steps Towards Algorithmic Accountability"
+kind: "Talk"
+speakers: "Ayodele Odubela"
+---
+
+# Tangible Steps Towards Algorithmic Accountability
+
+This talk will walk the audience through technical and strategic tools to build more accountable algorithms. Algorithmic bias has become more pervasive, however there are many methods and frameworks for engineers and researchers to implement during their model development lifecycle.
+
+## Speakers
+
+### Ayodele Odubela
+
+Ayodele Odubela is a Data Scientist working on driver risk mitigation at SambaSafety in Denver, CO. She earned her Master's degree in Data Science after transitioning to tech from social media marketing. She's created algorithms that predict consumer segment movement, goals in hockey, and the location of firearms using radio frequency sensors. Ayodele is passionate about using tech to improve the lives of marginalized people.

@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Open Source Fairness"
+kind: "Talk"
+speakers: "Aileen Nielsen"
+---
+
+# Open Source Fairness
+
+Fairness is a hot topic in AI/machine learning/technology these days, but there isn't much clear guidance on how to operationalize it into actual code. This talk will walk the audience through a few basic fairness algorithms and their open source implementations. We will also review recent developments in both the engineering and law of machine learning fairness.
+
+## Speakers
+
+### Aileen Nielsen
+
+Aileen is a software engineer and data analyst with a data background that runs the gamut from experimental physics to healthcare startups to finance. She is the author of two O'Reilly Media titles, Practical Time Series Analysis and Practical Fairness (forthcoming 2020), and frequently speaks and teaches at industry conferences around the world on her two areas of interest, time series forecasting and algorithmic fairness.

@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "DevOps for science: using continuous integration for rigorous and reproducible analysis"
+kind: "Talk"
+speakers: "Elle O'Brien"
+---
+
+# DevOps for science: using continuous integration for rigorous and reproducible analysis
+
+Continuous integration is a key practice from DevOps that encourages frequent code check-ins and testing in a production-like environment. While continuous integration is typically associated with speeding up development cycles for software, it also provides a rigorous framework for automating analysis, modeling, and reporting data viz and statistical results that is desirable for open science.
+
+## Speakers
+
+### Elle O'Brien
+
+Dr. Elle O'Brien is a data scientist at Iterative, Inc. (the team behind [DVC](https://dvc.org) and one of the creators of Continuous Machine Learning ([CML](https://cml.dev)), an open source project for advancing DevOps practices in data science. She holds a PhD from the University of Washington and has presented about data science, DevOps, and scientific methods at more than 25 academic and industry meetings. Previously, she conducted research in computational neuroscience and speech perception, and worked as the Chief Scientist at Botnik Studios, an AI-comedy writing collective.

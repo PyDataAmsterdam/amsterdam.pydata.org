@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Computer shows why: Visualizing deep learning for fun and profit"
+kind: "Tutorial"
+speakers: "Eyal Gruss"
+---
+
+# Computer shows why: Visualizing deep learning for fun and profit
+
+Deep neural networks are the modern day Swiss-knife for image processing. I will review visualization methods for evaluating, debugging and interpreting the performance and decisions of deep networks. I will present some real-world usages that I applied in the medical domain. We will play hands-on with heatmap techniques using online notebooks, which you can later apply to your own data and models
+
+## Speakers
+
+### Eyal Gruss
+
+Dr. Eyal Gruss is a machine learning researcher, consultant and teacher, working mainly in image and language processing. Eyal has a diverse industry background, including medical, financial, cyber, sensors, ads, web, real-estate and creative. Eyal holds a PhD in physics, and is also a new-media artist creating and using generative algorithms.

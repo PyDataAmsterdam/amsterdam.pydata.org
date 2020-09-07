@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Accelerating Differential Equations in R and Python using Julia's SciML Ecosystem"
+kind: "Talk"
+speakers: "Chris Rackauckas"
+---
+
+# Accelerating Differential Equations in R and Python using Julia's SciML Ecosystem
+
+While Python libraries like SciPy commonly use C and Fortran code under the hood, could Julia be used in the same way? In this talk we'll introduce diffeqpy, a Julia-accelerated Python library for solving differential equations orders of magnitude faster than JIT-accelerated SciPy. We will discuss how it was built and how the unique tools like ModelingToolkit.jl help Python scientists.
+
+## Speakers
+
+### Chris Rackauckas
+
+Chris Rackauckas is an Applied Mathematics Instructor at MIT, a Senior Research Analyst in the University of Maryland, Baltimore School of Pharmacy, and Director of Scientific Research at Pumas-AI. He is the lead developer of the SciML open source scientific machine learning organization which develops widely used software for scientific modeling and inference such as DifferentialEquations.jl for which he won the inaugural Julia Community Prize. Chris' work on high performance differential equation solving is the centerpiece accelerating many applications from the MIT-CalTech CLiMA climate modeling initiative to the SIAM Dynamical Systems award winning DynamicalSystems.jl toolbox. Chris is the lead developer of Pumas, the FDA-compliant foundational software of Pumas-AI for nonlinear mixed effects modeling in clinical pharmacology which has had notable partnerships with leading pharmaceutical companies such as Pfizer. These efforts on Pumas led to the International Society of Pharmacology's (ISoP) Mathematical and Computational Special Interest Group Award at the American Conference of Pharmacology (ACoP) 2019. His PhD research at UC Irvine focused on the control of intrinsic stochasticity in biological and pharmacological systems for which his thesis won the Kovalesvsky Outstanding Thesis Award and he was a recipient of the Mathematical and Computational Biology institutional fellowship, the Graduate Dean's Fellowship, the National Science Foundation's Graduate Research Fellowship, the NIH T32 Predoctural Training Grant, and the Data Science Initiative Summer Fellowship.

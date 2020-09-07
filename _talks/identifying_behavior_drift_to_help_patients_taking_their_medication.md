@@ -1,0 +1,28 @@
+---
+layout: talk
+title: "Identifying behavior drift to help patients taking their medication"
+kind: "Poster"
+speakers: "Anna Pershukova"
+---
+
+# Identifying behavior drift to help patients taking their medication
+
+Introduction:
+62% of patients using Medisafe, patient journey and medication management app, say that the main value they are looking for is timely medication reminders. Getting a reminder at the time when the patient is not available to take the medication is one of the reasons for forgetting to take the dose. 
+When adding medications, the patient selects the preferred reminder times. After getting the reminder the patient is asked to mark in the application whether or not they took the medication. Over time as the patient uses the app, based on the marking times, we can detect whether the scheduled reminder no longer works for the specific patient.
+
+Method:
+We developed and tested a statistical method for identifying whether a scheduled reminder time works for a patient. We also ran a survey to validate this statistical method, by asking users whether they think their reminder needs to be rescheduled (Image 1: Survey example). 
+For each reminder of each eligible patient we calculated several parameters using a Python service developed by Medisafe to serve relevant data in real time. These parameters were used to check if patient marking times significantly deviate from the scheduled reminder time. Based on the results of the statistical test a decision was made on whether to send a survey:
+H0: Patient marking times mean is equal to scheduled reminder time -> Do nothing
+H1: Patient marking times mean is different from scheduled reminder time -> Send a survey
+Scipy.stats.ttest_1samp function was used to perform relevant calculations (Image 2 - Simplified marking times parameters code).
+
+Results:
+Survey results showed us that the algorithm needs to be calibrated. Patients don’t treat scheduled reminder time as the ultimate time to take a medication. Only 10.5% of those who were marking on average within 30 minutes from the scheduled reminder responded that their reminder time needs to be changed. In the next 3 hours this percentage increases to 24.3% (Image 3 - Distribution of average marking times). This means that the hypothesis threshold should account for patient perception of the reminder timeliness and medication intake urgency. Suggested algorithm change is comparing patient marking times mean to scheduled reminder time plus median marking time of the patients who report their reminder is set at a convenient time. We believe such fine-tuning emphasizes the added value of user feedback in algorithms that aim to create behavioral change.
+
+## Speakers
+
+### Anna Pershukova
+
+

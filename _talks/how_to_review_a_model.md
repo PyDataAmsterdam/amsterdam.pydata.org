@@ -1,0 +1,26 @@
+---
+layout: talk
+title: "How to review a model"
+kind: "Talk"
+speakers: "Andy R. Terrel"
+---
+
+# How to review a model
+
+Models have become the high risk credit card of technical debt. In this talk, we discuss how to pay down that credit card with good model review practices
+
+## Speakers
+
+### Andy R. Terrel
+
+Chief Data Scientist at REX (rexhomes.com)
+
+President at NumFOCUS (numfocus.org)
+
+Startup adviser to KindHealth, One Brief, Saturn Cloud
+
+Founding Team member of Anaconda, Inc. (anaconda.com)
+
+Contributor and community member in PyData. Organizer of PyData-Austin
+
+Former Computational Science research contributing to automating algorithms for scaling to HPC systems (https://scholar.google.com/citations?user=ALzCmCEAAAAJ&hl=en)

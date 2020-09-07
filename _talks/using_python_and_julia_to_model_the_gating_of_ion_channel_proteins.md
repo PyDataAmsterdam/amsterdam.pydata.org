@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Using Python and Julia to model the gating of ion channel proteins."
+kind: "Poster"
+speakers: "Delbert Yip"
+---
+
+# Using Python and Julia to model the gating of ion channel proteins.
+
+Ion channels are electrical signaling proteins that regulate the flow of ions across cellular membranes. Ion channels control a number of vital physiological processes, including heart rhythm and neuronal communication. Furthermore, abnormal ion channel activity is implicated in many disease states, such as epilepsy, cardiac arrhythmia, and chronic pain. Understanding how ion channels open and close is therefore an important step towards developing novel therapeutics for these conditions. The opening and closing, or 'gating,' of ion channels is often complex, involving multiple different closed and open states. Furthermore, experiments can only record whether channels conduct electrical current or not, so the underlying molecular mechanisms of gating cannot be observed directly. As such, mathematical modelling is used to quantitatively test and identify plausible gating mechanisms. However, programs for model parameterization and simulation, as well as data processing and visualization, have traditionally been implemented in proprietary platforms such as MATLAB and IgorPro. Here, I will present a framework for modeling ion channel gating that uses Julia for model parameterization and Python for data processing and interactive visualization. As an example of a specific use case in the biological sciences, this work will hopefully encourage broader adoption of open-source tools in this and other fields.
+
+## Speakers
+
+### Delbert Yip
+
+I am currently a 2nd-year graduate student at the University of British Columbia in Vancouver, Canada. My research focuses on the molecular mechanisms that control the activity of electrical signaling proteins known as 'ion channels,' which regulate processes such as heart rhythm and neuronal communication. In my project, I apply experiments and modeling to understand how ion channels work. My current modeling pipeline uses custom scripts in Julia for model parameterization and Python for data processing and visualization. In my presentation, I hope to share a specific use case for open-source packages in Julia and Python and thereby encourage broader adoption of open-source tools in science.

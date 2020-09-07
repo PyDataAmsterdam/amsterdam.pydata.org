@@ -1,0 +1,24 @@
+---
+layout: talk
+title: "TimeSeries Forecasting with ML Algorithms and there comparisons"
+kind: "Talk"
+speakers: "sonam"
+---
+
+# TimeSeries Forecasting with ML Algorithms and there comparisons
+
+TimeSeries Forecasting using differenct tool non-ML and ML, different algorithms like moving average, SVM(support vector machine),  LSTM,( Long-Short Term Memory)
+ and Prophet. We will also compare the accuracy using RMSE. Dataset has been taken from Covid19 kaggle. Since we have seen what a huge impact coronavirus had on our daily lives, also we will understand about exponential growth.
+
+## Speakers
+
+### sonam
+
+Speaker is very passionate about data science and machine learning. She has been working in this field since past 3 years and  have worked on understanding mathematics behind Machine Learning algorithms.  
+
+She is also a tech speaker, she has delivered talks on the Machine learning and Data Science at PyCon India 2019 and PyData BBSR 2020
+PyCon India: "Solving Industrial Problems with Machine Learning" in which she presented how she used SVM for detecting corrosion in pipeline images.
+PyData BBSR : "Supervised and Unsupervised Machine Learning Algorithms" In which she presented various Algorithms of both and their applications. 
+
+She has worked on level 4 autonomous vehicle and was also appointed as an Adjunct Professor for robotics and computer vision. Currently she is working in an IIT Madras incubated company as Lead Software Engineer. 
+She is an unique blender of technology with entrepreneurship and she looks forward for PyData Global.

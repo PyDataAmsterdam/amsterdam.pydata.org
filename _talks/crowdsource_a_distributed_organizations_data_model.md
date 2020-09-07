@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Crowdsource a Distributed Organizations Data Model"
+kind: "Short talk"
+speakers: "Christopher Lozinski"
+---
+
+# Crowdsource a Distributed Organizations Data Model
+
+Members of the United States Green Party, working for the Howie Hawkins presidential campaign, and numerous state parties, are crowdsourcing a map of the  United States Green Party politicians, organizations and events.  It is not just a map, it is an object model of the organization, running on a hierarchical object-graph database.
+
+## Speakers
+
+### Christopher Lozinski
+
+Christopher Lozinski is an MIT graduate, serial entrepreneur, dual US-EU citizen, and polyglot. He has been a Python developer since 1999.  Instead of seeking Venture Capital, he moved from Silicon Valley to Poland.   There he built the [Forest Wiki](https://ForestWiki.com), and more recently has been volunteering with the Green Party's presidential campaign for Howie Hawkins, where he built a [data model of the organization](https://maps.howie2020.tech)

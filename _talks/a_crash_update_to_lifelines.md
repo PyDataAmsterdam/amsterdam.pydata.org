@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "A crash-update to lifelines"
+kind: "Short talk"
+speakers: "Cameron Davidson-Pilon"
+---
+
+# A crash-update to lifelines
+
+lifelines, the popular Python survival analysis library, has come a long way since its release in 2013, and development has accelerated these past two years. In this crash-update, I will demonstrate some of the newest features of lifelines in the past two years, our philosophy of "make the current best practice easy", and what's to come in lifelines as we plan our first 1.x release.
+
+## Speakers
+
+### Cameron Davidson-Pilon
+
+Cameron Davidson-Pilon has worked in many areas of applied statistics, from the evolutionary dynamics of genes to modelling of financial prices. His contributions to the community include lifelines, an implementation of survival analysis in Python, lifetimes, and Bayesian Methods for Hackers, an open source book & printed book on Bayesian analysis. Formally director of data science at Shopify, Cameron is now applying data science to the alt-protein space.

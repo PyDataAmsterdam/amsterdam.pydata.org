@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Building a Successful Data Science Team"
+kind: "Talk"
+speakers: "Justin J. Nguyen"
+---
+
+# Building a Successful Data Science Team
+
+Creating and growing an elite data science team is no small feat. In this talk, we will discuss the three key areas to focus on when setting up your data science organization: building the right team, selecting the right use cases, and rapid technical enablement. While the path forward may seem daunting, this flexible yet focused approach will position you for success.
+
+## Speakers
+
+### Justin J. Nguyen
+
+As a trusted leader and practitioner in Data Science and AI, Justin partners with clients to deliver robust data-driven solutions that increase revenue, reduce costs, and lead to greater operational efficiencies. Justin has completed undergraduate and graduate studies in engineering and computer science at Georgia Tech and Stanford University, and he has more than eight years of experience supporting clients in industries including energy, hospitality, and software development. He has built and commercialized AI products using NLP as well as guided large enterprises through their AI journey and transformation.

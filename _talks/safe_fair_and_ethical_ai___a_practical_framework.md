@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Safe, Fair and Ethical AI - A Practical Framework"
+kind: "Talk"
+speakers: "Tariq Rashid"
+---
+
+# Safe, Fair and Ethical AI - A Practical Framework
+
+Huge progress in machine learning and AI have led to rapid adoption in industries as diverse as the arts, finance and pubic services. However, there is growing and valid concern about the safety, fairness and societal impact of AI. This talk presents a practical framework for assessing your organisation's use of AI, covering data, technology and algorithms, development process, and governance.
+
+## Speakers
+
+### Tariq Rashid
+
+Tariq Rashid was originally trained as a physicist, and later gained a masters in machine learning and data mining. He's worked in technology for 20 years, including almost a decade in central government, leading on the modernisation of technology and security. Tariq is passionate about open source, developing communities, and inspiring the next generation of scientists and engineers. He led the London Python meetup, and now runs a children's CoderDojo Cornwall and the Data Science Cornwall community, as well as the London based Algorithmic Art group which has grown to over 4,500 members. He also writes books on machine learning and creative computing, one of which has been translated into 6 languages. He is currently developing Digital Dynamics, a new business specialising in independent risk assessment of client's use of machine learning and data, with a focus on safe and ethical use of AI.

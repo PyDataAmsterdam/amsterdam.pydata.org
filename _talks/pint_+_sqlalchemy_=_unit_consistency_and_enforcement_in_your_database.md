@@ -1,0 +1,29 @@
+---
+layout: talk
+title: "Pint + SQLAlchemy = Unit consistency and enforcement in your database"
+kind: "Poster"
+speakers: "Robin Wilson"
+---
+
+# Pint + SQLAlchemy = Unit consistency and enforcement in your database
+
+This poster describes work done to enforce the use of units in a database-backed application dealing with shipping data, through code integrating the Python [pint](https://pint.readthedocs.io/en/stable/) library with [SQLAlchemy](https://www.sqlalchemy.org/).
+
+
+The context for this work is the development of a database for storing geospatial data for ships, including their location, speed, heading, and so on. The plan for the Python library surrounding the database is that the developers will supply 'importers' that will import data from commonly-used data formats into the database - but that the end-users can also write their own importers. The clients have attempted similar work in the past, and found that one of their major problems was the correct use of units: there is no point knowing that the speed is 10 if you don't know whether that is in knots, miles per hour, metres per second, or even furlongs per fortnight! This is particular problem for importers written by the end-user, which are likely to be less robust than those written by the professional developers of the library.
+
+
+The pint library allows the specification of units alongside values, and conversion between units, and thus provides a way to specify that the speed is "10 knots" or "10mph". By combining this with SQLAlchemy - specifically, the hybrid_property feature - we can ensure that when a new record is created in the database, each attribute has to be set to a value that has the correct sort of units (eg. a distance unit for a length, or a speed unit for a speed). The hybrid_properties do all this checking for us, and then store the data in the database in SI base units, converting them again when they are retrieved.
+
+
+The poster will show the process of development, from a system with no unit checking to one which checks, converts and stores measured data consistently in the database, while also discussing the best practices for the storage of data with units. It will be suitable for those with a basic understanding of SQLAlchemy and Python - all the relevant knowledge about units and the pint library will be covered in the poster.
+
+## Speakers
+
+### Robin Wilson
+
+I am a freelance data scientist and Python developer, with particular expertise in geospatial analysis. My background includes a PhD in atmospheric remote sensing, during which I developed an award-winning method for retrieving atmospheric pollution data from high-resolution satellite images. My work since then has included atmospheric modelling for a US startup, data management, processing and interactive mapping/plotting for a community air quality project, and Python development on a robust system for storing and processing shipping data.
+
+I am an experienced open-source developer and contributor , and have spoken at a number of large open-source conferences. I live in Southampton, UK with my wife and son.
+
+Please see my [blog](http://blog.rtwilson.com) and [freelance website](http://www.rtwilson.com) for more information.

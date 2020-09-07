@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Why and What If – Causal Analysis for Everyone"
+kind: "Tutorial"
+speakers: "Bruno Gonçalves"
+---
+
+# Why and What If – Causal Analysis for Everyone
+
+We will explore the three steps in the ladder of causation: 1. Association 2. Intervention 3. Counterfactuals with simple rules and techniques to progress from simple correlational studies to fully causal analyses. We will cover the fundamentals of this powerful set of techniques allowing us to answer practical causal questions such as “Does A cause B?” and “If I change A how does that impact B?”
+
+## Speakers
+
+### Bruno Gonçalves
+
+Bruno Gonçalves is currently a Senior Data Scientist working at the intersection of Data Science and Finance. Previously, he was a Data Science fellow at NYU's Center for Data Science while on leave from a tenured faculty position at Aix-Marseille Université. Since completing his PhD in the Physics of Complex Systems in 2008 he has been pursuing the use of Data Science and Machine Learning to study Human Behavior. Using large datasets from Twitter, Wikipedia, web access logs, and Yahoo! Meme he studied how we can observe both large scale and individual human behavior in an obtrusive and widespread manner. The main applications have been to the study of Computational Linguistics, Information Diffusion, Behavioral Change and Epidemic Spreading.

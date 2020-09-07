@@ -1,0 +1,20 @@
+---
+layout: talk
+title: "Responsible ML in Production"
+kind: "Talk"
+speakers: "Catherine Nelson and Hannes Hapke"
+---
+
+# Responsible ML in Production
+
+When your machine learning model is deployed to a production system, this is a critical time: your model starts to interact with real people. This is the perfect moment to check that your model’s predictions aren’t showing any harmful biases. In this talk, we will show how you can build a production pipeline using the TensorFlow ecosystem that includes ways to identify and reduce harmful impacts.
+
+## Speakers
+
+### Catherine Nelson
+
+Catherine Nelson is a Senior Data Scientist for Concur Labs at SAP Concur, where she explores innovative ways to use machine learning to improve the experience of a business traveller. Her key focus areas range from ML explainability and model analysis to privacy-preserving ML. She is also co-author of the O'Reilly publication “Building Machine Learning Pipelines", and she is an organizer for Seattle PyLadies, supporting women who code in Python. She has been recognized as a Google Developer Expert in machine learning. In her previous career as a geophysicist she studied ancient volcanoes and explored for oil in Greenland. Catherine has a PhD in geophysics from Durham University and a Masters of Earth Sciences from Oxford University.
+
+### Hannes Hapke
+
+Hannes Hapke is a senior data scientist for Concur Labs at SAP Concur, where he explores innovative ways to use machine learning to improve the experience of a business traveler. Prior to joining SAP Concur, Hannes solved machine learning infrastructure problems in various industries including healthcare, retail, recruiting, and renewable energies. Additionally, Hannes has co-authored machine learning publications including the O'Reilly book on "Building Machine Learning Pipeline" and the Manning publication "NLP in Action". He has also been recognized by Google as a Google Developer Expert for Machine Learning.

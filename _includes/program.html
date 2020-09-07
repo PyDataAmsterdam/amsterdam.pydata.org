@@ -1,0 +1,52 @@
+{% assign talks = site.talks | where:'kind', 'Talk' %}
+{% assign tutorials = site.talks | where:'kind', 'Tutorial' %}
+{% assign sprints = site.talks | where:'kind', 'Sprint' %}
+{% assign short_talks = site.talks | where:'kind', 'Short talk' %}
+{% assign posters = site.talks | where:'kind', 'Poster' %}
+
+
+<h4>Talks</h4>
+<ul>
+
+  {% for talk in talks %}
+    <li>
+        <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+    </li>
+  {% endfor %}
+</ul>
+<h4>Tutorials</h4>
+<ul>
+
+  {% for talk in tutorials %}
+    <li>
+      <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+    </li>
+  {% endfor %}
+</ul>
+<h4>Short Talks</h4>
+<ul>
+
+  {% for talk in short_talks %}
+    <li>
+      <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+    </li>
+  {% endfor %}
+</ul>
+<h4>Posters</h4>
+<ul>
+
+  {% for talk in posters %}
+    <li>
+      <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+    </li>
+  {% endfor %}
+</ul>
+<h4>Sprints</h4>
+<ul>
+
+  {% for talk in sprints %}
+    <li>
+      <a href="{{ talk.url }}">{{ talk.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

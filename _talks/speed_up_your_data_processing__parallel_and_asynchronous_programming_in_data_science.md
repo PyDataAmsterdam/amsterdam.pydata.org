@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Speed Up Your Data Processing: Parallel and Asynchronous Programming in Data Science"
+kind: "Talk"
+speakers: "Chin Hwee Ong"
+---
+
+# Speed Up Your Data Processing: Parallel and Asynchronous Programming in Data Science
+
+Constantly waiting for your data processing code to finish executing? Through real-life stories and analogies, we will explore how to leverage on parallel and asynchronous programming in Python to speed up your data processing pipelines - so that you could focus more on getting value out of your data.
+
+## Speakers
+
+### Chin Hwee Ong
+
+Chin Hwee Ong is a data engineer, aspiring polymath and Industry 4.0 enthusiast who happens to have a background in aerospace engineering and computational modelling. As an avid user of the pandas library and a beneficiary of open source, Chin Hwee enjoys sharing about data manipulation using pandas and has a not-so-secret wish for data processing codes to run faster.

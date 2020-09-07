@@ -53,3 +53,7 @@ featured-image-source:
 markdown: kramdown
 
 destination: ./build
+
+collections:
+    talks:
+        output: true

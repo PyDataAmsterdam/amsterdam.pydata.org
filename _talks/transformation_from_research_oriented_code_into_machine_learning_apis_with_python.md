@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Transformation from Research Oriented Code into Machine Learning APIs with Python"
+kind: "Talk"
+speakers: "Tetsuya Jesse Hirata"
+---
+
+# Transformation from Research Oriented Code into Machine Learning APIs with Python
+
+This talk covers the gap between the research-oriented code and production code of machine learning API. What is the gap between them? How it can be implemented based on real-world python code? How can the code validate whether the dataset is correct ? How can machine learning models be continuously inspected? Audiences can earn the answers to these questions from this talk.
+
+## Speakers
+
+### Tetsuya Jesse Hirata
+
+Jesse is a software engineer working at the leading EdTech company in Tokyo. He has been developing a recommender engine which can optimize appropriate learning materials according to learner's abilities. It is based on a statistical method well-known in educational psychology and implemented with python. Prior to this, he used to research the relationships between online learning behaviors and learning outcomes at the UCL Institute of Education (IOE) in the UK. His interest is in how to bridge the gap between data science and engineering.

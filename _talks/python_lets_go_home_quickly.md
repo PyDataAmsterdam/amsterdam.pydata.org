@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Python, Let's Go Home. Quickly."
+kind: "Short talk"
+speakers: "Miroslav Šedivý"
+---
+
+# Python, Let's Go Home. Quickly.
+
+When your daily commute, shopping tour, or visit to family or friends offers many possible routes and real-time online navigation services are of no use for your individual mean of transport, you can still learn to find the optimal route with Python.
+
+## Speakers
+
+### Miroslav Šedivý
+
+Born in Czechoslovakia, studied in France, living in Germany. Greedy polyglot, data & open source rhymer, python3 charmer, sustainable urbanist, unicode collector, wandering openstreetmapper, and a hjkl juggler. Using Python to get the lowest prices online for you.

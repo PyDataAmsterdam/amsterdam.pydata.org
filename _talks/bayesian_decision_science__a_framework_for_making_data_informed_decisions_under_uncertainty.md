@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Bayesian Decision Science: A framework for making data informed decisions under uncertainty"
+kind: "Talk"
+speakers: "Ravin Kumar"
+---
+
+# Bayesian Decision Science: A framework for making data informed decisions under uncertainty
+
+Decisions are everywhere, from deciding what to wear given a weather forecast each day to deciding how much inventory to hold in a multi million dollar supply chain. What is certain is that tools in the PyData ecosystem can help you, or your business, make those decisions with more confidence. Its called decision science in this talk we'll cover what it is and how to use it.
+
+## Speakers
+
+### Ravin Kumar
+
+Ravin Kumar is a senior engineer that uses data and statistics to inform humans decision making from C Suite long term strategy to ground floor “in the moment” choices. Ravin is (likely) a big proponent of Bayesian statistics and is Core Contributor to PyMC3 and ArviZ. Both are Open Source projects that strive to make Bayesian methods accessible and easy to use and for anybody. Ravin also helps plan community conferences such as PyDataLA, and enjoys building people up as much as he enjoys building code.

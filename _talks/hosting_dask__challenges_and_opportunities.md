@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Hosting Dask: Challenges and Opportunities"
+kind: "Talk"
+speakers: "Matthew Rocklin"
+---
+
+# Hosting Dask: Challenges and Opportunities
+
+Dask is a widely used parallel computing solution for PyData.  As Dask is deployed more into production we see challenges around costs, auth, security, and others.  This talk discusses challenges and opportunities around deploying Dask in production, and a specific service, Coiled, designed to both ease institutional adoption of scalable PyData and increase accessibility to the general public.
+
+## Speakers
+
+### Matthew Rocklin
+
+Matthew is an open source software developer in the numeric Python ecosystem. He maintains several PyData libraries, but today focuses mostly on Dask a library for scalable computing. Matthew worked for Anaconda Inc for several years, then built out the Dask team at NVIDIA for RAPIDS, and most recently founded Coiled to improve Python's scalability with Dask for large organizations.

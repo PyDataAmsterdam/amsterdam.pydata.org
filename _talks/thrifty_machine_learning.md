@@ -1,0 +1,20 @@
+---
+layout: talk
+title: "Thrifty Machine Learning"
+kind: "Talk"
+speakers: "Rebecca Bilbro"
+---
+
+# Thrifty Machine Learning
+
+We live with an abundance of ML resources; from open source tools, to GPU workstations, to cloud-hosted autoML. What's more, the lines between AI research and everyday ML have blurred; you can recreate a state-of-the-art model from arxiv papers at home. But can you afford to? In this talk, we explore ways to recession-proof your ML process without sacrificing on accuracy, explainability, or value.
+
+## Speakers
+
+### Rebecca Bilbro
+
+Rebecca is a machine learning engineer, Python and Go programmer, teacher, speaker, and author in Raleigh, NC. She is an active contributor to the open source community, and the creator of [Yellowbrick](scikit-yb.org), an open source Python library that extends scikit-learn models into Visualizers using matplotlib. 
+
+She has been a speaker at PyCon, delivering a 2016 talk about [visual diagnostics for machine learning](https://www.youtube.com/watch?v=0MtOu_QlIMQ&feature=youtu.be) that mapped out the foundations of the Yellowbrick project, and in 2017 on [building a custom corpus for natural language processing](https://www.youtube.com/watch?v=j1DdGX2d9BE). She has also given talks at [O'Reilly Strata NYC](https://conferences.oreilly.com/strata/strata-ny-2017/public/schedule/detail/63459), [PyData Carolinas](https://pydata.org/carolinas2016/schedule/presentation/22/), [PyData London](https://pydata.org/london2017/schedule/presentation/42/), [PyData San Luis](https://pydata.org/sanluis2017/), and [EuroSciPy](https://www.youtube.com/watch?v=3-3BH-PNECk).
+
+In addition to her work on Yellowbrick, Rebecca is co-author of the O'Reilly book, [Applied Text Analysis with Python](http://shop.oreilly.com/product/0636920052555.do) and emeritus board member for Data Community DC - a not-for-profit organization that organizes free monthly events and lectures for the local data community in Washington, DC.

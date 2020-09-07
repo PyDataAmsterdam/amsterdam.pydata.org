@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Panel: Dashboards for PyData"
+kind: "Tutorial"
+speakers: "James A. Bednar"
+---
+
+# Panel: Dashboards for PyData
+
+In this tutorial, you will see how to use Panel (https://panel.pyviz.org) to add widgets and layouts to the output from just about any plotting program, and then how to share the result as a fully standalone application. You should walk away knowing you can very easily make any of your analyses interactive and shareable, in just a few lines of code!
+
+## Speakers
+
+### James A. Bednar
+
+Dr. James A. Bednar is the Senior Manager of Technical Services at Anaconda, Inc., and was a faculty member in the School of Informatics at the University of Edinburgh from 2003 to 2015. At Anaconda, Jim is the project lead of a variety of open-source packages under the [HoloViz.org](http://holoviz.org) banner, including HoloViews, GeoViews, hvPlot, Datashader, Panel, and Colorcet.

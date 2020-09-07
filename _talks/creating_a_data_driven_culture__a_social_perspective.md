@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Creating a data-driven culture: a social perspective"
+kind: "Short talk"
+speakers: "Jordi Contestí"
+---
+
+# Creating a data-driven culture: a social perspective
+
+Creating a data-driven culture in any company can be challenging. We usually focus on the technical transformations we must accomplish to succeed, ignoring the complex human issues that arise in this process. This talk is about detecting all these social issues and knowing how to handle them, to maximise our chances of success.
+
+## Speakers
+
+### Jordi Contestí
+
+I am the Head of Data at habitissimo (a company part of HomeServe PLC) where I work with a group of Data Scientists and Data Engineers. With over 12 years of experience in projects development and people management, currently I am leading the transformation of habitissimo into a data-driven company. I hold one MsC in Computer Science and another in Business Intelligence and Big Data.

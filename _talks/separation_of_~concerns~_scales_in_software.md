@@ -1,0 +1,16 @@
+---
+layout: talk
+title: "Separation of ~concerns~ scales in software"
+kind: "Talk"
+speakers: "Thomas A Caswell"
+---
+
+# Separation of ~concerns~ scales in software
+
+As programmers we work in deeply layered systems.  When a layer below us "just works" things feel easy and life is great! However, all to often it feels like our tools fight back and get in the way.  In this talk, we will discuss how to identify the good scales and abstractions in software, and how to build pleasant tools for ourselves and others.
+
+## Speakers
+
+### Thomas A Caswell
+
+Thomas is a soft-matter physicist who now developer software for scientists.  He develops data acquisition, management, and analysis tools at NSLS-II at BNL, as a core maintainer of h5py, and  is the current Project Lead of Matplotlib

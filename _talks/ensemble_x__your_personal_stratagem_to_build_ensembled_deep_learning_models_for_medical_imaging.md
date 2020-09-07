@@ -1,0 +1,66 @@
+---
+layout: talk
+title: "Ensemble-X: Your personal strataGEM to build Ensembled Deep Learning Models for Medical Imaging"
+kind: "Talk"
+speakers: "Dipam Paul, Dipam Paul and Alankrita Tewari"
+---
+
+# Ensemble-X: Your personal strataGEM to build Ensembled Deep Learning Models for Medical Imaging
+
+In this talk, we will deep dive into the world of Medical Imaging and Radiology, in particular. We will soar through the mighty oceans of various kinds of diseases and limitations of AI with the prevalent Deep Learning architectures which are at our disposal. At this point, we will also delve into the progress that has been made in the domain of integrative healthcare.
+
+## Speakers
+
+### Dipam Paul
+
+Commonly referred to as ‘The Boy from Kolkata’ - Dipam is a senior-year student pursuing Electronics and Telecommunication from KIIT University, India. He has previously presented at three PyCons-
+
+(1) PyCon USA 2019 (Cleveland, Ohio) [[Speaker Profile]][1]
+
+(2) PyCon India 2019 (Chennai, India) [[Speaker Profile]][2]
+
+(3) PyCon USA 2020 (Pittsburgh, Pennsylvania) [[Speaker Profile]][3]
+
+Currently, he is an incoming Research Assitant at Stanford Medicine and will be working on areas of Radiology and Pain operating from the city of California.
+
+He has previously worked in labs at Georgia Institute of Technology, Universidade Federal de Sao Paulo and IIT Bombay in various roles and capacities.
+
+Having always been fascinated by the wonders one can do using Python, his periphery of interest lies in Biomedical-Imaging and NLP. He spends his days toying around with Machine-Learning models and fine-tuning Neural Nets when he is not eating, raconteuring or engaging in a lively debate about Geopolitics or Football!
+
+
+  [1]: https://us.pycon.org/2019/speaker/profile/397/
+  [2]: https://in.pycon.org/cfp/posters-2019/proposals/using-python-for-biomedical-image-processing~eggle/
+  [3]: https://us.pycon.org/2020/speaker/profile/93/
+
+### Dipam Paul
+
+Commonly referred to as ‘The Boy from Kolkata’ - Dipam is a senior-year student pursuing Electronics and Telecommunication from KIIT University, India. He has previously presented at three PyCons-
+
+(1) PyCon USA 2019 (Cleveland, Ohio) [[Speaker Profile]][1]
+
+(2) PyCon India 2019 (Chennai, India) [[Speaker Profile]][2]
+
+(3) PyCon USA 2020 (Pittsburgh, Pennsylvania) [[Speaker Profile]][3]
+
+Currently, he is an incoming Research Assitant at Stanford Medicine and will be working on areas of Radiology and Pain operating from the city of California.
+
+He has previously worked in labs at Georgia Institute of Technology, Universidade Federal de Sao Paulo and IIT Bombay in various roles and capacities.
+
+Having always been fascinated by the wonders one can do using Python, his periphery of interest lies in Biomedical-Imaging and NLP. He spends his days toying around with Machine-Learning models and fine-tuning Neural Nets when he is not eating, raconteuring or engaging in a lively debate about Geopolitics or Football!
+
+
+  [1]: https://us.pycon.org/2019/speaker/profile/397/
+  [2]: https://in.pycon.org/cfp/posters-2019/proposals/using-python-for-biomedical-image-processing~eggle/
+  [3]: https://us.pycon.org/2020/speaker/profile/93/
+
+### Alankrita Tewari
+
+Hailing from a small town called Lucknow, in India, Alankrita is a final year student at KIIT University. She started exploring Python recently and have been smitten by it ever since. She believes that the sky is the limit when it comes to what can be done with Python. 
+
+Since then, she has presented her research in conferences like -
+PyCon US 2020
+PyCon Australia 2020
+IEEE 33rd International Symposium on Computer Based Medical Systems (CBMS)
+And she hopes to continue doing so.
+
+ In her spare time she is found reading, dreaming about seemingly impossible sci-fi scenarios (like the time she thought of using magnetic boots to levitate) and petting every dog she sees.

@@ -1,0 +1,20 @@
+---
+layout: talk
+title: "When features go missing, Bayes’ comes to the rescue"
+kind: "Talk"
+speakers: "Narendra Mukherjee"
+---
+
+# When features go missing, Bayes’ comes to the rescue
+
+Do you encounter missing values in your model features, but don’t give them much thought? I will describe how ad-hoc imputation hurts the performance of sort models at Tripadvisor, and how we build upon scikit-learn’s IterativeImputer to get around this. Consider this a case-study in Bayesian thinking and understanding how IterativeImputer does fast, approximate inference in a probabilistic model.
+
+## Speakers
+
+### Narendra Mukherjee
+
+I am a long time Bayesian interested in the connect between statistics, causal inference and machine learning. Currently, I am a Machine Learning Scientist at Tripadvisor based at their global headquarters in Needham, MA. My work at Tripadvisor spans the entire range of customer-centric ML problems from recommendation engines to building probabilistic models of user-generated content creation - all, of course, to help travellers around the world go on the best trip of their lives :)
+
+In my prior life, I obtained my PhD in systems neuroscience from Brandeis University where I developed probabilistic latent variable models of stimulus coding in the brain. I got into the world of Bayesian machine learning during my PhD, and have been in love with that world ever since!
+
+Outside of Bayes' and ML, I am an avid cyclist and have explored much of north-east US on my bike. To learn more about me, look at my webpage at: https://narendramukherjee.github.io/
