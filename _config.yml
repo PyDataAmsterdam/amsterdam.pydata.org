@@ -57,3 +57,6 @@ destination: ./build
 collections:
     talks:
         output: true
+        permalink: /:collection/:name
+
+permalink: :categories/:title

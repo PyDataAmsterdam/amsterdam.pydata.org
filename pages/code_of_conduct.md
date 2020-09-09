@@ -2,6 +2,7 @@
 layout: page
 title: Code of Conduct
 description: 
+permalink: /coc
 ---
 
 # Code of Conduct
