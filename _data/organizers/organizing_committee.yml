@@ -132,14 +132,6 @@
   twitter_url: https://twitter.com/SPataut
   image: /assets/images/organizers/sandrine_pataut.jpg
 
-- name: Florian Rathgeber
-  desc: Florian is a Site Reliability Engineer at Google Cloud, a long time Pythonista and a co-founder of PyData London. He holds a PhD in Computational Science from Imperial College and built data handling systems for meteorological data at ECMWF.
-  twitter_url: https://twitter.com/frathgeber
-  linkedin_url: https://linkedin.com/in/florianrathgeber
-  github_url: https://github.com/kynan
-  website_url: https://kynan.github.io
-  image: /assets/images/organizers/florian_rathgeber.jpg
-
 - name: Aaron Richter
   desc: Aaron is a Senior Data Scientist at Saturn Cloud, and co-organizer of PyData Miami. He works to make other data scientists faster and happier!
   twitter_url: https://twitter.com/rikturr
