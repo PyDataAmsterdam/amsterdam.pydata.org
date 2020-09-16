@@ -42,6 +42,11 @@ For over a century, **IBM** has led world-changing progress by relentlessly rein
 **Saturn Cloud** is a managed data science and machine learning platform that automates DevOps and ML infrastructure engineering so your team can focus on analytics. Utilize Jupyter and Dask to scale Python for big data using the libraries you know and love, while leveraging Docker and Kubernetes so that your work is reproducible, shareable, and ready for production.
 
 ---
+[![image](../assets/images/sponsors/mozn.png){: class="sponsor-image sponsor-image-left" style="height: 130px; margin-right: 30px;"}](http://www.mozn.sa/)
+
+**Mozn** is the leading advanced analytics product development firm in the Middle East, unlocking the true potential of data to deliver impact that transforms operations at businesses and government organizations. Mozn combines deep technical expertise with keen business acumen to help some of the region’s largest organizations solve their most pressing problems. Through our data products, clients change the way they work, and evolve to make the most of their data.
+
+---
 
 # Gold sponsors
 [![image](../assets/images/sponsors/two_sigma.png){: class="sponsor-image sponsor-image-left" style="height: 85px"}](https://opensource.twosigma.com)
