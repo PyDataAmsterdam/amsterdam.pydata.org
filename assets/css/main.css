@@ -2505,6 +2505,14 @@
 			border-radius: 0;
 			width: 40%;
 		}
+		.spotlight .twitter {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 60%;
+		}
 
 			.spotlight .image img {
 				border-radius: 0;
