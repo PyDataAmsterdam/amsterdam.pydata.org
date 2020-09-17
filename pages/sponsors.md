@@ -42,7 +42,13 @@ For over a century, **IBM** has led world-changing progress by relentlessly rein
 **Saturn Cloud** is a managed data science and machine learning platform that automates DevOps and ML infrastructure engineering so your team can focus on analytics. Utilize Jupyter and Dask to scale Python for big data using the libraries you know and love, while leveraging Docker and Kubernetes so that your work is reproducible, shareable, and ready for production.
 
 ---
-[![image](../assets/images/sponsors/mozn.png){: class="sponsor-image sponsor-image-left" style="height: 130px; margin-right: 30px;"}](http://www.mozn.sa/)
+
+[![image](../assets/images/sponsors/metrostar_systems.png){: class="sponsor-image sponsor-image-left" style="height: 170px; margin-bottom: 40px"}](https://www.metrostarsystems.com)
+
+**MetroStar Systems, Inc (MetroStar)** is a leading provider of innovative technology across the federal government. For over two decades, our people have powered innovation through our core capabilities and practice areas. The solutions we develop integrate Human-Centered Design, DevOps, Cloud, and AI/ML capabilities to provide seamless delivery from ideation to production with no lapse in service. We are transforming the way data is disseminated for our customers by providing faster and more cost-effective deliveries.
+
+---
+[![image](../assets/images/sponsors/mozn.png){: class="sponsor-image sponsor-image-right" style="height: 130px;"}](http://www.mozn.sa/)
 
 **Mozn** is the leading advanced analytics product development firm in the Middle East, unlocking the true potential of data to deliver impact that transforms operations at businesses and government organizations. Mozn combines deep technical expertise with keen business acumen to help some of the region’s largest organizations solve their most pressing problems. Through our data products, clients change the way they work, and evolve to make the most of their data.
 
@@ -61,6 +67,14 @@ At **Two Sigma**, we use Open Source Software, and we’re passionate about givi
 
 ---
 
-[![image](../assets/images/sponsors/metrostar_systems.png){: class="sponsor-image sponsor-image-left" style="height: 170px; margin-bottom: 40px"}](https://www.metrostarsystems.com)
+[![image](../assets/images/sponsors/neo4j.png){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://neo4j.com)
 
-**MetroStar Systems, Inc (MetroStar)** is a leading provider of innovative technology across the federal government. For over two decades, our people have powered innovation through our core capabilities and practice areas. The solutions we develop integrate Human-Centered Design, DevOps, Cloud, and AI/ML capabilities to provide seamless delivery from ideation to production with no lapse in service. We are transforming the way data is disseminated for our customers by providing faster and more cost-effective deliveries.
+**Neo4j** is the world’s leading graph database. It helps the Intelligence Community build applications to meeting today’s evolving data challenges including artificial intelligence, network/IT resource management, identity and access management, supply chain management, real-time recommendations, criminal investigations, cyber security and master data management.
+
+---
+
+# Sprint sponsors
+
+[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://newsroom.heb.com/)
+
+**H-E-B** is a privately-held grocery retailer headquartered in San Antonio, Texas. With more than 400 stores in Texas and Mexico across its H-E-B, Central Market, Joe V’s, and Mi Tienda brands, the company is among the largest private companies in the United States. In 2018 H-E-B acquired grocery delivery service Favor and is making its digital offerings a core component of its continued expansion. H-E-B is known throughout Texas as a generous supporter of the local communities in which it does business — the company proudly donates 5% of its pre-tax profits to charity.
