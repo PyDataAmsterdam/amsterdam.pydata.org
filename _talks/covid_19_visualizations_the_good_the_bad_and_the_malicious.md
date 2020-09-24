@@ -13,7 +13,7 @@ COVID-19, the pandemic that kills 30K+ globally by May 18th, is also the hot top
 
 ### Rongpeng Li
 
-Research Programmer at Information Science Institute, University of Southern California.
+Data science instructor, senior data scientist at Galvanize.
 
 M.S.  in Electrical Engineering, University of Southern California
 

@@ -13,4 +13,4 @@ This talk focuses on sampling from (truncated) high-dimensional log-concave dens
 
 ### Marios Papachristou
 
-
+Marios is a first-year Ph.D. student at the Computer and Information Science Department at Cornell University. He has received his undergraduate degree from the Electrical and Computer Engineering School at the National Technical University of Athens.

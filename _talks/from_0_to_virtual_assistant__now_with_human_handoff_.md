@@ -13,7 +13,13 @@ Learn how to build a virtual assitant using Rasa, a Python framework, and how to
 
 ### Karen Palacio
 
+Karen is an Argentinian developer. She's from Córdoba.
 
+She admires abstractions' power and how everything flows from the inside out, in a feedback loop. Connecting with the different layers of latent abstractions we are guided to the possible implementations in the most natural/joyous of ways!
+
+Karen has a mixed background, having studied both Computer Science and Visual Arts at college. She's currently starting her journey through the Data Science field thanks to [UNC's Data Science master program](http://diplodatos.famaf.unc.edu.ar/). She also currently works at Kunan's AI area, where she does mostly python stuff and some UI/frontend. 
+
+Karen is Free Software advocate, and does a lot of proselytizing locally; contribuiting to FOSS projects, and organizing and attending FOSS events. In her free time she explores digital arts + creative coding: to her programming can be more than feeding a money machine. You could say she is a computer hippie and that hacking is a way of being.
 
 ### Florencia Alonso
 

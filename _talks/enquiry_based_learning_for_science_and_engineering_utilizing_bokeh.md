@@ -15,16 +15,16 @@ Computational modules are valuable pedagogical tools to teach complex engineerin
 
 Experienced from data collection to predictive model development, and validating all parts of the process till model production stage. Utilize visualization for validation, communication and analysis of all parts of the pipeline.
 
-Developed numerical models and experiments to study various systems tackling vehicle handling simulations, polymeric systems and biological systems. Involved in tire engineering for racing teams which won championships nationally and contributed to significant improvement in testing procedure for an OEM.  Designed, developed and implemented hardware and software side of a shoe box size scanner. Significantly reduced decision making time with the use of interactive visualization for engineers. Founding member of miLEAD a business consulting group for high tech start ups. Passionate about research, data visualization/analytics and best practices.
+Developed numerical models and experiments to study various systems tackling vehicle handling simulations, polymeric systems and biological systems. Involved in tire engineering for racing teams which won championships nationally and contributed to significant improvement in testing procedure for an OEM.  Designed, developed and implemented hardware and software side of a shoe box size scanner. Significantly reduced decision making time with the use of interactive visualization for engineers. Passionate about research, data visualization/analytics and best practices.
 
 ### Anna Moragne
 
-I am currently a Senior at Lehigh University studying Statistics and Computer Science. I joined the STEM Learning Through Visualization Project in the Summer for 2020 and have been continuing to work on the project into the fall. I have really enjoyed being able to use and gain more coding skills through working on this project so far and am looking forward to being able to carry these skills over into future career work.
+Anna Moragne is a Senior at Lehigh University studying Statistics and Computer Science. She works on incorporating Bokeh Visualization tools into STEM Learning as part of initiatives at Lehigh University. She enjoys coding and contributing to an impactful project for her peers in Science, Engineering, and Environmental Conservation / Sustainable Development efforts.
 
 ### Brian Lucas
 
-
+Brian Lucas is a chemical engineering student at Lehigh University. His interest in science was sparked in his first high school chemistry class. Combining visual design and STEM teaching is a passion of his and pursued as part of Mountaintop Initiative at Lehigh. He joined the project because of his interest in visual design, as it pertains to the practice of engineering.
 
 ### Srinivas Rangarajan
 
-Assistant Professor, Lehigh University
+I am an Assitant Professor at the Department of Chemical & Biomolecular Engineering at Lehigh University, Bethlehem PA. My research is in the use of advanced computational techniques, including quantum chemistry and machine learning, to study chemical reaction systems for conversion of new sources of carbon such as shale gas, biomass, and CO2 to energy carriers and chemicals.

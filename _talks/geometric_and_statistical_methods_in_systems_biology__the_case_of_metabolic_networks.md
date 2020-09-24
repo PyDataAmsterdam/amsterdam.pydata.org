@@ -13,7 +13,13 @@ Sampling the solution space of metabolic networks is a powerful, however computa
 
 ### Haris Zafeiropoulos
 
+I am a Bioinformatician and a PhD candidate in University of Crete focusing on deciphering the underlying mechanisms of ecosystem functioning.
+In the framework of my dissertation, two main approaches are held: 
+* data integration methods: to extract associations between different organisms, environments and environmental types, from 'omics data and metadata.
+* metabolic networks analysis: in an attempt to infer microbial interactions 
 
+As a biologist, my research interests focus on microbial ecology and ecosystem functioning at the microbial dimension. 
+However, as computer science and mathematics could not be just a means to an end, I am also an ethousiast of the geometrical features of convex bodies.
 
 ### Apostolos Chalkis
 
