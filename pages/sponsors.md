@@ -29,6 +29,14 @@ interested in becoming a sponsor?  See our [sponsorship
 prospectus](../assets/prospectus.pdf) or contact us at <a
 href="mailto:global@pydata.org">global@pydata.org</a>.
 
+# Diamond sponsors
+
+[![image](../assets/images/sponsors/man.png){: class="sponsor-image sponsor-image-right" style="height: 200px; margin-top: 0px"}](http://www.man.com/alpha-tech)
+
+**Man Group** is a technology-empowered, global active investment management firm, which runs $108.3 bn (as at 30th June 2020) of client capital in liquid and private markets, managed by investment specialists based around the world. Headquartered in London, the firm has 15 international offices and operates across multiple jurisdictions. Our business has five specialist investment engines, which represent the range of our capabilities: Man AHL, Man Numeric, Man GLG, Man FRM and Man GPM.
+
+---
+
 # Platinum sponsors
 
 [![image](../assets/images/sponsors/ibm.png){: class="sponsor-image sponsor-image-left" style="height: 100px; margin-right: 20px;"}](https://community.ibm.com/community/user/datascience/home)
@@ -73,8 +81,22 @@ At **Two Sigma**, we use Open Source Software, and we’re passionate about givi
 
 ---
 
+[![image](../assets/images/sponsors/dataiku.png){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://www.dataiku.com/)
+
+**Dataiku** is one of the world’s leading AI and machine learning platforms, supporting agility in organizations’ data efforts via collaborative, elastic, and responsible AI, all at enterprise scale. At its core, Dataiku believes that in order to stay relevant in today’s changing world, companies need to harness Enterprise AI as a widespread organizational asset instead of siloing it into a specific team or role. To make this a reality, Dataiku provides one simple UI for data wrangling, mining, visualization, machine learning, and deployment based on a collaborative and team-based user interface accessible to anyone on a data team, from data scientist to beginner analyst.
+
+---
+
 # Sprint sponsors
 
-[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://newsroom.heb.com/)
+[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://newsroom.heb.com/)
 
 **H-E-B** is a privately-held grocery retailer headquartered in San Antonio, Texas. With more than 400 stores in Texas and Mexico across its H-E-B, Central Market, Joe V’s, and Mi Tienda brands, the company is among the largest private companies in the United States. In 2018 H-E-B acquired grocery delivery service Favor and is making its digital offerings a core component of its continued expansion. H-E-B is known throughout Texas as a generous supporter of the local communities in which it does business — the company proudly donates 5% of its pre-tax profits to charity.
+
+---
+
+# Supporting sponsors
+
+[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-right" style="height: 80px"}](https://www.manning.com/)
+
+**Manning** is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.
