@@ -17,4 +17,4 @@ Keira is a data engineering manager at Capital One who has hands-on expertise in
 
 ### Noriaki Tatsumi
 
-A technology leader with expertise in data engineering, performance engineering, and cyber security. Currently focusing on advancing machine learning capabilities at Capital One. Prior to joining Capital One, I served as the Director of Engineering at Blackboard as well as a co-founder of startups, Anax Security and Finalist Corporation.
+A technology leader with expertise in MLOps, data engineering, and performance engineering. Currently focusing on advancing ML and Data Enablement at Capital One's Card Technology Division. Prior to joining Capital One, served as the Director of Engineering at Blackboard as well as a co-founder of startups, Anax Security and Finalist Corporation.

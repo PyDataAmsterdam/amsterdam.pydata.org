@@ -23,7 +23,7 @@ Karen is Free Software advocate, and does a lot of proselytizing locally; contri
 
 ### Florencia Alonso
 
-
+Florencia is a biomedical engineering advanced student. Passionate about software development and artificial intelligence, she is currently working with virtual assistants.
 
 ### Brandon Janes
 

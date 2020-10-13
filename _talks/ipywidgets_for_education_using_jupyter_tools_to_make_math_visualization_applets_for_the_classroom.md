@@ -7,7 +7,7 @@ speakers: "Chiin-Rui Tan"
 
 # ipywidgets for Education! Using Jupyter tools to make Math Visualization applets for the classroom
 
-Jupyter as open-source educational technology gives school students interactive, visual learning experiences. Yet awareness & adoption is limited (0-5mins). In this talk aimed at Math literate educators or widget enthusiasts, an applet enabling students to explore concepts like recursion & trigonometry will be live-coded (5-20mins). The audience will takeaway ideas for their use-cases (20-25mins).
+Jupyter as open-source educational technology can deliver powerful visual learning experiences to school students. Yet awareness & adoption is limited. In this talk aimed at Math literate educators or widget enthusiasts, example visualization applets for enabling students to more effectively explore selected Math concepts will be live-coded. The audience will takeaway ideas for their own use-cases
 
 ## Speakers
 

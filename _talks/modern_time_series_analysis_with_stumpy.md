@@ -13,4 +13,4 @@ Traditional time series analysis techniques have found success in a variety of d
 
 ### Sean Law
 
-
+Sean Law is a senior applied scientific researcher and data scientist currently working with a multi-talented Exploration Lab team and serves as an advisor on an enterprise A.I. Council at TD Ameritrade. He has experience producing cutting edge methodologies, building high-performance predictive models, and developing rapid prototypes. Additionally, he is one of the co-organizers of PyData Ann Arbor and is also the creator and core maintainer of STUMPY, a powerful and scalable open source Python library that can be used for a variety of time series data mining tasks.
