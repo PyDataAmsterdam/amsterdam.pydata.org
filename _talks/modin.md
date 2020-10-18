@@ -7,9 +7,9 @@ speakers: "Devin Petersohn"
 
 # Modin
 
-We have detailed documentation for setting up development environments and contributing code: https://modin.readthedocs.io/en/latest/contributing.html
+We have detailed documentation for setting up development environments and contributing code: https://modin.readthedocs.io/en/latest/developer/contributing.html
 
-When a pull request is created, a checklist is also there to help attendees make sure they have everything together.
+When a pull request is created, a checklist is also there to ensure it is well formed.
 
 For those rusty or less familiar with Git, we will also do a quick walk-through for forking, cloning, and pushing branches.
 

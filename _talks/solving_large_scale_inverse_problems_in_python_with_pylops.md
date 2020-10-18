@@ -19,7 +19,7 @@ My expertise includes model- and data-driven inverse problems, statistical signa
 
 ### Ivan Vasconcelos
 
-I am an Assistant Professor of Applied Geoscience at Utrecht University. My research interests broadly revolve around wave & diffusion phenomena, inverse problems and imaging science. Together with a talented team, we work on seismic and radar imaging for Earth and planetary studies, experimental rock & wave physics, material science in imaging problems, and connections between geophysical and medical imaging.
+I am an Assistant Professor of Applied Geoscience at Utrecht University. My research interests broadly revolve around wave & diffusion phenomena, inverse problems and imaging science. Together with a talented team, we work on seismic and radar imaging for Earth and planetary studies, experimental rock & wave physics, material science in imaging problems, and connections between geophysical and medical imaging. 
 
 Our work focuses on theoretical and experimental fundamentals - but we have a strong belief in developing robust, reproducible, user-friendly and ready-to-use open-source software. We are users, developers and contributors of the Pylops package, and currently working toward a new package for Material Science applications.  Our door is *always* open to collaborations on software for research, applications, teaching or just fun.
 

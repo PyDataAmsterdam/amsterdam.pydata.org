@@ -7,10 +7,10 @@ speakers: "Eduardo Blancas"
 
 # Rethinking Software Testing for Data Science
 
-This talk describes a custom Continuous Integration procedure that can be effectively applied to Data Science projects. Automating end-to-end testing helps teams develop pipelines confidently and ensures a smooth transition to production.
+Ensuring that data pipelines are reproducible at all times is primordial to trust our results. Drawing inspiration from software engineering, this talk describes a practical framework to make continuous testing feasible by tackling the four challenges that data-intensive software posits: effective test cases, structure, speed and upstream data changes.
 
 ## Speakers
 
 ### Eduardo Blancas
 
-Hi, this is Eduardo. I am currently a Data Scientist at Fidelity Investments. I hold an M.S in Data Science from Columbia University.
+Hi, this is Eduardo. I am broadly interested in developing tools that helps us deliver reliable data products. Towards that end, I developed [Ploomber](https://github.com/ploomber/ploomber), an open-source Python library. I hold an M.S in Data Science from Columbia University, where I conducted research in computational neuroscience. I started my Data Science career in 2015 when I joined the Center for Data Science and Public Policy at The University of Chicago.

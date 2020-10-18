@@ -7,7 +7,7 @@ speakers: "Raghuram Thiagarajan, Anna Moragne, Brian Lucas and Srinivas Rangaraj
 
 # Enquiry-Based Learning for Science and Engineering utilizing Bokeh
 
-Computational modules are valuable pedagogical tools to teach complex engineering concepts via enquiry-based learning (EBL). In this context, we have developed interactive online visualization-based python modules to explain science and engineering concepts (at a senior undergraduate and graduate level) through common chemical engineering applications.
+Computational modules are valuable pedagogical tools to teach complex engineering concepts via enquiry-based learning (EBL). In this context, we have developed interactive online visualization-based python modules to explain science and engineering concepts through common chemical engineering applications. All these modules can be accessed at this website: https://srrweb.cc.lehigh.edu/app/.
 
 ## Speakers
 
