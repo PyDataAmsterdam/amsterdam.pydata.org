@@ -2512,6 +2512,10 @@
 			order: 1;
 			border-radius: 0;
 			width: 60%;
+                        /* 502 because twitter size is set to 500 + borders*/
+                        height: 502px;
+                        border-top: 1px dotted white;
+                        border-bottom: 1px dotted white;
 		}
 
 			.spotlight .image img {
