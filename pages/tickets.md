@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Tickets
+title: Tickets & Scholarships
 ---
 
-# Tickets
+# Tickets & Scholarships
 
 ### [Click here to go directly to ticket sales](#pricing-and-ticket-purchases)
 
@@ -29,13 +29,13 @@ so that we can keep supporting you in the future.
 
 ### I can't afford to pay for a ticket. Do I have any options?
 
-Scholarships will be granted to a limited number of attendees from
+Scholarships were granted to a limited number of attendees from
 underrepresented backgrounds in our community, based on an application. Beyond
 a ticket fee waiver, scholars will have special access to select conference
 sessions and opportunities designed to enrich their experience.
 
-To apply for a scholarship, please fill out [the
-application form](https://forms.gle/gggUk7Z9rxEoRXk18).
+**Scholarships have already been granted and we are no longer taking
+applications.**
 
 ### Pricing and ticket purchases
 
