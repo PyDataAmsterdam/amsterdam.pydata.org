@@ -60,3 +60,8 @@ collections:
         permalink: /:collection/:name
 
 permalink: :categories/:title
+
+exclude: [gems]
+
+plugins:
+    - 'jekyll-spaceship'
