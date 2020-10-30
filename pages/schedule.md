@@ -78,7 +78,7 @@ table.schedule-global tfoot td {
 
 |   Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
 | :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                                                             Talks released  |                        |                      |                           |
+|       03:30 | {: .talks }                                           [Talks released](./talk_release_schedule#nov-11)  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                         |                        |                      |                           |
 |       08:00 | {: .major }            [Track Q&A Panel: Data Visualization and Interpretability #1](./qa_panels#viz-1) |                        |                      |                           |
 |       08:30 |                                                                                                      ^^ |                        |                      |                           |
@@ -112,7 +112,7 @@ table.schedule-global tfoot td {
 
 |   Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
 | :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                                                             Talks released  |                        |                      |                           |
+|       03:30 | {: .talks }                                           [Talks released](./talk_release_schedule#nov-12)  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                         |                        |                      |                           |
 |       08:00 | {: .major }                                                                        Track Q&A Panel: TBD |                        |                      |                           |
 |       08:30 |                                                                                                      ^^ |                        |                      |                           |
@@ -143,7 +143,7 @@ table.schedule-global tfoot td {
 
 |   Time (UTC)|                                                                                                                      Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
 | :---------: | :----------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                                                                                          Talks released  |                        |                      |                           |
+|       03:30 | {: .talks }                                                                        [Talks released](./talk_release_schedule#nov-13)  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                                                      |                        |                      |                           |
 |       08:00 | {: .major }                                                [Track Q&A Panel: Causal and Statistical Methods #1](./qa_panels#stats-1) |                        |                      |                           |
 |       08:30 |                                                                                                                                   ^^ |                        |                      |                           |
@@ -175,7 +175,7 @@ table.schedule-global tfoot td {
 
 |   Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
 | :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                                                             Talks released  |                        |                      |                           |
+|       03:30 | {: .talks }                                           [Talks released](./talk_release_schedule#nov-14)  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                         |                        |                      |                           |
 |       08:00 | {: .major }                                     [Track Q&A Panel: Miscellaneous #1](./qa_panels#misc-1) |                        |                      |                           |
 |       08:30 |                                                                                                      ^^ |                        |                      |                           |
@@ -208,7 +208,7 @@ table.schedule-global tfoot td {
 
 |   Time (UTC)|                                                                               Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
 | :---------: | :-------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                                                   Talks released  |                        |                      |                           |
+|       03:30 | {: .talks }                                 [Talks released](./talk_release_schedule#nov-15)  |                        |                      |                           |
 | 04:00-07:30 |                                                                                               |                        |                      |                           |
 |       08:00 | {: .major }                                                              Track Q&A Panel: TBD |                        |                      |                           |
 |       08:30 |                                                                                            ^^ |                        |                      |                           |
