@@ -1,52 +1,53 @@
-{% assign talks = site.talks | where:'kind', 'Talk' %}
-{% assign tutorials = site.talks | where:'kind', 'Tutorial' %}
-{% assign sprints = site.talks | where:'kind', 'Sprint' %}
-{% assign short_talks = site.talks | where:'kind', 'Short talk' %}
-{% assign posters = site.talks | where:'kind', 'Poster' %}
+{% assign sorted_talks = site.talks | sort: "title" %}
+{% assign talks = sorted_talks | where_exp:"talk", "talk.kind == 'Talk' or talk.kind == 'Sponsor talk'" %}
+{% assign tutorials = sorted_talks | where:'kind', 'Tutorial' %}
+{% assign sprints = sorted_talks | where:'kind', 'Sprint' %}
+{% assign short_talks = sorted_talks | where:'kind', 'Short talk' %}
+{% assign posters = sorted_talks | where:'kind', 'Poster' %}
 
 
-<h4>Talks</h4>
+<h1>Talks</h1>
 <ul>
 
   {% for talk in talks %}
     <li>
-        <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+        <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>, by {{talk.speakers}}
     </li>
   {% endfor %}
 </ul>
-<h4>Tutorials</h4>
+<h1>Tutorials</h1>
 <ul>
 
   {% for talk in tutorials %}
     <li>
-      <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+      <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>, by {{talk.speakers}}
     </li>
   {% endfor %}
 </ul>
-<h4>Short Talks</h4>
+<h1>Short Talks</h1>
 <ul>
 
   {% for talk in short_talks %}
     <li>
-      <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+      <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>, by {{talk.speakers}}
     </li>
   {% endfor %}
 </ul>
-<h4>Posters</h4>
+<h1>Posters</h1>
 <ul>
 
   {% for talk in posters %}
     <li>
-      <a href="{{ talk.url }}">{{ talk.title }}</a>, by {{talk.speakers}}
+      <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>, by {{talk.speakers}}
     </li>
   {% endfor %}
 </ul>
-<h4>Sprints</h4>
+<h1>Sprints</h1>
 <ul>
 
   {% for talk in sprints %}
     <li>
-      <a href="{{ talk.url }}">{{ talk.title }}</a>
+      <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>
     </li>
   {% endfor %}
 </ul>

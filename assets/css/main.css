@@ -2321,6 +2321,12 @@
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
+		.button.special.teal {
+			background-color: #4798b4;
+		}
+		.button.special.orange {
+			background-color: #ed9041;
+		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,

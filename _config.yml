@@ -7,8 +7,10 @@ description:
   <p>
   Online for the first time, the world's premier data science conference&colon; <a href="https://twitter.com/hashtag/PyDataGlobal2020">#PyDataGlobal2020</a>.</p>
 
-  <p>Five days packed with talks, tutorials, posters,
-  open-source sprints and a <b>digital hallway track</b>.</p>
+  <div>
+      <a href="pages/schedule" class="button special teal">Schedule</a>
+      <a href="pages/program" class="button special orange">Program</a>
+  </div>
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://global.pydata.org" # the base hostname & protocol for your site
