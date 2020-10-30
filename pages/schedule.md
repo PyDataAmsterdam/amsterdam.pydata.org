@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Schedule
+title: Live Event Schedule
 ---
 
 <style>
@@ -80,13 +80,13 @@ table.schedule-global tfoot td {
 | :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
 |       03:30 | {: .talks }                                                                             Talks released  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                         |                        |                      |                           |
-|       08:00 | {: .major }                                    Track Q&A Panel: Data Visualization and Interpretability |                        |                      |                           |
+|       08:00 | {: .major }            [Track Q&A Panel: Data Visualization and Interpretability #1](./qa_panels#viz-1) |                        |                      |                           |
 |       08:30 |                                                                                                      ^^ |                        |                      |                           |
 |       09:00 | {: .tutorial }                                                                                          |                        |                      |                           |
 |       09:30 |    ^^ [Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops](../talks/130) |                        |                      |                           |
 |       10:00 |                                                                                                      ^^ |                        |                      |                           |
 |       10:30 |                                                                                                      ^^ |                        |                      |                           |
-|       11:00 | {: .major }                                             Track Q&A Panel: Julia For Python & Julia Users |                        |                      |                           |
+|       11:00 | {: .major }                      [Track Q&A Panel: Julia For Python & Julia Users](./qa_panels#julia-1) |                        |                      |                           |
 |       11:30 |                                                                                                      ^^ |                        |                      |                           |
 | 12:00-13:30 |                                                                                                         |                        |                      |                           |
 |       14:00 | {: .major }                                                                         Keynote Watch Party |                        |                      |                           |
@@ -97,13 +97,13 @@ table.schedule-global tfoot td {
 |       17:00 | {: .major }                                                                             Lightning Talks |                        |                      |                           |
 |       17:30 |                                                                                                      ^^ |                        |                      |                           |
 | 18:00-18:30 |                                                                                                         |                        |                      |                           |
-|       19:00 | {: .major }                                                      Track Q&A Panel: Lessons from Industry |                        |                      |                           |
+|       19:00 | {: .major }                         [Track Q&A Panel: Lessons from Industry #1](./qa_panels#industry-1) |                        |                      |                           |
 |       19:30 |                                                                                                      ^^ |                        |                      |                           |
 |       20:00 | {: .tutorial }                                                                                          |                        |                      |                           |
 |       20:30 |                     ^^ [Tutorial Office Hours, Probability Calibration: Latest Techniques](../talks/43) |                        |                      |                           |
 |       21:00 |                                                                                                      ^^ |                        |                      |                           |
 |       21:30 |                                                                                                      ^^ |                        |                      |                           |
-|       22:00 | {: .major }                                                                             Track Q&A Panel |                        |                      |                           |
+|       22:00 | {: .major }                                                                         Track Q&A Panel:TBD |                        |                      |                           |
 |       22:30 |                                                                                                      ^^ |                        |                      |                           |
 
 ## Thursday, November 12th
@@ -120,7 +120,7 @@ table.schedule-global tfoot td {
 |       09:30 |    ^^ [Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops](../talks/130) |                        |                      |                           |
 |       10:00 |                                                                                                      ^^ |                        |                      |                           |
 |       10:30 |                                                                                                      ^^ |                        |                      |                           |
-|       11:00 | {: .major }                                                               Track Q&A Panel: Open Science |                        |                      |                           |
+|       11:00 | {: .major }                                   [Track Q&A Panel: Open Science #1](./qa_panels#opensci-1) |                        |                      |                           |
 |       11:30 |                                                                                                      ^^ |                        |                      |                           |
 | 12:00-17:00 |                                                                                                         |                        |                      |                           |
 |       17:00 | {: .tutorial }                                                                                          |                        |                      |                           |
@@ -133,7 +133,7 @@ table.schedule-global tfoot td {
 |       20:30 |                                  ^^ [Tutorial Office Hours, Panel: Dashboards for PyData](../talks/299) |                        |                      |                           |
 |       21:00 |                                                                                                      ^^ |                        |                      |                           |
 |       21:30 |                                                                                                      ^^ |                        |                      |                           |
-|       22:00 | {: .major }                                    Track Q&A Panel: Data Visualization and Interpretability |                        |                      |                           |
+|       22:00 | {: .major }            [Track Q&A Panel: Data Visualization and Interpretability #2](./qa_panels#viz-2) |                        |                      |                           |
 |       22:30 |                                                                                                      ^^ |                        |                      |                           |
 
 
@@ -145,13 +145,13 @@ table.schedule-global tfoot td {
 | :---------: | :----------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
 |       03:30 | {: .talks }                                                                                                          Talks released  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                                                      |                        |                      |                           |
-|       08:00 | {: .major }                                                                          Track Q&A Panel: Causal and Statistical Methods |                        |                      |                           |
+|       08:00 | {: .major }                                                [Track Q&A Panel: Causal and Statistical Methods #1](./qa_panels#stats-1) |                        |                      |                           |
 |       08:30 |                                                                                                                                   ^^ |                        |                      |                           |
 |       09:00 | {: .tutorial }                                                                                                                       |                        |                      |                           |
 |       09:30 |    ^^ [Tutorial Office Hours, Beautiful (ML) Data: Patterns & Best Practice for effective Data solutions with PyTorch](../talks/187) |                        |                      |                           |
 |       10:00 |                                                                                                                                   ^^ |                        |                      |                           |
 |       10:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|       11:00 | {: .major }                                                                                   Track Q&A Panel: Lessons from Industry |                        |                      |                           |
+|       11:00 | {: .major }                                                      [Track Q&A Panel: Lessons from Industry #2](./qa_panels#industry-2) |                        |                      |                           |
 |       11:30 |                                                                                                                                   ^^ |                        |                      |                           |
 | 12:00-16:00 |                                                                                                                                      |                        |                      |                           |
 |       16:30 | {: .major }                                                                                                      Keynote Watch Party |                        |                      |                           |
@@ -159,13 +159,13 @@ table.schedule-global tfoot td {
 |       17:30 | {: .major }                                                                                                    Keynote Fireside chat |                        |                      |                           |
 |       18:00 |                                                                                                                                   ^^ |                        |                      |                           |
 |       18:30 |                                                                                                                                      |                        |                      |                           |
-|       19:00 | {: .major }                                                                              Track Q&A Panel: Data Science in Production |                        |                      |                           |
+|       19:00 | {: .major }                                                     [Track Q&A Panel: Data Science in Production #1](./qa_panels#prod-1) |                        |                      |                           |
 |       19:30 |                                                                                                                                   ^^ |                        |                      |                           |
 |       20:00 | {: .tutorial }                                                                                                                       |                        |                      |                           |
 |       20:30 |                                             ^^ [Tutorial Office Hours, Why and What If – Causal Analysis for Everyone](../talks/170) |                        |                      |                           |
 |       21:00 |                                                                                                                                   ^^ |                        |                      |                           |
 |       21:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|       22:00 | {: .major }                                                                                            Track Q&A Panel: Open Science |                        |                      |                           |
+|       22:00 | {: .major }                                                                    [Track Q&A Panel: Open Science #2](./qa_panels#viz-2) |                        |                      |                           |
 |       22:30 |                                                                                                                                   ^^ |                        |                      |                           |
                                                                                                                                                                               |                      |                           |
                                                                                                                                                                               |                      |                           |
@@ -177,13 +177,13 @@ table.schedule-global tfoot td {
 | :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
 |       03:30 | {: .talks }                                                                             Talks released  |                        |                      |                           |
 | 04:00-07:30 |                                                                                                         |                        |                      |                           |
-|       08:00 | {: .major }                                                              Track Q&A Panel: Miscellaneous |                        |                      |                           |
+|       08:00 | {: .major }                                     [Track Q&A Panel: Miscellaneous #1](./qa_panels#misc-1) |                        |                      |                           |
 |       08:30 |                                                                                                      ^^ |                        |                      |                           |
 |       09:00 | {: .tutorial }                                                                                          |                        |                      |                           |
 |       09:30 |          ^^ [Tutorial Office Hours, A Gentle Introduction to Multi-Objective Optimisation](../talks/82) |                        |                      |                           |
 |       10:00 |                                                                                                      ^^ |                        |                      |                           |
 |       10:30 |                                                                                                      ^^ |                        |                      |                           |
-|       11:00 | {: .major }                                                Track Q&A Panel: Data Science in Production  |                        |                      |                           |
+|       11:00 | {: .major }                       [Track Q&A Panel: Data Science in Production #2](./qa_panels#prod-2)  |                        |                      |                           |
 |       11:30 |                                                                                                      ^^ |                        |                      |                           |
 |       12:00 |                                                                                                         |                        |                      |                           |
 |       12:30 | {: .major }                                                                             Lightning Talks |                        |                      |                           |
@@ -193,13 +193,13 @@ table.schedule-global tfoot td {
 |       17:30 |          ^^ [Tutorial Office Hours, Exploratory Data Analysis with Pandas and Matplotlib](../talks/363) |                        |                      |                           |
 |       18:00 |                                                                                                      ^^ |                        |                      |                           |
 |       18:30 |                                                                                                      ^^ |                        |                      |                           |
-|       19:00 | {: .major }                                 Track Q&A Panel: Miscellaneous & Algorithmic Accountability |                        |                      |                           |
+|       19:00 | {: .major }       [Track Q&A Panel: Miscellaneous & Algorithmic Accountability](./qa_panels#misc-acc-1) |                        |                      |                           |
 |       19:30 |                                                                                                      ^^ |                        |                      |                           |
 |       20:00 | {: .tutorial }                                                                                          |                        |                      |                           |
 |       20:30 |         ^^ [Tutorial Office Hours, From 0 to Virtual Assistant (now with Human Handoff!)](../talks/177) |                        |                      |                           |
 |       21:00 |                                                                                                      ^^ |                        |                      |                           |
 |       21:30 |                                                                                                      ^^ |                        |                      |                           |
-|       22:00 | {: .major }                                             Track Q&A Panel: Causal and Statistical Methods |                        |                      |                           |
+|       22:00 | {: .major }                   [Track Q&A Panel: Causal and Statistical Methods #2](./qa_panels#stats-2) |                        |                      |                           |
 |       22:30 |                                                                                                      ^^ |                        |                      |                           |
 
 ## Sunday, November 15th
@@ -216,7 +216,7 @@ table.schedule-global tfoot td {
 |       09:30 | ^^ [Tutorial Office Hours, Mine your own data - Analyze your Facebook Timeline](../talks/322) |                        |                      |                           |
 |       10:00 |                                                                                            ^^ |                        |                      |                           |
 |       10:30 |                                                                                            ^^ |                        |                      |                           |
-|       11:00 | {: .major }                                                    Track Q&A Panel: Miscellaneous |                        |                      |                           |
+|       11:00 | {: .major }                           [Track Q&A Panel: Miscellaneous #2](./qa_panels#misc-2) |                        |                      |                           |
 |       11:30 |                                                                                            ^^ |                        |                      |                           |
 | 12:00-15:00 |                                                                                               |                        |                      |                           |
 |       15:30 | {: .major }                                                                   Lightning Talks |                        |                      |                           |
@@ -227,11 +227,11 @@ table.schedule-global tfoot td {
 |       18:00 | {: .major }                                                             Keynote Fireside chat |                        |                      |                           |
 |       18:30 |                                                                                            ^^ |                        |                      |                           |
 |       18:30 |                                                                                               |                        |                      |                           |
-|       19:00 | {: .major }                                       Track Q&A Panel: Data Science in Production |                        |                      |                           |
+|       19:00 | {: .major }              [Track Q&A Panel: Data Science in Production #3](./qa_panels#prod-3) |                        |                      |                           |
 |       19:30 |                                                                                            ^^ |                        |                      |                           |
 |       20:00 | {: .tutorial }                                                                                |                        |                      |                           |
 |       20:30 |                 ^^ [Tutorial Office Hours, Scaling Up Your Data Work With Dask](../talks/338) |                        |                      |                           |
 |       21:00 |                                                                                            ^^ |                        |                      |                           |
 |       21:30 |                                                                                            ^^ |                        |                      |                           |
-|       22:00 | {: .major }                                       Track Q&A Panel: Algorithmic Accountability |                        |                      |                           |
+|       22:00 | {: .major }                  [Track Q&A Panel: Algorithmic Accountability](./qa_panels#acc-1) |                        |                      |                           |
 |       22:30 |                                                                                            ^^ |                        |                      |                           |
