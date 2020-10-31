@@ -6,6 +6,10 @@ stdenv.mkDerivation {
     jekyll
     ruby_2_7
     zlib
+    libffi
   ];
   src = null;
+  shellHook = ''
+    export GEM_HOME=gems
+  '';
 }

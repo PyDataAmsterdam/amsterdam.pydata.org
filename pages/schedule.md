@@ -167,9 +167,9 @@ table.schedule-global tfoot td {
 |       21:30 |                                                                                                                                   ^^ |                        |                      |                           |
 |       22:00 | {: .major }                                                                    [Track Q&A Panel: Open Science #2](./qa_panels#viz-2) |                        |                      |                           |
 |       22:30 |                                                                                                                                   ^^ |                        |                      |                           |
-                                                                                                                                                                              |                      |                           |
-                                                                                                                                                                              |                      |                           |
-## Saturday, November 14th                                                                                                                                                    |                      |                           |
+
+
+## Saturday, November 14th
 
 {: .schedule-global }
 
