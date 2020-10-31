@@ -1,4 +1,5 @@
 {% assign sorted_talks = site.talks | sort: "title" %}
+{% assign keynotes = sorted_talks | where:'kind', 'Keynote' %}
 {% assign talks = sorted_talks | where_exp:"talk", "talk.kind == 'Talk' or talk.kind == 'Sponsor talk'" %}
 {% assign tutorials = sorted_talks | where:'kind', 'Tutorial' %}
 {% assign sprints = sorted_talks | where:'kind', 'Sprint' %}
@@ -6,6 +7,15 @@
 {% assign posters = sorted_talks | where:'kind', 'Poster' %}
 
 
+<h1>Keynotes</h1>
+<ul>
+
+  {% for talk in keynotes %}
+    <li>
+        <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>, by {{talk.speakers}}
+    </li>
+  {% endfor %}
+</ul>
 <h1>Talks</h1>
 <ul>
 
