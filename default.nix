@@ -10,6 +10,6 @@ stdenv.mkDerivation {
   ];
   src = null;
   shellHook = ''
-    export GEM_HOME=gems
+    export GEM_HOME="$PWD/gems"
   '';
 }
