@@ -8,6 +8,10 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 gems
+bin
+cache
+extensions
+specifications
 
 build/*
 
