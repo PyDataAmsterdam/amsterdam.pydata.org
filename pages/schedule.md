@@ -3,6 +3,10 @@ layout: page
 title: Live Event Schedule
 ---
 
+<script src="../assets/js/cookie.min.js"></script>
+<script src="../assets/js/moment.min.js"></script>
+<script src="../assets/js/moment-timezone-with-data.js"></script>
+
 <style>
 :root {
     --border-light: #dfdfdf;
@@ -69,295 +73,326 @@ table.schedule-global tfoot td {
 .schedule-global .extra {
   background: #98edf7;
 }
+
+.select-with-arrow {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.select-with-arrow:after {
+  content: '▼';
+  font: 17px "Consolas", monospace;
+  left: 265px;
+  top: 15px;
+  padding-left: 10px;
+  border-left: 1px solid #999;
+  position: absolute;
+  pointer-events: none;
+}
+
+.select-with-arrow select {
+  display: block;
+  width: 300px;
+  word-break: normal;
+  border: 1px solid #cccccc;
+}
 </style>
 
 # Schedule
+
+<div class="select-with-arrow">
+    <select name="timezone" selected="UTC" id="timezone-picker" onChange="updateTimezone(this.value)">
+        <option value="UTC">UTC</option>
+    </select>
+</div>
 
 ## Wednesday, November 11th
 
 {: .schedule-global }
 
-|   Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
-| :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                            [Talks released](./talk_release_schedule#nov-11) |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 04:00-07:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       08:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                     ^^ [Track Q&A Panel: Data Visualization and Interpretability #0](./qa_panels#viz-1) |                     ^^ |                   ^^ |                        ^^ |
-|       08:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |    ^^ [Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops](../talks/130) |                     ^^ |                   ^^ |                        ^^ |
-|       10:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       10:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       11:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                               ^^ [Track Q&A Panel: Julia For Python & Julia Users](./qa_panels#julia-1) |                     ^^ |                   ^^ |                        ^^ |
-|       11:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 12:00-13:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       14:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                  ^^ Keynote Watch Party |                     ^^ |                   ^^ |                        ^^ |
-|       14:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       15:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                ^^ Keynote Fireside chat |                     ^^ |                   ^^ |                        ^^ |
-|       15:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 16:00-16:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                      ^^ Lightning Talks |                     ^^ |                   ^^ |                        ^^ |
-|       17:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 18:00-18:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       19:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                  ^^ [Track Q&A Panel: Lessons from Industry #1](./qa_panels#industry-1) |                     ^^ |                   ^^ |                        ^^ |
-|       19:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                     ^^ [Tutorial Office Hours, Probability Calibration: Latest Techniques](../talks/43) |                     ^^ |                   ^^ |                        ^^ |
-|       21:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       21:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       22:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                  ^^ Track Q&A Panel:TBD |                     ^^ |                   ^^ |                        ^^ |
-|       22:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|                                 Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
+| :---------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
+|       <span day="11" time="03:30"></span> | {: .talks }                                            [Talks released](./talk_release_schedule#nov-11) |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="11" time="04:00-07:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="08:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                     ^^ [Track Q&A Panel: Data Visualization and Interpretability #0](./qa_panels#viz-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="08:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="09:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="09:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |    ^^ [Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops](../talks/130) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="10:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="10:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="11:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                               ^^ [Track Q&A Panel: Julia For Python & Julia Users](./qa_panels#julia-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="11:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="11" time="12:00-13:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="14:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                  ^^ Keynote Watch Party |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="14:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="15:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                ^^ Keynote Fireside chat |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="15:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="11" time="16:00-16:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="17:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                      ^^ Lightning Talks |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="17:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="11" time="18:00-18:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="19:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                  ^^ [Track Q&A Panel: Lessons from Industry #1](./qa_panels#industry-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="19:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="20:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="20:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                     ^^ [Tutorial Office Hours, Probability Calibration: Latest Techniques](../talks/43) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="21:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="21:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="22:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                  ^^ Track Q&A Panel:TBD |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="11" time="22:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
 
 ## Thursday, November 12th
 
 {: .schedule-global }
 
-|   Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
-| :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                            [Talks released](./talk_release_schedule#nov-12) |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 04:00-07:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       08:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                 ^^ Track Q&A Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
-|       08:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |    ^^ [Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops](../talks/130) |                     ^^ |                   ^^ |                        ^^ |
-|       10:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       10:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       11:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                            ^^ [Track Q&A Panel: Open Science #1](./qa_panels#opensci-1) |                     ^^ |                   ^^ |                        ^^ |
-|       11:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 12:00-17:00 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                    ^^ Tutorial Office Hours, Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
-|       18:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       18:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       19:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                 ^^ Track Q&A Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
-|       19:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                  ^^ [Tutorial Office Hours, Panel: Dashboards for PyData](../talks/299) |                     ^^ |                   ^^ |                        ^^ |
-|       21:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       21:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       22:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                     ^^ [Track Q&A Panel: Data Visualization and Interpretability #2](./qa_panels#viz-2) |                     ^^ |                   ^^ |                        ^^ |
-|       22:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-
+|                                 Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
+| :---------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
+|       <span day="12" time="03:30"></span> | {: .talks }                                            [Talks released](./talk_release_schedule#nov-12) |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="04:00-07:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                 ^^ Track Q&A Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |    ^^ [Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops](../talks/130) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                            ^^ [Track Q&A Panel: Open Science #1](./qa_panels#opensci-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="12:00-17:00"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                    ^^ Tutorial Office Hours, Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                 ^^ Track Q&A Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                  ^^ [Tutorial Office Hours, Panel: Dashboards for PyData](../talks/299) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                     ^^ [Track Q&A Panel: Data Visualization and Interpretability #2](./qa_panels#viz-2) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
 
 ## Friday :jack_o_lantern:, November 13th
 
 {: .schedule-global }
 
-|   Time (UTC)|                                                                                                                      Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
-| :---------: | :----------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                                                         [Talks released](./talk_release_schedule#nov-13) |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 04:00-07:30 |                                                                                                                                      |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       08:00 | {: .major }                                                                                                                          |                        |                      |                           |
-|          ^^ |                                                         ^^ [Track Q&A Panel: Causal and Statistical Methods #1](./qa_panels#stats-1) |                     ^^ |                   ^^ |                        ^^ |
-|       08:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:00 | {: .tutorial }                                                                                                                       |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |    ^^ [Tutorial Office Hours, Beautiful (ML) Data: Patterns & Best Practice for effective Data solutions with PyTorch](../talks/187) |                     ^^ |                   ^^ |                        ^^ |
-|       10:00 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       10:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       11:00 | {: .major }                                                                                                                          |                        |                      |                           |
-|          ^^ |                                                               ^^ [Track Q&A Panel: Lessons from Industry #2](./qa_panels#industry-2) |                     ^^ |                   ^^ |                        ^^ |
-|       11:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 12:00-16:00 |                                                                                                                                      |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       16:30 | {: .major }                                                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                               ^^ Keynote Watch Party |                     ^^ |                   ^^ |                        ^^ |
-|       17:00 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:30 | {: .major }                                                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                             ^^ Keynote Fireside chat |                     ^^ |                   ^^ |                        ^^ |
-|       18:00 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       18:30 |                                                                                                                                      |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       19:00 | {: .major }                                                                                                                          |                        |                      |                           |
-|          ^^ |                                                              ^^ [Track Q&A Panel: Data Science in Production #1](./qa_panels#prod-1) |                     ^^ |                   ^^ |                        ^^ |
-|       19:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:00 | {: .tutorial }                                                                                                                       |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                             ^^ [Tutorial Office Hours, Why and What If – Causal Analysis for Everyone](../talks/170) |                     ^^ |                   ^^ |                        ^^ |
-|       21:00 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       21:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       22:00 | {: .major }                                                                                                                          |                        |                      |                           |
-|          ^^ |                                                                             ^^ [Track Q&A Panel: Open Science #2](./qa_panels#viz-2) |                     ^^ |                   ^^ |                        ^^ |
-|       22:30 |                                                                                                                                   ^^ |                        |                      |                           |
-|          ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
-
+|                                 Time (UTC)|                                                                                                                      Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
+| :---------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
+|       <span day="12" time="03:30"></span> | {: .talks }                                                                         [Talks released](./talk_release_schedule#nov-13) |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="04:00-07:30"></span> |                                                                                                                                      |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:00"></span> | {: .major }                                                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                         ^^ [Track Q&A Panel: Causal and Statistical Methods #1](./qa_panels#stats-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:00"></span> | {: .tutorial }                                                                                                                       |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |    ^^ [Tutorial Office Hours, Beautiful (ML) Data: Patterns & Best Practice for effective Data solutions with PyTorch](../talks/187) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:00"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:00"></span> | {: .major }                                                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                               ^^ [Track Q&A Panel: Lessons from Industry #2](./qa_panels#industry-2) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="12:00-16:00"></span> |                                                                                                                                      |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="16:30"></span> | {: .major }                                                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                               ^^ Keynote Watch Party |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:00"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:30"></span> | {: .major }                                                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                             ^^ Keynote Fireside chat |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:00"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:30"></span> |                                                                                                                                      |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:00"></span> | {: .major }                                                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                              ^^ [Track Q&A Panel: Data Science in Production #1](./qa_panels#prod-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:00"></span> | {: .tutorial }                                                                                                                       |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                             ^^ [Tutorial Office Hours, Why and What If – Causal Analysis for Everyone](../talks/170) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:00"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:00"></span> | {: .major }                                                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                             ^^ [Track Q&A Panel: Open Science #2](./qa_panels#viz-2) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:30"></span> |                                                                                                                                   ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                                                   ^^ |                     ^^ |                   ^^ |                        ^^ |
 
 ## Saturday, November 14th
 
 {: .schedule-global }
 
-|   Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
-| :---------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                            [Talks released](./talk_release_schedule#nov-14) |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 04:00-07:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       08:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                              ^^ [Track Q&A Panel: Miscellaneous #1](./qa_panels#misc-1) |                     ^^ |                   ^^ |                        ^^ |
-|       08:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |          ^^ [Tutorial Office Hours, A Gentle Introduction to Multi-Objective Optimisation](../talks/82) |                     ^^ |                   ^^ |                        ^^ |
-|       10:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       10:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       11:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                ^^ [Track Q&A Panel: Data Science in Production #2](./qa_panels#prod-2)  |                     ^^ |                   ^^ |                        ^^ |
-|       11:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       12:00 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       12:30 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                                                                                      ^^ Lightning Talks |                     ^^ |                   ^^ |                        ^^ |
-|       13:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 13:30-16:30 |                                                                                                         |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |          ^^ [Tutorial Office Hours, Exploratory Data Analysis with Pandas and Matplotlib](../talks/363) |                     ^^ |                   ^^ |                        ^^ |
-|       18:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       18:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       19:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                ^^ [Track Q&A Panel: Miscellaneous & Algorithmic Accountability](./qa_panels#misc-acc-1) |                     ^^ |                   ^^ |                        ^^ |
-|       19:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:00 | {: .tutorial }                                                                                          |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |         ^^ [Tutorial Office Hours, From 0 to Virtual Assistant (now with Human Handoff!)](../talks/177) |                     ^^ |                   ^^ |                        ^^ |
-|       21:00 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       21:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       22:00 | {: .major }                                                                                             |                        |                      |                           |
-|          ^^ |                            ^^ [Track Q&A Panel: Causal and Statistical Methods #2](./qa_panels#stats-2) |                     ^^ |                   ^^ |                        ^^ |
-|       22:30 |                                                                                                      ^^ |                        |                      |                           |
-|          ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|                                 Time (UTC)|                                                                                         Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
+| :---------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
+|       <span day="12" time="03:30"></span> | {: .talks }                                            [Talks released](./talk_release_schedule#nov-14) |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="04:00-07:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                              ^^ [Track Q&A Panel: Miscellaneous #1](./qa_panels#misc-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |          ^^ [Tutorial Office Hours, A Gentle Introduction to Multi-Objective Optimisation](../talks/82) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                ^^ [Track Q&A Panel: Data Science in Production #2](./qa_panels#prod-2)  |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="12:00"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="12:30"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                                                                                      ^^ Lightning Talks |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="13:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="13:30-16:30"></span> |                                                                                                         |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |          ^^ [Tutorial Office Hours, Exploratory Data Analysis with Pandas and Matplotlib](../talks/363) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                ^^ [Track Q&A Panel: Miscellaneous & Algorithmic Accountability](./qa_panels#misc-acc-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:00"></span> | {: .tutorial }                                                                                          |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |         ^^ [Tutorial Office Hours, From 0 to Virtual Assistant (now with Human Handoff!)](../talks/177) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:00"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:00"></span> | {: .major }                                                                                             |                        |                      |                           |
+|                                        ^^ |                            ^^ [Track Q&A Panel: Causal and Statistical Methods #2](./qa_panels#stats-2) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:30"></span> |                                                                                                      ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                                      ^^ |                     ^^ |                   ^^ |                        ^^ |
 
 ## Sunday, November 15th
 
 {: .schedule-global }
 
-|   Time (UTC)|                                                                               Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
-| :---------: | :-------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
-|       03:30 | {: .talks }                                  [Talks released](./talk_release_schedule#nov-15) |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 04:00-07:30 |                                                                                               |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       08:00 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                                                                       ^^ Track Q&A Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
-|       08:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:00 | {: .tutorial }                                                                                |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       09:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ | ^^ [Tutorial Office Hours, Mine your own data - Analyze your Facebook Timeline](../talks/322) |                     ^^ |                   ^^ |                        ^^ |
-|       10:00 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       10:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       11:00 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                                    ^^ [Track Q&A Panel: Miscellaneous #2](./qa_panels#misc-2) |                     ^^ |                   ^^ |                        ^^ |
-|       11:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-| 12:00-15:00 |                                                                                               |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       15:30 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                                                                            ^^ Lightning Talks |                     ^^ |                   ^^ |                        ^^ |
-|       16:00 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       16:30 |                                                                                               |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       17:00 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                                                                        ^^ Keynote Watch Party |                     ^^ |                   ^^ |                        ^^ |
-|       17:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       18:00 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                                                                      ^^ Keynote Fireside chat |                     ^^ |                   ^^ |                        ^^ |
-|       18:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       19:00 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                       ^^ [Track Q&A Panel: Data Science in Production #3](./qa_panels#prod-3) |                     ^^ |                   ^^ |                        ^^ |
-|       19:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:00 | {: .tutorial }                                                                                |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       20:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                 ^^ [Tutorial Office Hours, Scaling Up Your Data Work With Dask](../talks/338) |                     ^^ |                   ^^ |                        ^^ |
-|       21:00 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       21:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
-|       22:00 | {: .major }                                                                                   |                        |                      |                           |
-|          ^^ |                           ^^ [Track Q&A Panel: Algorithmic Accountability](./qa_panels#acc-1) |                     ^^ |                   ^^ |                        ^^ |
-|       22:30 |                                                                                            ^^ |                        |                      |                           |
-|          ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|                                 Time (UTC)|                                                                               Major Events    | Extracurriculars (TBD) | Sponsor Events (TBD) | Talk Watch Parties (TBD)  |
+|                               :---------: | :-------------------------------------------------------------------------------------------: | :--------------------: | :------------------: | :-----------------------: |
+|       <span day="12" time="03:30"></span> | {: .talks }                                  [Talks released](./talk_release_schedule#nov-15) |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="04:00-07:30"></span> |                                                                                               |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:00"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                                                                       ^^ Track Q&A Panel: TBD |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="08:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:00"></span> | {: .tutorial }                                                                                |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="09:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ | ^^ [Tutorial Office Hours, Mine your own data - Analyze your Facebook Timeline](../talks/322) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:00"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="10:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:00"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                                    ^^ [Track Q&A Panel: Miscellaneous #2](./qa_panels#misc-2) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="11:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+| <span day="12" time="12:00-15:00"></span> |                                                                                               |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="15:30"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                                                                            ^^ Lightning Talks |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="16:00"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="16:30"></span> |                                                                                               |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:00"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                                                                        ^^ Keynote Watch Party |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="17:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:00"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                                                                      ^^ Keynote Fireside chat |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="18:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:00"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                       ^^ [Track Q&A Panel: Data Science in Production #3](./qa_panels#prod-3) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="19:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:00"></span> | {: .tutorial }                                                                                |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="20:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                 ^^ [Tutorial Office Hours, Scaling Up Your Data Work With Dask](../talks/338) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:00"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="21:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:00"></span> | {: .major }                                                                                   |                        |                      |                           |
+|                                        ^^ |                           ^^ [Track Q&A Panel: Algorithmic Accountability](./qa_panels#acc-1) |                     ^^ |                   ^^ |                        ^^ |
+|       <span day="12" time="22:30"></span> |                                                                                            ^^ |                        |                      |                           |
+|                                        ^^ |                                                                                            ^^ |                     ^^ |                   ^^ |                        ^^ |
+
+<script type="text/javascript">
+    {% include timezone-picker.js %}
+</script>
