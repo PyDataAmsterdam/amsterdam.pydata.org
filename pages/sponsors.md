@@ -123,12 +123,17 @@ We’re a diverse collection of people, reimagining what’s possible to help us
 
 We solve real-world problems for hundreds of thousands of colleagues and millions of customers worldwide, whether they choose to shop with us in store or online. The work we do is critical to the business, and we’re looking to broaden our teams to help us to iterate, innovate and deliver more quickly.
 
+---
+
+[![image](../assets/images/sponsors/centene.png){: class="sponsor-image sponsor-image-right" style="height: 110px"}](https://www.centene.com)
+
+**Centene Corporation**, a Fortune 50 company, is a leading multi-national healthcare enterprise that is committed to helping people live healthier lives. The Company takes a local approach – with local brands and local teams – to provide fully integrated, high-quality, and cost-effective services to government-sponsored and commercial healthcare programs, focusing on under-insured and uninsured individuals. Centene offers affordable and high-quality products to nearly 1 in 15 individuals across the United States, including Medicaid and Medicare members (including Medicare Prescription Drug Plans) as well as individuals and families served by the Health Insurance Marketplace, the TRICARE program, and individuals in correctional facilities.
 
 ---
 
 # Sprint sponsors
 
-[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://newsroom.heb.com/)
+[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://newsroom.heb.com/)
 
 **H-E-B** is a privately-held grocery retailer headquartered in San Antonio, Texas. With more than 400 stores in Texas and Mexico across its H-E-B, Central Market, Joe V’s, and Mi Tienda brands, the company is among the largest private companies in the United States. In 2018 H-E-B acquired grocery delivery service Favor and is making its digital offerings a core component of its continued expansion. H-E-B is known throughout Texas as a generous supporter of the local communities in which it does business — the company proudly donates 5% of its pre-tax profits to charity.
 
@@ -136,6 +141,6 @@ We solve real-world problems for hundreds of thousands of colleagues and million
 
 # Supporting sponsors
 
-[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-left" style="height: 80px"}](https://www.manning.com/)
+[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-right" style="height: 80px"}](https://www.manning.com/)
 
 **Manning** is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.
