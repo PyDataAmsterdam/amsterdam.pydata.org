@@ -41,6 +41,7 @@ title: Q&A Panels
 * **[Monitoring machine learning models in production](../talks/182)**, by Arnaud Van Looveren
 * **[Better Code for Data Science](../talks/88)**, by Alexander CS Hendorf
 * **[Thrifty Machine Learning](../talks/219)**, by Rebecca Bilbro
+* **[Parallel processing in Python: The current landscape](../talks/377)**, by Aaron Richter
 
 <div class="panel-anchor" id="prod-2"></div>
 ## Panel #2
@@ -65,7 +66,7 @@ title: Q&A Panels
 * **[Is a neural network better than Ash at detecting Team Rocket? If so, how?](../talks/58)**, by Juan De Dios Santos
 * **[TimeSeries Forecasting with ML Algorithms and there comparisons](../talks/51)**, by Sonam Pankaj
 * **[Autonomous Vehicles See More With Thermal Imaging: Multi-modal thin cross section Object Detection](../talks/286)**, by Laisha Wadhwa
-* **[Visions: An Open-Source Library for Semantic Data](../talks/361)**, by Ian Eaves
+* **[Visions: An Open-Source Library for Semantic Data](../talks/361)**, by Ian Eaves and Simon Brugman
 
 <div class="panel-anchor" id="viz-2"></div>
 ## Panel #2
