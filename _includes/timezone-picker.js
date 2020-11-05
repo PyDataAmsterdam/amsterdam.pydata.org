@@ -27,7 +27,8 @@ var recallTimezone = function() {
 var updateTimezone = function(newTimezone) {
   // Localize every row in the schedule
   $(".schedule-global tbody tr td:first-child span").each(function(index) {
-    const day = `2020-11-${$(this).attr("day")}`
+    const dayString = $(this).attr("day")
+    const day = `2020-11-${dayString.length == 1 ? '0' : ''}${dayString}`
     const utcTime = $(this).attr("time");
     const rx = /[0-2][0-9]:[0-5][0-9]/g;
     const newText = utcTime.replace(rx, t => localize(day, t, newTimezone));

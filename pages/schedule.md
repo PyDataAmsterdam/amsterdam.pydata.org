@@ -106,6 +106,16 @@ table.schedule-global tfoot td {
     </select>
 </div>
 
+## Saturday, November 7th
+
+{: .schedule-global }
+
+|                                Time (UTC) |                                 Major Events |
+| :---------------------------------------: | :------------------------------------------: |
+|  <span day="7" time="08:00-16:00"></span> | {: .major } Humble Data Workshop - Session 1 |
+|  <span day="7" time="16:00-23:59"></span> | {: .major } Humble Data Workshop - Session 2 |
+
+
 ## Wednesday, November 11th
 
 {: .schedule-global }
