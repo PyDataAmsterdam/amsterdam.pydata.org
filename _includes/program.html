@@ -5,6 +5,7 @@
 {% assign sprints = sorted_talks | where:'kind', 'Sprint' %}
 {% assign short_talks = sorted_talks | where:'kind', 'Short talk' %}
 {% assign posters = sorted_talks | where:'kind', 'Poster' %}
+{% assign extracurriculars = sorted_talks | where:'kind', 'Extracurricular' %}
 
 
 <h1>Keynotes</h1>
@@ -56,6 +57,15 @@
 <ul>
 
   {% for talk in sprints %}
+    <li>
+      <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>
+    </li>
+  {% endfor %}
+</ul>
+<h1>Extracurriculars</h1>
+<ul>
+
+  {% for talk in extracurriculars %}
     <li>
       <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>
     </li>
