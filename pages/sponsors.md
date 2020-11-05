@@ -78,32 +78,38 @@ For over a century, **IBM** has led world-changing progress by relentlessly rein
 
 ---
 
+[![image](../assets/images/sponsors/rstudio.png){: class="sponsor-image sponsor-image-left" style="height: 120px;"}](https://rstudio.com/)
+
+**RStudio** open source and enterprise-ready, professional software combines robust and reproducible data analysis with tools to effectively share data products. Our flagship professional products RStudio Server Pro, RStudio Connect, and RStudio Package Manager equip professional data science teams to develop and share their work at scale.
+
+---
+
 # Gold sponsors
-[![image](../assets/images/sponsors/two_sigma.png){: class="sponsor-image sponsor-image-left" style="height: 85px"}](https://opensource.twosigma.com)
+[![image](../assets/images/sponsors/two_sigma.png){: class="sponsor-image sponsor-image-right" style="height: 85px"}](https://opensource.twosigma.com)
 
 At **Two Sigma**, we use Open Source Software, and we’re passionate about giving back to the programming community. We want to make sure that the OSS projects that we and so many others rely on will still be functional far into the future. Supporting OSS can take many forms: making substantial contributions to projects we use regularly, open sourcing tools we’ve developed in house, and financially sponsoring non-profits that contribute to a healthy open source ecosystem. That’s why we are a Corporate Partner of NumFOCUS. Two Sigma is proud to support NumFOCUS sponsored projects pandas and Jupyter.
 
 ---
 
-[![image](../assets/images/sponsors/ing.png){: class="sponsor-image sponsor-image-right" style="height: 250px"}](https://www.ing.nl/careers)
+[![image](../assets/images/sponsors/ing.png){: class="sponsor-image sponsor-image-left" style="height: 250px"}](https://www.ing.nl/careers)
 
 **ING** is a pioneer in digital banking and on the forefront being one of the most innovative banks in the world. As ING we have a clear purpose that represents our conviction of people’s potential. We don’t judge, coach, or to tell people how to live their lives. However big or small, modest or grand, we empower people and businesses to realize their vision for a better future. We made the promise to make banking frictionless, removing barriers to progress, and make people confident in their financial decisions. As a global bank we have a huge opportunity – and responsibility – to make an impact for the better. We can play a role by financing change, sharing knowledge, and innovating. Being sustainable is in all the choices we make—as a lender, as a partner and through the services we offer our customers
 
 ---
 
-[![image](../assets/images/sponsors/neo4j.png){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://neo4j.com)
+[![image](../assets/images/sponsors/neo4j.png){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://neo4j.com)
 
 **Neo4j** is the world’s leading graph database. It helps the Intelligence Community build applications to meeting today’s evolving data challenges including artificial intelligence, network/IT resource management, identity and access management, supply chain management, real-time recommendations, criminal investigations, cyber security and master data management.
 
 ---
 
-[![image](../assets/images/sponsors/dataiku.png){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://www.dataiku.com/)
+[![image](../assets/images/sponsors/dataiku.png){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://www.dataiku.com/)
 
 **Dataiku** is one of the world’s leading AI and machine learning platforms, supporting agility in organizations’ data efforts via collaborative, elastic, and responsible AI, all at enterprise scale. At its core, Dataiku believes that in order to stay relevant in today’s changing world, companies need to harness Enterprise AI as a widespread organizational asset instead of siloing it into a specific team or role. To make this a reality, Dataiku provides one simple UI for data wrangling, mining, visualization, machine learning, and deployment based on a collaborative and team-based user interface accessible to anyone on a data team, from data scientist to beginner analyst.
 
 ---
 
-[![image](../assets/images/sponsors/apple.png){: class="sponsor-image sponsor-image-left" style="height: 180px; margin-top: -10px;"}](https://www.apple.com/jobs/us/teams/machine-learning-and-ai.html)
+[![image](../assets/images/sponsors/apple.png){: class="sponsor-image sponsor-image-right" style="height: 180px; margin-top: -10px;"}](https://www.apple.com/jobs/us/teams/machine-learning-and-ai.html)
 
 **Apple**
 
@@ -111,13 +117,13 @@ We’re a diverse collection of people, reimagining what’s possible to help us
 
 ---
 
-[![image](../assets/images/sponsors/elm.jpg){: class="sponsor-image sponsor-image-right" style="height: 230px"}](https://www.elm.sa/en/Pages/default.aspx)
+[![image](../assets/images/sponsors/elm.jpg){: class="sponsor-image sponsor-image-left" style="height: 230px"}](https://www.elm.sa/en/Pages/default.aspx)
 
 **Elm** is a leading company in digital transformation through a strategy based on innovation as a main pillar that delivers an integrated delightful customer experience through consultations, business & technical solutions, customized or on the shelf as well as outsourcing for both public and private sectors in many different fields, such as transportation, health, municipalities, commerce and others. Therefore, easing people’s lives by enhancing procedures and digitizing processes in the rapidly changing business world.
 
 ---
 
-[![image](../assets/images/sponsors/tesco.png){: class="sponsor-image sponsor-image-left" style="height: 170px"}](https://www.tesco-careers.com/technology/)
+[![image](../assets/images/sponsors/tesco.png){: class="sponsor-image sponsor-image-right" style="height: 170px"}](https://www.tesco-careers.com/technology/)
 
 **Tesco Technology**
 
@@ -125,15 +131,29 @@ We solve real-world problems for hundreds of thousands of colleagues and million
 
 ---
 
-[![image](../assets/images/sponsors/centene.png){: class="sponsor-image sponsor-image-right" style="height: 110px"}](https://www.centene.com)
+[![image](../assets/images/sponsors/centene.png){: class="sponsor-image sponsor-image-left" style="height: 100px"}](https://www.centene.com)
 
 **Centene Corporation**, a Fortune 50 company, is a leading multi-national healthcare enterprise that is committed to helping people live healthier lives. The Company takes a local approach – with local brands and local teams – to provide fully integrated, high-quality, and cost-effective services to government-sponsored and commercial healthcare programs, focusing on under-insured and uninsured individuals. Centene offers affordable and high-quality products to nearly 1 in 15 individuals across the United States, including Medicaid and Medicare members (including Medicare Prescription Drug Plans) as well as individuals and families served by the Health Insurance Marketplace, the TRICARE program, and individuals in correctional facilities.
 
 ---
 
+[![image](../assets/images/sponsors/colruyt.png){: class="sponsor-image sponsor-image-right" style="height: 95px; margin-bottom: 10px;"}](https://www.colruytgroup.com/wps/portal/cg/en/home)
+
+**Colruyt Group** is a family of companies. We include numerous retail chains, brands and business activities. We are flourishing in four different countries: Belgium, Luxembourg, France, and India. As a retail group, we are aware of the value of data and mark analytics and insights as a core capability. Within our Business Analytics and Insights division, we leverage the power of open source libraries on a daily basis. Libraries such as Jupyter, pandas, NumPy, and Matplotlib aid us in building forecasting models, recommendation systems and researching the next steps in data analytics for our retail business.
+
+---
+
+# Silver sponsors
+
+[![image](../assets/images/sponsors/infoteam.png){: class="sponsor-image sponsor-image-left" style="height: 120px"}](https://infoteam.de/en/)
+
+infoteam Software Group has been implementing unique software solutions for their customers in industry, infrastructure, life science and public service markets for almost 40 years. Twenty years ago, we’ve started implementing machine learning solutions and meanwhile we have our own data science division to fulfill the customers needs in this rising area. infoteam Software Group employs more than 300 people and has offices and subsidiaries in Germany, the Czech Republic, Switzerland and China.
+
+---
+
 # Sprint sponsors
 
-[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://newsroom.heb.com/)
+[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://newsroom.heb.com/)
 
 **H-E-B** is a privately-held grocery retailer headquartered in San Antonio, Texas. With more than 400 stores in Texas and Mexico across its H-E-B, Central Market, Joe V’s, and Mi Tienda brands, the company is among the largest private companies in the United States. In 2018 H-E-B acquired grocery delivery service Favor and is making its digital offerings a core component of its continued expansion. H-E-B is known throughout Texas as a generous supporter of the local communities in which it does business — the company proudly donates 5% of its pre-tax profits to charity.
 
@@ -141,6 +161,6 @@ We solve real-world problems for hundreds of thousands of colleagues and million
 
 # Supporting sponsors
 
-[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-right" style="height: 80px"}](https://www.manning.com/)
+[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-left" style="height: 80px"}](https://www.manning.com/)
 
 **Manning** is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.
