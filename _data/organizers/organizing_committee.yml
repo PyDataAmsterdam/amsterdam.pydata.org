@@ -90,6 +90,13 @@
   github_url: https://github.com/mrkazmi333
   image: /assets/images/organizers/motasim_kazmi.jpg
 
+- name: AJ Khan
+  desc: Automation Engineer @ Dega Systems, Organizer @ The New York Python Meetup, and always up to solve problems with tech.
+  linkedin_url: https://www.linkedin.com/in/akhan22/
+  github_url: https://github.com/ak9999
+  website_url: https://blog.ajkhan.me/
+  image: /assets/images/organizers/aj_khan.jpg
+
 - name: Rakshit Kharbanda
   desc: Rakshit Kharbanda is an undergrad pursuing Bachelors of Technology in Electronics. He is a Tech-Enthusiast who takes a keen interest in Robotics & Designing.
   linkedin_url: https://www.linkedin.com/in/rakshit-kharbanda-a4a420187
@@ -139,6 +146,12 @@
   github_url: https://github.com/rikturr
   website_url: https://rikturr.com/
   image: /assets/images/organizers/aaron_richter.jpg
+
+- name: Nancy Woo
+  desc: Nancy works at CVS Health, where she serves as a product manager and strategist to utilize data to shift people’s behaviors and make members healthier. In her free time, she enjoys traveling (not during a pandemic), learning, and watching sports.
+  linkedin_url: https://www.linkedin.com/in/nancyw19/
+  image: /assets/images/organizers/nancy_w.jpg
+
 
 - name: Nancy Woo
   desc: Nancy works at CVS Health, where she serves as a product manager and strategist to utilize data to shift people’s behaviors and make members healthier. In her free time, she enjoys traveling (not during a pandemic), learning, and watching sports.
