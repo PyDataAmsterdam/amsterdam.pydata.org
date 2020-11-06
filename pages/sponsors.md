@@ -117,7 +117,7 @@ We’re a diverse collection of people, reimagining what’s possible to help us
 
 ---
 
-[![image](../assets/images/sponsors/elm.jpg){: class="sponsor-image sponsor-image-left" style="height: 230px"}](https://www.elm.sa/en/Pages/default.aspx)
+[![image](../assets/images/sponsors/elm.jpg){: class="sponsor-image sponsor-image-left" style="height: 230px; margin-top: 0px; top: -15px;"}](https://www.elm.sa/en/Pages/default.aspx)
 
 **Elm** is a leading company in digital transformation through a strategy based on innovation as a main pillar that delivers an integrated delightful customer experience through consultations, business & technical solutions, customized or on the shelf as well as outsourcing for both public and private sectors in many different fields, such as transportation, health, municipalities, commerce and others. Therefore, easing people’s lives by enhancing procedures and digitizing processes in the rapidly changing business world.
 
@@ -143,9 +143,17 @@ We solve real-world problems for hundreds of thousands of colleagues and million
 
 ---
 
+[![image](../assets/images/sponsors/quansight.png){: class="sponsor-image sponsor-image-left" style="height: 100px; margin-top: 20px; margin-bottom: 30px;"}](https://www.quansight.com/)
+
+**QuanSight**
+
+We Build and Connect Companies and Communities to Solve Challenging Problems with Data. We run Open Source Connections, Open Source Partnerships, and Quansight Labs which provides full-time employment for PyData core developers.
+
+---
+
 # Silver sponsors
 
-[![image](../assets/images/sponsors/infoteam.png){: class="sponsor-image sponsor-image-left" style="height: 120px"}](https://infoteam.de/en/)
+[![image](../assets/images/sponsors/infoteam.png){: class="sponsor-image sponsor-image-right" style="height: 120px"}](https://infoteam.de/en/)
 
 infoteam Software Group has been implementing unique software solutions for their customers in industry, infrastructure, life science and public service markets for almost 40 years. Twenty years ago, we’ve started implementing machine learning solutions and meanwhile we have our own data science division to fulfill the customers needs in this rising area. infoteam Software Group employs more than 300 people and has offices and subsidiaries in Germany, the Czech Republic, Switzerland and China.
 
@@ -153,7 +161,7 @@ infoteam Software Group has been implementing unique software solutions for thei
 
 # Sprint sponsors
 
-[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-right" style="height: 150px"}](https://newsroom.heb.com/)
+[![image](../assets/images/sponsors/heb.jpg){: class="sponsor-image sponsor-image-left" style="height: 150px"}](https://newsroom.heb.com/)
 
 **H-E-B** is a privately-held grocery retailer headquartered in San Antonio, Texas. With more than 400 stores in Texas and Mexico across its H-E-B, Central Market, Joe V’s, and Mi Tienda brands, the company is among the largest private companies in the United States. In 2018 H-E-B acquired grocery delivery service Favor and is making its digital offerings a core component of its continued expansion. H-E-B is known throughout Texas as a generous supporter of the local communities in which it does business — the company proudly donates 5% of its pre-tax profits to charity.
 
@@ -161,6 +169,6 @@ infoteam Software Group has been implementing unique software solutions for thei
 
 # Supporting sponsors
 
-[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-left" style="height: 80px"}](https://www.manning.com/)
+[![image](../assets/images/sponsors/manning.png){: class="sponsor-image sponsor-image-right" style="height: 80px"}](https://www.manning.com/)
 
 **Manning** is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.
