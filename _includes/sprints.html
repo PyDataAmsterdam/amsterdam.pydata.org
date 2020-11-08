@@ -1,0 +1,14 @@
+{% assign sorted_talks = site.talks | sort: "title" %}
+{% assign sprints = sorted_talks | where:'kind', 'Sprint' %}
+
+
+<hr/>
+
+<div class="talk-markdown-container">
+    {% for talk in sprints %}
+        <div>
+            {{ talk.content | markdownify }}
+            <hr/>
+        </div>
+    {% endfor %}
+</div>
