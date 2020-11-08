@@ -3846,3 +3846,8 @@
     height: 70%;
     display: inline-block;
 }
+
+.talk-markdown-container img {
+    max-width: 250px;
+    max-height: 250px;
+}
