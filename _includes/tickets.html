@@ -306,7 +306,7 @@
         for (const [priceName, priceInfo] of prices.entries()) {
             const floor = priceInfo.floor
             // Default is US prices.
-            var scale = countryScale.has(countryCode) ? countryScale.get(countryCode).value : 1.0;
+            var scale = countryScale.has(countryCode) ? countryScale.get(countryCode).value : 0.5;
             const newPrice = Math.max(
                 nearestFive((priceInfo.ceil * baseScale) * scale),
                 floor,
