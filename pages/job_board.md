@@ -125,11 +125,11 @@ We solve real-world problems for hundreds of thousands of colleagues and million
 
 ## [Data Science Manager](https://apply.tesco-careers.com/members/modules/job/detail.php?record=587929)
 
-Here at Tesco we focus on solving complex business problems and developing data products that can be deployed at scale. Our work spans across multiple areas including Stores, Online, Fulfilment, Marketing and Clubcard and we encourage rotation amongst our Data Scientists so they can apply their skills to different business challenges and gain deeper levels of subject matter expertise.
+As a Data Science Manager you will own your technical domain and lead technical engagements with multiple business units. You will line manage Data Scientists, help to define the strategic direction the projects should take, trading off between contradicting priorities, and communicate complex solutions in a clear, understandable way to non-experts.
 
-## [Data Scientist (Machine Learning)](https://apply.tesco-careers.com/members/modules/job/detail.php?record=580629)
+## [Data Scientist (Machine Learning)](https://www.tesco-careers.com/jobdetails/598774/)
 
-Here at Tesco we focus on solving complex business problems and developing data products that can be deployed at scale. Our work spans across multiple areas including Stores, Online, Fulfilment, Marketing and Clubcard and we encourage rotation amongst our Data Scientists so they can apply their skills to different business challenges and gain deeper levels of subject matter expertise.
+This is a hands-on position where you will need to leverage your analytical mindset to find solutions to complex business problems. As a Data Scientist, you will apply, modify and design algorithms and mathematical models on top of big data architectures (Hadoop, Spark) coding in Python.
 
 ## [Head of Data Science Engineering](https://www.linkedin.com/jobs/view/2205271925/)
 
@@ -139,7 +139,7 @@ As Head of Data Science Engineering within Data & Analytics you'll drive the tec
 
 The Software Developer Manager (SDM) will lead a team of engineers that work on the end to end pipelines of our data products, inside a wider data science team. The candidate should have great communication skills and be pro-active. You would work for the team, to eliminate the obstacles, as well as take responsibility for successful software delivery.
 
-## [Machine Learning Engineer](https://www.linkedin.com/jobs/view/2150904954/)
+## [Machine Learning Engineer](https://www.linkedin.com/jobs/view/2260006862/)
 
 This is a hands-on role where the engineer will be responsible for putting into production data science solutions, machine learning or other mathematical models. You will be able to work on the whole end to end pipeline of our data products, building ETL for modelling purposes,  model training, monitoring and alerting solutions.
 
