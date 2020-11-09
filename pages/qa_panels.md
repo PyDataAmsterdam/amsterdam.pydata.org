@@ -9,8 +9,15 @@ title: Q&A Panels
     top: -50px;
 }
 </style>
-<div class="panel-anchor" id="acc-1"></div>
 # Algorithmic Accountability
+<div class="panel-anchor" id="acc-1"></div>
+## Panel #1
+* **[Safe, Fair and Ethical AI - A Practical Framework](../talks/240)**, by Tariq Rashid
+* **[Meditations on First Deployment: A Practical Guide to Responsible Data Science & Engineering](../talks/280)**, by Alejandro Saucedo
+* **[Responsible ML in Production](../talks/275)**, by Catherine Nelson and Hannes Hapke
+
+<div class="panel-anchor" id="acc-2"></div>
+## Panel #2
 * **[What Lies in Word Embeddings](../talks/10)**, by Vincent D. Warmerdam
 * **[Building fairer models for finance](../talks/233)**, by Andrew Weeks
 * **[Games, Algorithms, and Social Good](../talks/208)**, by Manojit Nandi
@@ -128,22 +135,17 @@ title: Q&A Panels
 
 <div class="panel-anchor" id="misc-2"></div>
 ## Panel #2
-* **[Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot](../talks/297)**, by Philipp Rudiger and James A. Bednar
-* **[Supercharge Scientific Computing in Python with Numba](../talks/298)**, by Ankit Mahato
-* **[Inventing Curriculum using Python and spaCy](../talks/303)**, by Gajendra Deshpande
-* **[How to guarantee your machine learning model will fail on first contact with the real world.](../talks/119)**, by Jesper Dramsch
-* **[TBD](../talks/367)**, by James Powell
-
----
-
-<div class="panel-anchor" id="misc-acc-1"></div>
-# Miscellaneous and Algorithmic Accountability
 * **[Taking a Close Look in the Mirror: Data Literacy for Data Experts](../talks/244)**, by Laura J Ludwig
 * **[Complex Network Analysis with NetworkX](../talks/239)**, by K. Jarrod Millman
 * **[Separation of ~concerns~ scales in software](../talks/206)**, by Thomas A Caswell
 * **[Computational Social Science with Python, and how Open Source transforms Academia and Research](../talks/344)**, by Bhargav Srinivasa Desikan
 * **[Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot](../talks/297)**, by Philipp Rudiger and James A. Bednar
-* **[Safe, Fair and Ethical AI - A Practical Framework](../talks/240)**, by Tariq Rashid
-* **[Meditations on First Deployment: A Practical Guide to Responsible Data Science & Engineering](../talks/280)**, by Alejandro Saucedo
-* **[Responsible ML in Production](../talks/275)**, by Catherine Nelson and Hannes Hapke
+
+<div class="panel-anchor" id="misc-3"></div>
+## Panel #3
+* **[Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot](../talks/297)**, by Philipp Rudiger and James A. Bednar
+* **[Supercharge Scientific Computing in Python with Numba](../talks/298)**, by Ankit Mahato
+* **[Inventing Curriculum using Python and spaCy](../talks/303)**, by Gajendra Deshpande
+* **[How to guarantee your machine learning model will fail on first contact with the real world.](../talks/119)**, by Jesper Dramsch
+* **[Modern Time Series Analysis with STUMPY](../talks/7)**, by Sean Law
 
