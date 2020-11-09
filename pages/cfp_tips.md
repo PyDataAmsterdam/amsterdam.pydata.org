@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tips for your proposal
+published: false
 ---
 
 
