@@ -21,6 +21,12 @@
                     {{ page.kind }}
                 </h4>
 
+                {% if page.external_url %}
+                <h4>
+                    <a href="{{ page.external_url }}">Go to NumFOCUS academy page.</a>
+                </h4>
+                {% endif %}
+
                 {{ content }}
 
             </div>
