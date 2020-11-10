@@ -109,6 +109,3 @@ title: Talk Release Schedule
 * **[Building fairer models for finance](../talks/233)**, by Andrew Weeks
 * **[Games, Algorithms, and Social Good](../talks/208)**, by Manojit Nandi
 * **[Open Source Fairness](../talks/380)**, by Aileen Nielsen
-* **[A Gentle Introduction to Multi-Objective Optimisation](../talks/82)**, by Eyal Kazin
-* **[Exploratory Data Analysis with Pandas and Matplotlib](../talks/363)**, by Allen Downey
-* **[From 0 to Virtual Assistant (now with Human Handoff!)](../talks/177)**, by Karen Palacio, Florencia Alonso and Brandon Janes

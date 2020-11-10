@@ -77,8 +77,8 @@ title: Q&A Panels
 * **[Quickly deploying explainable AI dashboards](../talks/5)**, by Oege Dijk
 * **[Is a neural network better than Ash at detecting Team Rocket? If so, how?](../talks/58)**, by Juan De Dios Santos
 * **[TimeSeries Forecasting with ML Algorithms and there comparisons](../talks/51)**, by Sonam Pankaj
-* **[Autonomous Vehicles See More With Thermal Imaging: Multi-modal thin cross section Object Detection](../talks/286)**, by Laisha Wadhwa
 * **[Visions: An Open-Source Library for Semantic Data](../talks/361)**, by Ian Eaves and Simon Brugman
+* **[Autonomous Vehicles See More With Thermal Imaging: Multi-modal thin cross section Object Detection](../talks/286)**, by Laisha Wadhwa
 
 <div class="panel-anchor" id="viz-2"></div>
 ## Panel #2
