@@ -31,6 +31,7 @@ title: Q&A Panels
 * **[Uncertainty Quantification for Online Learning via Hierarchical Incremental Gradient Descent](../talks/100)**, by Vihan Singh
 * **[What cyber security can teach us about COVID-19 testing](../talks/238)**, by Hagit Grushka - Cohen
 * **[Ordinary viDeogame Equations: Winning games with PyMC3, sundials and numba](../talks/267)**, by Adrian Seyboldt
+* **[ML-Based Time Series Regression: 10 concepts we learned from Demand Forecasting](../talks/394)**, by Felix Wick
 
 <div class="panel-anchor" id="stats-2"></div>
 ## Panel #2
@@ -49,6 +50,10 @@ title: Q&A Panels
 * **[Better Code for Data Science](../talks/88)**, by Alexander CS Hendorf
 * **[Thrifty Machine Learning](../talks/219)**, by Rebecca Bilbro
 * **[Parallel processing in Python: The current landscape](../talks/377)**, by Aaron Richter
+* **[Leveraging python and open-source for data-science on the buy-side.](../talks/395)**, by James Munro
+* **[Snap ML: Accelerated, Accurate, Efficient Machine Learning](../talks/397)**, by Haris Pozidis and Thomas Parnell
+* **[Parallel processing in Python: The current landscape](../talks/377)**, by Aaron Richter
+* **[Growing Machine Learning Platforms in the Enterprise](../talks/400)**, by Hussain Sultan and Ben Lindquist
 
 <div class="panel-anchor" id="prod-2"></div>
 ## Panel #2
@@ -140,6 +145,7 @@ title: Q&A Panels
 * **[Separation of ~concerns~ scales in software](../talks/206)**, by Thomas A Caswell
 * **[Computational Social Science with Python, and how Open Source transforms Academia and Research](../talks/344)**, by Bhargav Srinivasa Desikan
 * **[Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot](../talks/297)**, by Philipp Rudiger and James A. Bednar
+* **[Building Large-Scale Multilingual Fuzzy Matching Framework](../talks/396)**, by Abdulrahman Althobaiti
 
 <div class="panel-anchor" id="misc-3"></div>
 ## Panel #3
