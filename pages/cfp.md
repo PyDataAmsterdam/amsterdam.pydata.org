@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Call For Proposals
-subtitle: Deadline&colon; August 2nd
+subtitle: Deadline August 2nd
 subtitle2: Sign up for a <a href="https://www.eventbrite.com/e/pydata-global-proposal-writing-workshops-tickets-113829101908">proposal workshop</a> (space limited)
+published: false
 ---
 
 # [Go directly to the CFP portal](https://pydata.org/global2020/dashboard/)
