@@ -7,6 +7,7 @@
 <div class="talk-markdown-container">
     {% for talk in sprints %}
         <div>
+            <h2>{{ talk.title }}</h2>
             {{ talk.content | markdownify }}
             <hr/>
         </div>
