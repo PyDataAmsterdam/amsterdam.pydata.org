@@ -40,6 +40,8 @@ title: Talk Release Schedule
 * **[Opening the Black Box](../talks/3)**, by Ben Fowler and Chelsey Kate Meise
 * **[Computer shows why: Visualizing deep learning for fun and profit](../talks/226)**, by Eyal Gruss
 * **[Panel: Dashboards for PyData](../talks/299)**, by James A. Bednar
+* **[ML-Based Time Series Regression: 10 concepts we learned from Demand Forecasting](../talks/394)**, by Felix Wick
+* **[Leveraging python and open-source for data-science on the buy-side.](../talks/395)**, by James Munro
 
 ---
 
@@ -61,6 +63,9 @@ title: Talk Release Schedule
 * **[Cardinal: A metrics based Active Learning framework](../talks/139)**, by Alexandre Abraham
 * **[Beautiful (ML) Data: Patterns & Best Practice for effective Data solutions with PyTorch](../talks/187)**, by Valerio Maggio
 * **[Why and What If – Causal Analysis for Everyone](../talks/170)**, by Bruno Gonçalves
+* **[Snap ML: Accelerated, Accurate, Efficient Machine Learning](../talks/397)**, by Haris Pozidis and Thomas Parnell
+* **[Parallel processing in Python: The current landscape](../talks/377)**, by Aaron Richter
+* **[Growing Machine Learning Platforms in the Enterprise](../talks/400)**, by Hussain Sultan and Ben Lindquist
 
 ---
 
@@ -91,6 +96,7 @@ title: Talk Release Schedule
 * **[A Gentle Introduction to Multi-Objective Optimisation](../talks/82)**, by Eyal Kazin
 * **[Exploratory Data Analysis with Pandas and Matplotlib](../talks/363)**, by Allen Downey
 * **[From 0 to Virtual Assistant (now with Human Handoff!)](../talks/177)**, by Karen Palacio, Florencia Alonso and Brandon Janes
+* **[Building Large-Scale Multilingual Fuzzy Matching Framework](../talks/396)**, by Abdulrahman Althobaiti
 
 ---
 
