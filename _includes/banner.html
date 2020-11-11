@@ -5,14 +5,17 @@
                     <img class="logo" src="{{ site.logo }}"/>
                 </h2>
 		<div class="div-center banner-text">{{ site.description | markdownify }}</div>
-		<ul class="actions">
+		<div class="actions">
 			{% if site.cfp_url %}
-			<li><a href={{ site.cfp_url }} class="button special">Submit a proposal</a></li>
+			<a href={{ site.cfp_url }} class="button special">Submit a proposal</a>
 			{% endif %}
 			{% if site.tickets_url %}
-                        <li><a href={{ site.tickets_url }} class="button special">Buy tickets</a></li>
+                        <a href={{ site.tickets_url }} class="button special">Buy tickets</a>
 			{% endif %}
-		</ul>
+			{% if site.quick_start_url %}
+                        <a href={{ site.quick_start_url }} class="button special green">Quick start</a>
+			{% endif %}
+		</div>
 	</div>
 	<a href="#posts" class="more scrolly">Learn More</a>
 </section>

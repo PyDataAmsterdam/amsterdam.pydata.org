@@ -20,6 +20,7 @@ url: "https://global.pydata.org" # the base hostname & protocol for your site
 future: true
 
 tickets_url: pages/tickets.html
+quick_start_url: pages/quick_start
 cfp_url:
 
 dates:

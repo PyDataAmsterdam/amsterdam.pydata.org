@@ -2328,6 +2328,10 @@
 			background-color: #ed9041;
 		}
 
+                .button.special.green {
+                        background-color: #68bb73;
+                }
+
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
