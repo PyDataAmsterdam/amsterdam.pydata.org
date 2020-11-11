@@ -5,6 +5,7 @@
 {% assign sprints = sorted_talks | where:'kind', 'Sprint' %}
 {% assign short_talks = sorted_talks | where:'kind', 'Short talk' %}
 {% assign posters = sorted_talks | where:'kind', 'Poster' %}
+{% assign sponsor_events = sorted_talks | where:'kind', 'Sponsor Event' %}
 {% assign extracurriculars = sorted_talks | where:'kind', 'Extracurricular' %}
 
 
@@ -66,6 +67,15 @@
 <ul>
 
   {% for talk in extracurriculars %}
+    <li>
+      <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>
+    </li>
+  {% endfor %}
+</ul>
+<h1>Sponsor Events</h1>
+<ul>
+
+  {% for talk in sponsor_events %}
     <li>
       <b><a href="{{ talk.url }}">{{ talk.title }}</a></b>
     </li>
