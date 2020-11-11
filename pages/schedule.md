@@ -115,7 +115,9 @@ table.schedule-global tfoot td {
     </select>
 </div>
 
-## Saturday, November 7th
+## [Saturday, November 7th](#sat-7)
+
+<div class="panel-anchor" id="sat-7"></div>
 
 {: .schedule-global }
 
@@ -125,7 +127,8 @@ table.schedule-global tfoot td {
 |  <span day="7" time="16:00-23:59"></span> | {: .major } Humble Data Workshop - Session 2 |
 
 
-## Wednesday, November 11th
+## [Wednesday, November 11th](#wed-11)
+<div class="panel-anchor" id="wed-11"></div>
 
 {: .schedule-global }
 
@@ -210,7 +213,8 @@ table.schedule-global tfoot td {
 |       <span day="11" time="22:30"></span> |                                                                                                         |                                            |                                                                                                            |                                                                                                                                |                                                                                                                                |
 |                                        ^^ |                                                                                                      ^^ |                                         ^^ |                                                                                                         ^^ |                                                                                                                             ^^ |                                                                                                                             ^^ |
 
-## Thursday, November 12th
+## [Thursday, November 12th](#thur-12)
+<div class="panel-anchor" id="thur-12"></div>
 
 {: .schedule-global }
 
@@ -295,7 +299,8 @@ table.schedule-global tfoot td {
 |                                        ^^ |                                                                                                         ^^ |                                                                                                                  ^^ |                                                                                                                                 ^^ |                                                                                                                             ^^ |                                                                                                                             ^^ | 
 
 
-## Friday :jack_o_lantern:, November 13th
+## [Friday :jack_o_lantern:, November 13th](#fri-13)
+<div class="panel-anchor" id="fri-13"></div>
 
 {: .schedule-global }
 
@@ -371,8 +376,9 @@ table.schedule-global tfoot td {
 |                                              ^^ |                                                                                                                                   ^^ |                                                    ^^ (Continues below) |                                                                                                                                                              ^^ |                                                                                                               ^^ |                                                                                                                  |
 
 
+## [Saturday, November 14th](#sat-14)
+<div class="panel-anchor" id="sat-14"></div>
 
-# Saturday, November 14th
 
 {: .schedule-global }
 
@@ -449,7 +455,9 @@ table.schedule-global tfoot td {
 |       <span day="14" time="23:30"></span> |                                                                                                                                                        ||                               ^^ |                                    |                                                                                                                            |                                                                                                                            |
 |                                        ^^ |                                                                                                                                                     ^^ ||                               ^^ |                                 ^^ |                                                                                                                         ^^ |                                                                                                                         ^^ |
 
-## Sunday, November 15th
+
+## [Sunday, November 15th](#sun-15)
+<div class="panel-anchor" id="sun-15"></div>
 
 {: .schedule-global }
 
@@ -524,7 +532,10 @@ table.schedule-global tfoot td {
 |       <span day="15" time="23:30"></span> |                                                                                                             |                                  ^^ |             ^^ (Continues below) |                                                                                                                          |                                                                                                                          |
 |                                        ^^ |                                                                                                          ^^ |                                  ^^ |                               ^^ |                                                                                                                       ^^ |                                                                                                                       ^^ |
 
-## Monday, November 16th
+
+## [Monday, November 16th](#mon-16)
+<div class="panel-anchor" id="mon-16"></div>
+
 
 {: .schedule-global }
 
