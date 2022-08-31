@@ -4,12 +4,8 @@
 		<h2>{{ site.title }}</h2>
 		<p>{{ site.description | markdownify }}</p>
 		<ul class="actions">
-			{% if site.cfp_url %}
-			<li><a href={{ site.cfp_url }} class="button special">Submit a proposal</a></li>
-			{% endif %}
-			{% if site.tickets_url %}
-			<li><a href={{ site.tickets_url }} class="button special">Buy tickets</a></li>
-			{% endif %}
+			<li><a href={{ site.meetup_url }} class="button special">Join meetup</a></li>
+			<li><a href={{ site.email }} class="button special">Contact us</a></li>
 		</ul>
 	</div>
 	<a href="#one" class="more scrolly">Learn More</a>

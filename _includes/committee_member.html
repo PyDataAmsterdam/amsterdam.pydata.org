@@ -1,7 +1,17 @@
 
+
 <li class="p30">
-    <h3>{{ include.name }}</h3>
-    <p>{{ include.desc }}</p>
+    <center>
+    <h4>{{ include.name }} </h4>
+    {{ include.affiliation }}
+    <br>
+    {% if include.pronouns %}
+    <i> ({{include.pronouns}})</i>
+    {% else %}
+    <i>&nbsp;</i>
+    {% endif %}
+
+<!--     
     <ul class="icons" style="list-style: none; margin-bottom: 5px">
          {% if include.twitter_url %}
         <li style="background-color: rgba(0, 0, 0, 0); display: inline;">
@@ -16,5 +26,11 @@
             <a href="{{ include.github_url }}" class="icon fa-github" target="_blank"><span class="label">Twitter</span></a>
         </li>
         {% endif %}
-    </ul>
+        {% if include.email %}
+        <li style="background-color: rgba(0, 0, 0, 0); display: inline">
+            <a href="mailto:{{ include.email }}" class="icon fa" target="_blank"><span class="label">Twitter</span></a>
+        </li>
+        {% endif %}
+    </ul> -->
+</center>
 </li>
