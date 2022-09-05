@@ -19,7 +19,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version:  '2.7'
       - name: Build & Deploy to GitHub Pages
@@ -28,12 +28,15 @@ jobs:
           bundle install
           bundle exec jekyll build
           echo amsterdam.pydata.org >> build/CNAME
-      - uses: actions/upload-artifact@main
-        with:
-          name: site
-          path: build/
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-        with:
-          artifact_name: site
+      - name: find symlinks
+        run: |
+         find build/ -maxdepth 25 -type l -print
+#       - uses: actions/upload-artifact@main
+#         with:
+#           name: site
+#           path: build/
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v1
+#         with:
+#           artifact_name: site
