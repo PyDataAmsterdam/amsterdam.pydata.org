@@ -28,15 +28,12 @@ jobs:
           bundle install
           bundle exec jekyll build
           echo amsterdam.pydata.org >> build/CNAME
-      - name: find symlinks
-        run: |
-         find build/ -maxdepth 25 -type l -print
-#       - uses: actions/upload-artifact@main
-#         with:
-#           name: site
-#           path: build/
-#       - name: Deploy to GitHub Pages
-#         id: deployment
-#         uses: actions/deploy-pages@v1
-#         with:
-#           artifact_name: site
+      - uses: actions/upload-artifact@main
+        with:
+          name: site
+          path: build/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+        with:
+          artifact_name: site
