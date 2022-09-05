@@ -28,12 +28,11 @@ jobs:
           bundle install
           bundle exec jekyll build
           echo amsterdam.pydata.org >> build/CNAME
-      - uses: actions/upload-artifact@main
+      - uses: actions/upload-pages-artifact@v1
         with:
-          name: site
           path: build/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          artifact_name: site
+          artifact_name: github-pages
