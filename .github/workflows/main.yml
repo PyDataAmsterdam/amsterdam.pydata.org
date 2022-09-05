@@ -7,6 +7,13 @@ on:
 
 jobs: 
   build_and_deploy:
+    permissions:
+      pages: write      
+      id-token: write  
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-18.04
     env: 
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
@@ -21,8 +28,12 @@ jobs:
           bundle install
           bundle exec jekyll build
           echo amsterdam.pydata.org >> build/CNAME
-      - name: deploy
-        uses: maxheld83/ghpages@v0.3.0
-        env:
-          BUILD_DIR: build/
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - uses: actions/upload-artifact@main
+        with:
+          name: site
+          path: build/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+        with:
+          artifact_name: site
