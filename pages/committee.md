@@ -5,7 +5,7 @@ weight: 20
 description: 
 ---
 
-PyData is organized in full by volunteers. Are you interested in helping out? Contact us at [amsterdam@pydata.org](mailto:amsterdam@ydata.org) or come and talk to any of the committee members at a meetup or the conference.
+PyData is organized in full by volunteers. Are you interested in helping out? Contact us at [amsterdam@pydata.org](mailto:amsterdam@pydata.org) or come and talk to any of the committee members at a meetup or the conference.
 
 The committee currently consists of the following people:
 
