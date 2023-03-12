@@ -125,7 +125,7 @@ pluralizelisttitles = false
     logo_text = "Universal"
 
     logo = "img/pydata-logo-final.png"
-    logo_small = "img/logo-small.png"
+    logo_small = "img/pydata-logo-final.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase">
         amsterdam@pydata.org
