@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- *** LEFT COLUMN *** -->
+
+                    <div class="col-md-12" id="blog-post">
+                        <div id="post-content">
+                            {{ .Content }}
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+        <section class="bar background-pentagon no-mb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading text-center">
+                            <h2>Sponsor Levels</h2>
+                        </div>
+
+                        <!-- *** TESTIMONIALS CAROUSEL *** -->
+
+                        <ul class="testimonials sponsors"
+                            data-items="{{ default 5 .Site.Params.CarouselTestimonials.items }}"
+
+                            data-autoplay="{{ default false .Site.Params.CarouselTestimonials.auto_play }}"
+                            data-slide-speed="{{ default 2000 .Site.Params.CarouselTestimonials.slide_speed }}"
+                            data-pagination-speed="{{ default 1000 .Site.Params.CarouselTestimonials.pagination_speed }}">
+                            {{ range sort .Site.Data.testimonials "weight"}}
+                            <li class="item">
+                                <div class="testimonial same-height-always">
+                                    <h3>{{ .name }}</h3>
+                                    <h5>{{ .price }}</h5>
+                                    <div class="text">
+                                        <ul>
+                                            {{ range .perks }}
+                                            <li>{{ . }}</li>
+                                            {{ end }}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <!-- /.owl-carousel -->
+
+                        <!-- *** TESTIMONIALS CAROUSEL END *** -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

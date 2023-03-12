@@ -1,0 +1,40 @@
+<section class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>The Location</h2>
+                </div>
+
+                <p class="lead">
+                  PyData Amsterdam will be hosted in de Kromhouthal. This used to be the home base of De Kromhout, manufacturer of
+                    large marine engines. For years the site was the backdrop of hard work. That rich history is not only cherished in the name, but is also still visible and tangible everywhere.
+                </p>
+                <p class="lead"><strong>The Address:</strong><br>Gedempt Hamerkanaal 231<br>1021 KP Amsterdam</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    {{ if and .Site.Params.enableGoogleMaps .Site.Params.googleMapsApiKey }}
+    {{ if isset .Site.Params "latitude" }}
+    {{ if isset .Site.Params "longitude" }}
+    <div class="hidden" height="">
+        <input id="gmap-lat" value="{{ .Site.Params.latitude }}" />
+        <input id="gmap-lng" value="{{ .Site.Params.longitude }}" />
+        <input id="gmap-marker" value="{{ "img/marker.png" | relURL }}" />
+        {{ if isset .Site.Params "direction" }}
+        <input id="gmap-dir" value="{{ .Site.Params.direction }}" />
+        {{ else }}
+        <input id="gmap-dir" value="{{ .Site.Params.latitude }},{{ .Site.Params.longitude }}" />
+        {{ end }}
+    </div>
+    <div id="map" />
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+</section>
