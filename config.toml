@@ -6,6 +6,10 @@ languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 
+[module]
+[[module.imports]]
+path = 'github.com/devcows/hugo-universal-theme'
+
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
