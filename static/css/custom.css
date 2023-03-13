@@ -30,10 +30,98 @@
     background: url('../img/kromhouthal.jpeg') center center;
     background-size: cover;
     filter: saturate(0.6);
+    position: relative;
+    height: 100vh;
+}
+
+.home-carousel .container {
+    padding-top: 60px;
 }
 .home-carousel .dark-mask {
     background: #1d242a;
     opacity: 0.7;
+}
+
+@media screen and (min-width: 801px){
+    .home-carousel h1  {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 801px){
+    .home-carousel h1  {
+        font-size: 60px;
+    }
+}
+.home-carousel h1  {
+    font-family: "Anton", Sans-serif;
+    font-weight: 700;
+    /*font-size: 150px;*/
+    letter-spacing: 0.0em;
+    margin-bottom: 0;
+    text-transform: none;
+    color: #efefef;
+
+}
+
+.btn {
+    border-bottom: 3px solid #ff861d;
+    transition: all 0.25s linear;
+}
+
+.btn:hover {
+    border-bottom-color: #4196b1;
+}
+.btn-wrapper {
+    margin-bottom: 10px;
+}
+.btn-wrapper a {
+    padding: 0px;
+}
+.btn-wrapper span  {
+    color: #ffffff;
+    font-size: 38px;
+
+}
+@media screen and (min-width: 801px){
+    .home-carousel h2  {
+        font-size: 120px;
+        stroke-width: 3px;
+        -webkit-text-stroke-width: 3px;
+    }
+}
+
+@media screen and (max-width: 801px){
+    .home-carousel h2  {
+        font-size: 30px;
+        stroke-width: 1px;
+        -webkit-text-stroke-width: 1px;
+    }
+}
+.home-carousel h2 {
+    font-family: "Anton", Sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    letter-spacing: 0.0em;
+    -webkit-text-stroke-color: #FFFFFF;
+    stroke: #FFFFFF;
+    color: #6EC1E400;
+}
+
+.banner-bottom {
+    margin-top: 80px;
+}
+
+.dates {
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    padding: 30px
+}
+
+.dates p {
+    font-size: 36px;
+    color: #ffffff
 }
 
 .vertical-align {
