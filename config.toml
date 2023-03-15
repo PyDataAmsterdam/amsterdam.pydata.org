@@ -57,10 +57,10 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "PyData Amsterdam"
+    defaultKeywords = []
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "PyData Amsterdam 2023 is a 3-day event for the international community of users and developers of data analysis tools to share ideas and learn from each other."
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
