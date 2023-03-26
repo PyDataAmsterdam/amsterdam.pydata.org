@@ -46,12 +46,6 @@ div #map {
     height: 400px;
 }
 
-@media screen and (min-width: 801px){
-    .home-carousel h1  {
-        font-size: 150px;
-    }
-}
-
 .home-carousel h1  {
     font-family: "Anton", Sans-serif;
     font-weight: 700;
@@ -86,11 +80,18 @@ div #map {
     font-family: "Anton", Sans-serif;
     font-weight: 700;
     margin-top: 0;
+    margin-bottom: 0;
     letter-spacing: 0.0em;
     -webkit-text-stroke-color: #FFFFFF;
     stroke: #FFFFFF;
     color: #6EC1E400;
 }
+
+.home-carousel h3 {
+    margin-top: 0;
+    font-weight: 300;
+}
+
 
 .banner-bottom {
     margin-top: 80px;
@@ -110,10 +111,27 @@ div #map {
 }
 
 @media screen and (min-width: 801px){
+    .header-block {
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
     .home-carousel h2  {
         font-size: 120px;
         stroke-width: 3px;
         -webkit-text-stroke-width: 3px;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    .home-carousel h1  {
+        font-size: 150px;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    .home-carousel h3 {
+        text-align: right;
     }
 
     .dates p  {
