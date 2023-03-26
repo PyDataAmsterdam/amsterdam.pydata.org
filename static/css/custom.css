@@ -52,11 +52,6 @@ div #map {
     }
 }
 
-@media screen and (max-width: 801px){
-    .home-carousel h1  {
-        font-size: 60px;
-    }
-}
 .home-carousel h1  {
     font-family: "Anton", Sans-serif;
     font-weight: 700;
@@ -85,23 +80,8 @@ div #map {
 .btn-wrapper span  {
     color: #ffffff;
     font-size: 38px;
-
-}
-@media screen and (min-width: 801px){
-    .home-carousel h2  {
-        font-size: 120px;
-        stroke-width: 3px;
-        -webkit-text-stroke-width: 3px;
-    }
 }
 
-@media screen and (max-width: 801px){
-    .home-carousel h2  {
-        font-size: 30px;
-        stroke-width: 1px;
-        -webkit-text-stroke-width: 1px;
-    }
-}
 .home-carousel h2 {
     font-family: "Anton", Sans-serif;
     font-weight: 700;
@@ -120,12 +100,50 @@ div #map {
     border-style: solid;
     border-color: #FFFFFF;
     border-width: 3px;
-    padding: 30px
+    padding: 30px;
+
 }
 
 .dates p {
-    font-size: 36px;
+
     color: #ffffff
+}
+
+@media screen and (min-width: 801px){
+    .home-carousel h2  {
+        font-size: 120px;
+        stroke-width: 3px;
+        -webkit-text-stroke-width: 3px;
+    }
+
+    .dates p  {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 801px){
+    .dates p  {
+        font-size: 24px;
+    }
+    .dates {
+        margin: 50px;
+        padding: 10px;
+    }
+    .home-carousel h1  {
+        font-size: 75px;
+    }
+    .home-carousel h2  {
+        font-size: 34px;
+        stroke-width: 1px;
+        -webkit-text-stroke-width: 1px;
+    }
+    .btn-wrapper span  {
+        color: #ffffff;
+        font-size: 24px;
+    }
+    .btn-wrapper {
+        margin-bottom: 6px;
+    }
 }
 
 .vertical-align {
