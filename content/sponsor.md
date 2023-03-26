@@ -16,8 +16,11 @@ You also give back to the open source community. NumFocus reinvests profits from
 
 # Become a Sponsor
 
-You can find the different sponsorship options at the bottom of this page. 
+You can find the different sponsorship options at the bottom of this page or download the sponsorship prospectus. 
 If you want to sponsor PyData Amsterdam or if you have any further questions, please reach out to us at amsterdam@pydata.org. 
+
+[![prospectus](/img/prospectus-cover.png)](/PyData-Amsterdam-2023-Sponsorship-Prospectus.pdf)
+
 
 # Sponsor benefits FAQ
 
@@ -39,7 +42,7 @@ title of the event as Special Thanks To Our Diamond Sponsors with your logo.
 
 
 ### Do Sponsor Talks and Tutorials Go Through the Regular Review Process?
-Host and Platinum sponsors are able to present a talk or tutorial at the event. While sponsor talks and
+Diamond and Platinum sponsors are able to present a talk or tutorial at the event. While sponsor talks and
 tutorials do not go through the regular review process, presentation proposals must be submitted for
 approval by the review committee. The committee will help ensure that your presentation’s content is
 appropriate and relevant to the audience at the event.
