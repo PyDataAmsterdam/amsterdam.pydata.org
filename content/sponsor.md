@@ -16,7 +16,7 @@ You also give back to the open source community. NumFocus reinvests profits from
 
 # Become a Sponsor
 
-You can find the different sponsorship options at the bottom of this page or download the sponsorship prospectus. 
+You can find the different sponsorship options at the bottom of this page or download the [sponsorship prospectus](/PyData-Amsterdam-2023-Sponsorship-Prospectus.pdf). 
 If you want to sponsor PyData Amsterdam or if you have any further questions, please reach out to us at amsterdam@pydata.org. 
 
 [![prospectus](/img/prospectus-cover.png)](/PyData-Amsterdam-2023-Sponsorship-Prospectus.pdf)
