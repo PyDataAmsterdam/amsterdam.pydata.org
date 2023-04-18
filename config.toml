@@ -48,10 +48,17 @@ pluralizelisttitles = false
     weight     = 7
 
 [[menu.main]]
+    name       = "Submit a talk"
+    identifier = "menu.talk"
+    url        = "https://amsterdam2023.pydata.org/cfp/cfp"
+    weight     = 8
+
+
+[[menu.main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
-    weight     = 8
+    weight     = 9
 
 # Top bar social links menu
 
