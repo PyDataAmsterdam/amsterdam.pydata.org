@@ -2,7 +2,7 @@
 /* Example site test */
 :root {
     --primary-accent: #4296b0;
-    --navbar-border-top: #e28a42;
+    --navbar-border-top: #4296b0;
     --button-border: #62787f;
     --link-focus: #2f5a89;
     --form-shadow: rgba(70, 127, 191, 0.6);
@@ -10,7 +10,6 @@
     --link-hover-bg: #36669c;
     --navbar-focus: #5bd0f6;
 }
-
 
 .box-image-text .image {
     min-height: 190px;
@@ -189,3 +188,11 @@ div #map {
 .sponsors > .item > .testimonial > .text {
     margin-bottom: 5px;
 }
+
+#copyright {
+    background: #555555;
+    color: #ccc;
+    padding: 30px 0;
+    font-size: 12px;
+    line-height: 12px;
+  }
