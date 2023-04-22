@@ -26,7 +26,7 @@
 }
 
 .home-carousel {
-    background: url('../img/kromhouthal.jpeg') center center;
+    background: url('../img/kromhouthal-pydata.png') center center;
     background-size: cover;
     filter: saturate(0.6);
     position: relative;
