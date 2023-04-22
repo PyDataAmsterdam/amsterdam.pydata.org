@@ -188,3 +188,11 @@ div #map {
 .sponsors > .item > .testimonial > .text {
     margin-bottom: 5px;
 }
+
+#copyright {
+    background: #555555;
+    color: #ccc;
+    padding: 30px 0;
+    font-size: 12px;
+    line-height: 12px;
+  }
