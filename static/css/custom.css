@@ -30,7 +30,7 @@
     background-size: cover;
     filter: saturate(0.6);
     position: relative;
-    height: 100vh;
+    height: 60em;
 }
 
 .home-carousel .container {
