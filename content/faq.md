@@ -13,6 +13,8 @@ Just like almost all Python and PyData conferences this event is run and organis
 
 The conference is all in English.
 
+## 3. Until when are Early Bird tickets available?
+Early bird tickets will be available until July 10th.
 
 ---
 
