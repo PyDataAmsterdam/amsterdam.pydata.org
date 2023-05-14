@@ -1,0 +1,3 @@
+name: "DuckDB"
+image: "img/clients/duckdb-logo.png"
+url: "https://duckdb.org/"
