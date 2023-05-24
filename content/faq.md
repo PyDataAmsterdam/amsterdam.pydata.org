@@ -11,10 +11,22 @@ Just like almost all Python and PyData conferences this event is run and organis
 
 ## 2. What's the conference language?
 
-The conference is all in English.
+The conference is in English.
 
 ## 3. Until when are Early Bird tickets available?
 Early bird tickets will be available until July 10th.
+
+## 4. Can I volunteer at the conference?
+
+Yes, PyData Amsterdam is organized and run by volunteers and we need your help to make the conference run as smoothly as possible! Would you like to get involved at the conference, meet new people and enjoy great content - then please apply.
+
+By volunteering you'll get:
+- Free admission to the conference
+- Opportunity to connect with speakers
+- Volunteer t-shirt
+
+Requirements: 
+You simply have to be passionate about Python/Julia/R and/or data science and be a team player. If that sounds like you, please fill out [this](https://forms.gle/Saegx7HqMDDxNzTi8) form before the 17th of July.
 
 ---
 
