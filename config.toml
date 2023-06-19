@@ -36,6 +36,12 @@ pluralizelisttitles = false
     weight     = 5
 
 [[menu.main]]
+    name       = "News & Updates"
+    identifier = "menu.blog"
+    url        = "/blog/"
+    weight     = 6
+
+[[menu.main]]
     name       = "Sponsor"
     identifier = "menu.sponsor"
     url        = "/sponsor/"
@@ -193,9 +199,9 @@ pluralizelisttitles = false
     subtitle = ""
 
 [params.recent_posts]
-    enable = false
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    enable = true
+    title = "News & Updates"
+#    subtitle = "Pellentesquje habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [params.footer.recent_posts]
