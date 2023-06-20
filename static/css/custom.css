@@ -196,3 +196,8 @@ div #map {
     font-size: 12px;
     line-height: 12px;
   }
+
+
+div.blog > * li  {
+    color: #999999;
+}
