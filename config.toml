@@ -53,12 +53,6 @@ pluralizelisttitles = false
     url        = "/tickets/"
     weight     = 7
 
-[[menu.main]]
-    name       = "Submit a talk"
-    identifier = "menu.talk"
-    url        = "https://amsterdam2023.pydata.org/cfp/cfp"
-    weight     = 8
-
 
 [[menu.main]]
     name       = "FAQ"
