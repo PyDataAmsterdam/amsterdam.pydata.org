@@ -1,6 +1,6 @@
 +++
 title = "Volunteer @ PyData"
-date = "2022-19-06T21:29:20+02:00"
+date = "2023-06-19T21:29:20+02:00"
 +++
 
 PyData Amsterdam is organized and run by volunteers and we need your help to make the conference run as smoothly as possible! If you would like to get involved at the conference, meet new people and enjoy great content - then please apply. By volunteering you’ll get:

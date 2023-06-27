@@ -1,6 +1,7 @@
 +++
 title = "Call for Proposals Closed"
-date = "2022-19-06T21:29:20+02:00"
+date = "2023-06-18T21:29:20+02:00"
+
 +++
 
 We just closed our Call for Proposals! Following an extension period due to popular demand, we received an overwhelming response, with over 250 submissions pouring in from the global data science and Python community.

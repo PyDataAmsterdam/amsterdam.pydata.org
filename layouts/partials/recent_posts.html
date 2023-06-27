@@ -16,16 +16,13 @@
 
             <div class="row">
                 {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-                {{ range first 3 $posts.Pages }}
+                {{- range (.Paginate ( first 3 $posts.Pages.ByDate )).Pages }}
                 <div class="col-md-4 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="content">
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <p class="author-category">
-			    {{ if isset .Params "authors" }}
-			      {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                            {{ end }}
-                            {{ if .Params.date }}
+                                {{ if .Params.date }}
                                 {{ $createdAt := .Date.Format .Site.Params.date_format }}
                                 {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
                                     {{ $createdAt = replace $createdAt $month (i18n $month) }}
