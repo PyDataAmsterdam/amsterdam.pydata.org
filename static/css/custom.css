@@ -197,6 +197,10 @@ div #map {
     line-height: 12px;
   }
 
+div .customers > .owl-wrapper-outer > .owl-wrapper {
+    display: flex !important;
+    align-items: center;
+}
 
 div.blog > * li  {
     color: #999999;
