@@ -14,12 +14,33 @@ September 14 - 16 2023
 
 As we work to assemble programming for the 2023 conference, you can browse recordings from previous PyData editions [on our YouTube](https://www.youtube.com/user/PyDataTV) to get a better idea of the subject matter covered at PyData Amsterdam
 
-# About PyData
 
+# About PyData
 
 PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.
 
 We aim to be an accessible, community-driven conference, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+
+# About the committee members
+
+The conference and meetups are organised by volunteers who dedicate their free time for the benefit of the community.
+
+The committee members include:
+
+- Matthijs Brouns - [LinkedIn](https://www.linkedin.com/in/mbrouns/) (co-chair)
+- Sophie van den Berg - [LinkedIn](https://www.linkedin.com/in/sophievandenberg/) (co-chair)
+- Nikki van Ommeren - [LinkedIn](https://www.linkedin.com/in/nikki-van-ommeren-43a806a2/) (co-chair)
+- Marysia Winkels - [LinkedIn](https://www.linkedin.com/in/marysia-winkels/) (co-chair)
+- Atul Chhotray - [LinkedIn](https://www.linkedin.com/in/atul-chhotray-a3b121223/)
+- Kally Chung - [LinkedIn](https://www.linkedin.com/in/kally-chung/)
+- Dillon Gardner - [LinkedIn](https://www.linkedin.com/in/dillon-r-gardner/)
+- Miha Gazvoda - [LinkedIn](https://www.linkedin.com/in/mihagazvoda/)
+- Sven Harris - [LinkedIn](https://www.linkedin.com/in/sven-harris-32a019b9/)
+- Nelson Mooren - [LinkedIn](https://www.linkedin.com/in/nelsonmooren/)
+- Alexander Oude Elferink - [LinkedIn](https://www.linkedin.com/in/alexanderoudeelferink/)
+- Anton Sugonyako - [LinkedIn](https://www.linkedin.com/in/antonsugonyako/)
+- Bas Vlaming - [LinkedIn](https://www.linkedin.com/in/basvlaming/)
+
 
 
 # Code of Conduct
