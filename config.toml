@@ -48,6 +48,12 @@ pluralizelisttitles = false
     weight     = 6
 
 [[menu.main]]
+    name       = "Program"
+    identifier = "menu.program"
+    url        = "/program/"
+    weight     = 6
+
+[[menu.main]]
     name       = "Tickets"
     identifier = "menu.tickets"
     url        = "/tickets/"
