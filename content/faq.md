@@ -14,7 +14,7 @@ Just like almost all Python and PyData conferences this event is run and organis
 The conference is in English.
 
 ## 3. Until when are Early Bird tickets available?
-Early bird tickets will be available until July 24th.
+Early bird tickets will be available until July 31st.
 
 ## 4. Can I volunteer at the conference?
 
