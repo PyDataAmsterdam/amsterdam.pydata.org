@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+    <script type="text/javascript" src="https://amsterdam2023.pydata.org/cfp/schedule/widget/v2.en.js"></script>
+
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- *** LEFT COLUMN *** -->
+
+                    <div class="col-md-12" id="blog-post">
+                        <div id="post-content">
+                            <h2>Program</h2>
+                            Know that this is a prelimenary schedule; talks might be rescheduled and new talks will be added!
+                            <!-- Pretalx widget. -->
+                            <pretalx-schedule event-url="https://amsterdam2023.pydata.org/cfp/" locale="en" format="grid" style="--pretalx-clr-primary: #4C9CB4"></pretalx-schedule>
+                            <noscript>
+                               <div class="pretalx-widget">
+                                    <div class="pretalx-widget-info-message">
+                                        JavaScript is disabled in your browser. To access our schedule without JavaScript,
+                                        please <a target="_blank" href="https://amsterdam2023.pydata.org/cfp/schedule/">click here</a>.
+                                    </div>
+                                </div>
+                            </noscript>
+                            <!-- End of Pretalx Widget -->
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
