@@ -16,7 +16,7 @@
 
             <div class="row">
                 {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-                {{- range (.Paginate ( first 3 $posts.Pages.ByDate )).Pages }}
+                {{- range first 3 (.Paginate (  $posts.Pages.ByDate )).Pages }}
                 <div class="col-md-4 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="content">

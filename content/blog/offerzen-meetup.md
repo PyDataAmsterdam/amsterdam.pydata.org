@@ -1,6 +1,6 @@
 +++
 title = "Meetup - June 29th at OfferZen"
-date = "2023-06-19T21:27:20+02:00"
+date = "2023-06-17T21:20:20+02:00"
 authors = ["John Doe"]
 +++
 
