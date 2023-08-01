@@ -14,23 +14,33 @@
                   {{ .Site.Params.sponsors.subtitle | markdownify }}
                 </p>
 
-                <ul class="owl-carousel customers"
-                    data-items="{{ default 6 .Site.Params.CarouselCustomers.items }}"
-                    data-autoplay="{{ default false .Site.Params.CarouselCustomers.auto_play }}"
-                    data-slide-speed="{{ default 2000 .Site.Params.CarouselCustomers.slide_speed }}"
-                    data-pagination-speed="{{ default 1000 .Site.Params.CarouselCustomers.pagination_speed }}">
-                    {{ range .Site.Data.sponsors }}
-                    <li class="item" title="{{ .name }}">
-                        {{ if .url }}
-                          <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
-                          </a>
-                        {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                <div>
+
+                        {{ $sponsorLevels := slice "Diamond" "Platinum" "Gold"}}
+                        {{ range $_, $sponsorLevel := $sponsorLevels }}
+
+                        <div class="heading text-center">
+                            <h3>{{$sponsorLevel}} Sponsors</h3>
+                        </div>
+                        <div class="grid-container">
+                            {{ range $_, $sponsor := $.Site.Data.sponsors }}
+                            {{ if (eq $sponsor.level $sponsorLevel) }}
+                            <div class="col" title="{{ .name }}">
+                                <figure class="grid-item {{$sponsorLevel}}">
+                                <a href="{{ .url }}" target="_blank">
+                                    <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                                </a>
+                                </figure>
+                            </div>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
                         {{ end }}
-                    </li>
-                    {{ end }}
-                </ul>
+
+                </div>
+
+
                 <!-- /.owl-carousel -->
             </div>
         </div>
