@@ -2,12 +2,39 @@
 <html lang="{{ .Site.LanguageCode }}">
 
   <head>
-    <meta http-equiv="refresh" content="0; URL=https://amsterdam2023.pydata.org/cfp/schedule/" />
 
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
 
+    <script type="text/javascript" src="https://pretalx.com/democon/schedule/widget/v2.en.js"></script>
   </head>
 
- 
+  <body>
+
+  <div id="all">
+
+    {{ partial "top.html" . }}
+
+    {{ partial "nav.html" . }}
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <div id="content">
+          <!-- *** LEFT COLUMN *** -->
+
+      <pretalx-schedule event-url="https://amsterdam2023.pydata.org/cfp/" locale="en" format="grid" style="--pretalx-clr-primary: #4C9CB4"></pretalx-schedule>
+      <noscript>
+        <div class="pretalx-widget">
+          <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://amsterdam2023.pydata.org/cfp/schedule/">click here</a>.
+          </div>
+        </div>
+      </noscript>
+
+    </div>
+  </div>
+  </body>
+
+
 </html>
