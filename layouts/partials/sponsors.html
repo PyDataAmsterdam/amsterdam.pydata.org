@@ -16,7 +16,7 @@
 
                 <div>
 
-                        {{ $sponsorLevels := slice "Diamond" "Platinum" "Gold"}}
+                        {{ $sponsorLevels := slice "Diamond" "Platinum" "Gold" "Silver"}}
                         {{ range $_, $sponsorLevel := $sponsorLevels }}
 
                         <div class="heading text-center">
@@ -28,7 +28,7 @@
                             <div class="col" title="{{ .name }}">
                                 <figure class="grid-item {{$sponsorLevel}}">
                                 <a href="{{ .url }}" target="_blank">
-                                    <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                                    <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive"/>
                                 </a>
                                 </figure>
                             </div>
