@@ -59,6 +59,11 @@ pluralizelisttitles = false
     url        = "/tickets/"
     weight     = 7
 
+[[menu.main]]
+    name       = "Job Board"
+    identifier = "menu.jobboard"
+    url        = "/jobs/"
+    weight     = 8
 
 [[menu.main]]
     name       = "FAQ"
