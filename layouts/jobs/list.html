@@ -33,7 +33,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                {{ range $paginator.Pages }}
+                                {{ range where $paginator.Pages "Params.company" .Key}}
                                 <div class="row">
                                     <div class="col-md-12">
                                         <h2><a href="{{ .Permalink }}"> {{ .Params.job }}</a></h2>
