@@ -1,5 +1,8 @@
 +++
 title = "In-Process Analytical Data Management with DuckDB"
+when = "Thursday September 14th, 13:30"
+speaker = "Hannes Mühleisen"
+speaker_about = "Prof. Dr. Hannes Mühleisen is a creator of the DuckDB database management system and Co-founder and CEO of DuckDB Labs, a consulting company providing services around DuckDB. He is also a senior researcher of the Database Architectures group at the Centrum Wiskunde & Informatica (CWI), the Dutch national research lab for Mathematics and Computer Science in Amsterdam. Hannes is also Professor of Data Engineering at Radboud Universiteit Nijmegen. His' main interest is analytical data management systems."
 +++
 
 DuckDB is a novel analytical data management system. DuckDB supports complex queries, has no external dependencies, and is deeply integrated into the Python ecosystem. Because DuckDB runs in the same process, no serialization or socket communication has to occur, making data transfer virtually instantaneous. For example, DuckDB can directly query Pandas data frames faster than Pandas itself. In our talk, we will describe the user values of DuckDB, and how it can be used to improve their day-to-day lives through automatic parallelization, efficient operators and out-of-core operations.
@@ -14,8 +17,3 @@ DuckDB enjoys fast-growing popularity, the Python package alone is currently dow
 
 This talk is aimed at two main groups, data analysts and data engineers. For the analysts, we will explain the user values of DuckDB, and how it can be used to improve their day-to-day lives. For data engineers, we will describe DuckDB’s capabilities to become part of large automated data pipelines. The presenters for the proposed talk, Hannes Mühleisen and Mark Raasveldt are the original creators of DuckDB, they are still leading the project and are deeply familiar with its Python integration.
 
----
-
-## Speaker: Hannes Mühleisen
-
-Prof. Dr. Hannes Mühleisen is a creator of the DuckDB database management system and Co-founder and CEO of DuckDB Labs, a consulting company providing services around DuckDB. He is also a senior researcher of the Database Architectures group at the Centrum Wiskunde & Informatica (CWI), the Dutch national research lab for Mathematics and Computer Science in Amsterdam. Hannes is also Professor of Data Engineering at Radboud Universiteit Nijmegen. His' main interest is analytical data management systems.
