@@ -115,7 +115,7 @@ div #map {
     }
 
     .home-carousel h2  {
-        font-size: 120px;
+        font-size: 100px;
         stroke-width: 3px;
         -webkit-text-stroke-width: 3px;
         width: -moz-fit-content;
@@ -123,13 +123,27 @@ div #map {
     }
 
     .home-carousel h1  {
-        font-size: 150px;
+        font-size: 130px;
         width: -moz-fit-content;
         width: fit-content;
     }
 
     .home-carousel h3 {
+        font-size: 40px;
         text-align: right;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .home-carousel h4 {
+        color: #fff;
+        font-family: Roboto, Helvetic;
+        font-size: 30px;
+        font-weight: 350;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        vertical-align: bottom;
+        text-align: right;å
     }
 
     .dates p  {
@@ -152,6 +166,12 @@ div #map {
         font-size: 34px;
         stroke-width: 1px;
         -webkit-text-stroke-width: 1px;
+    }
+    .home-carousel h4  {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 130;
+        margin-top: 50px;
     }
     .btn-wrapper span  {
         color: #ffffff;
