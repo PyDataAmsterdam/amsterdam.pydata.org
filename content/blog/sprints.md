@@ -1,6 +1,7 @@
 +++
 title = "Sprints!"
 date = "2023-09-01T21:29:20+02:00"
+url = '/sprints'
 +++
 
 PyData Amsterdam is hosting multiple sprints for open source projects. Each sprint will have a 
