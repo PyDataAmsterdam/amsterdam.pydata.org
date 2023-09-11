@@ -27,8 +27,8 @@ instructions are provided with each sprint.
 After the main talks end on Saturday, we will host sprints at the Xebia Data office (**Wibautstraat 
 200, 1091 GS, Amsterdam**) that’s about 20 minutes away by public transport from the main venue.
 
-- 13:30 - 14:00: **Walk-in**
-- 14:00 - 18:00: **Sprinting**
+- 13:30 - 14:15: **Walk-in**
+- 14:15 - 18:00: **Sprinting**
 - 18:00 - 19:00: **Drinks**
 
 ## How do I sign up?
