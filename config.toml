@@ -53,11 +53,11 @@ pluralizelisttitles = false
     url        = "/program/"
     weight     = 6
 
-[[menu.main]]
-    name       = "Tickets"
-    identifier = "menu.tickets"
-    url        = "/tickets/"
-    weight     = 7
+#[[menu.main]]
+#    name       = "Tickets"
+#    identifier = "menu.tickets"
+#    url        = "/tickets/"
+#    weight     = 7
 
 [[menu.main]]
     name       = "Job Board"

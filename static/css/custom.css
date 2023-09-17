@@ -26,9 +26,9 @@
 }
 
 .home-carousel {
-    background: url('../img/kromhouthal-pydata.png') center center;
+    background: url('../img/banner.jpeg') center center;
     background-size: cover;
-    filter: saturate(0.6);
+    /*filter: saturate(0.6);*/
     position: relative;
     height: 60em;
 }
@@ -38,7 +38,7 @@
 }
 .home-carousel .dark-mask {
     background: #1d242a;
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 div #map {

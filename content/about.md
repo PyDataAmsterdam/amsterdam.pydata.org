@@ -41,6 +41,7 @@ The committee members include:
 - Anton Sugonyako - [LinkedIn](https://www.linkedin.com/in/antonsugonyako/)
 - Bas Vlaming - [LinkedIn](https://www.linkedin.com/in/basvlaming/)
 
+![targets](/img/comittee.jpeg)
 
 
 # Code of Conduct
