@@ -22,11 +22,21 @@
 
     <div class="galleries">
       <div class="container">
+        <div class="row">
+          <div class="col  align-self-center">
+            <p class="lead">
+              All images below are made by the brilliant <a href="https://richardtheemling.com/" target="_blank"> Richard Theemling.</a><br />
+              He has captured the atmosphere of our event perfectly, <br />
+              and we highly recommend hiring him for your own events!
+            </p>
+
+          </div>
+        </div>
         {{ $pages := .Pages }}
         {{ with site.GetPage "gallery" }}
         {{ $pages = .RegularPagesRecursive }}
         {{ end }}
-        {{ range $pages }}
+        {{ range $pages.ByDate }}
         {{ with partial "galleriesdeluxe/get-gallery.html" . }}
 
         <h2>
