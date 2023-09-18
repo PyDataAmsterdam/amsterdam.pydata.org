@@ -5,7 +5,7 @@ themesDir = "themes"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
-
+timeout = "600s"
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
@@ -18,6 +18,11 @@ paginate = 10
 
 # not pluralize title pages by default
 pluralizelisttitles = false
+
+[caches]
+    [caches.images]
+        dir    = ':cacheDir/galleriesdeluxe'
+        maxAge = "4320h"                     # 6 months.
 
 [menu]
 
@@ -52,6 +57,12 @@ pluralizelisttitles = false
     identifier = "menu.program"
     url        = "/program/"
     weight     = 6
+
+[[menu.main]]
+    name       = "Gallery"
+    identifier = "menu.gallery"
+    url        = "/galleries/"
+    weight     = 7
 
 #[[menu.main]]
 #    name       = "Tickets"
