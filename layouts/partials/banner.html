@@ -37,8 +37,10 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-                        <h4>Deployed by <img src="/assets/images/clients/adyen-logo.png" alt="Adyen" width="20%"/>  </h4>
-                        <h4>Sponsored by&nbsp;&nbsp; <img src="/assets/images/clients/Dexter_Official%20Logo%20Negative.png" alt="Dexter" width="15%"> </h4>
+                        {{ $image := resources.Get "images/sponsors/adyen-logo.png" }}
+                        <h4>Deployed by <img src="{{ ($image.Resize "150x").RelPermalink }}" alt="Adyen" width="20%"/>  </h4>
+                        {{ $image := resources.Get "images/sponsors/Dexter_Official Logo Negative.png" }}
+                        <h4>Sponsored by&nbsp;&nbsp; <img src="{{ ($image.Resize "120x").RelPermalink }}" alt="Dexter" width="15%"> </h4>
                     </div>
                 </div>
 
