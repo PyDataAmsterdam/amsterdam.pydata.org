@@ -19,13 +19,13 @@
             </div>
             <div class="col-lg-5 hidden-xs hidden-sm">
                 {{ $image := resources.Get "images/goodbye-for-now.jpeg" }}
-                <img src="{{ ($image.Resize "600x q90").RelPermalink }}" alt="" width="400">
+                <img src="{{ ($image.Resize "600x webp").RelPermalink }}" alt="" width="400">
             </div>
         </div>
         <div class="row vertical-align">
             <div class="col-lg-5 hidden-xs hidden-sm">
                 {{ $image := resources.Get "images/overview.jpeg" }}
-                <img src="{{ ($image.Resize "600x q95").RelPermalink }}" alt="" width="400">
+                <img src="{{ ($image.Resize "600x webp").RelPermalink }}" alt="" width="400">
             </div>
             <div class="col-lg-7">
                 <p class="lead vcenter">
