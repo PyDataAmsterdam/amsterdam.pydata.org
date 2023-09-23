@@ -1,5 +1,9 @@
 /* your styles go here */
 /* Example site test */
+@font-face {
+    font-display: swap;
+}
+
 :root {
     --primary-accent: #4296b0;
     --navbar-border-top: #4296b0;
@@ -26,7 +30,7 @@
 }
 
 .home-carousel {
-    background: url('../img/banner.jpeg') center center;
+    background: url('../img/banner.webp') center center;
     background-size: cover;
     /*filter: saturate(0.6);*/
     position: relative;
@@ -153,7 +157,7 @@ div #map {
 
 @media screen and (max-width: 1000px){
     .home-carousel {
-        background: url('../img/banner-mobile.jpg') center center;
+        background: url('../img/banner-mobile.webp') center center;
     }
     .dates p  {
         font-size: 24px;
