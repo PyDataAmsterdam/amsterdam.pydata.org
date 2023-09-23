@@ -151,7 +151,10 @@ div #map {
     }
 }
 
-@media screen and (max-width: 801px){
+@media screen and (max-width: 1000px){
+    .home-carousel {
+        background: url('../img/banner-mobile.jpg') center center;
+    }
     .dates p  {
         font-size: 24px;
     }

@@ -18,12 +18,14 @@
                 </p>
             </div>
             <div class="col-lg-5 hidden-xs hidden-sm">
-                <img src="/img/goodbye-for-now.jpeg" alt="" width="400">
+                {{ $image := resources.Get "images/goodbye-for-now.jpeg" }}
+                <img src="{{ ($image.Resize "600x q90").RelPermalink }}" alt="" width="400">
             </div>
         </div>
         <div class="row vertical-align">
             <div class="col-lg-5 hidden-xs hidden-sm">
-                <img src="/img/overview.jpeg" alt="" width="400">
+                {{ $image := resources.Get "images/overview.jpeg" }}
+                <img src="{{ ($image.Resize "600x q95").RelPermalink }}" alt="" width="400">
             </div>
             <div class="col-lg-7">
                 <p class="lead vcenter">
@@ -31,13 +33,6 @@
                     on YouTube</a> to get notified when they are made available
                 </p>
             </div>
-        </div>
-        <div class="col-lg-4 visible-xs visible-sm">
-            <img src="/img/meetup1.jpeg" alt="" width="300">
-        </div>
-
-        <div class="col-lg-4 visible-xs visible-sm">
-            <img src="/img/meetup1.jpeg" alt="" width="300">
         </div>
     </div>
 </section>

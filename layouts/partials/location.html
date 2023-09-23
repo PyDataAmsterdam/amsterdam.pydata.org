@@ -14,7 +14,8 @@
                         <p class="lead"><strong>The Address:</strong><br>Gedempt Hamerkanaal 231<br>1021 KP Amsterdam</p>
                     </div>
                     <div class="col-lg-5 hidden-xs hidden-sm">
-                        <img src="/img/venue.jpeg" alt="" width="600">
+                        {{ $image := resources.Get "images/venue.jpeg" }}
+                        <img src="{{ ($image.Resize "800x q90").RelPermalink }}" alt="" width="600">
                     </div>
                 </div>
 
