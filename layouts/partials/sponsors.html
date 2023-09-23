@@ -17,6 +17,7 @@
                 <div>
 
                         {{ $sponsorLevels := slice "Diamond" "Platinum" "Gold" "Silver"}}
+                        {{ $sponsorLevelSizes := dict "Diamond" "400x" "Platinum" "360x" "Gold" "280x" "Silver" "200x"}}
                         {{ range $_, $sponsorLevel := $sponsorLevels }}
 
                         <div class="heading text-center">
@@ -28,7 +29,8 @@
                             <div class="col" title="{{ .name }}">
                                 <figure class="grid-item {{$sponsorLevel}}">
                                 <a href="{{ .url }}" target="_blank">
-                                    <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive"/>
+                                    {{ $image := resources.Get .image }}
+                                    <img src="{{ ($image.Resize (index $sponsorLevelSizes $sponsorLevel)).RelPermalink }}" alt="{{ .name }}" class="img-responsive"/>
                                 </a>
                                 </figure>
                             </div>
