@@ -10,9 +10,9 @@ type = "single"
 We welcome attendees with wide varieties of experiences, expertise, and backgrounds to join us at the Kromhouthal, Amsterdam. 
 Users, contributors, and newcomers can share experiences and learn from one another to solve hard problems and grow a stronger open-source community.
 
-September 14 - 16 2023
+September 18 - 20 2024
 
-As we work to assemble programming for the 2023 conference, you can browse recordings from previous PyData editions [on our YouTube](https://www.youtube.com/user/PyDataTV) to get a better idea of the subject matter covered at PyData Amsterdam
+As we work to assemble programming for the 2024 conference, you can browse recordings from previous PyData editions [on our YouTube](https://www.youtube.com/user/PyDataTV) to get a better idea of the subject matter covered at PyData Amsterdam
 
 
 # About PyData

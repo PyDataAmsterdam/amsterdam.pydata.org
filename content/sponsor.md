@@ -7,7 +7,7 @@ type = "sponsor"
 
 # Why Sponsor
 
-Join our community at PyData Amsterdam, from 14-16 September 2023. Engage, network, and collaborate with peers and like-minded people in the Python Data community. Sponsoring this event allows you to meet with data professionals ranging from startup CTOs to corporate developers to senior technology executives from all over the world. Take this chance to inform this community about your organization's products, services or job offerings.
+Join our community at PyData Amsterdam, from 18-20 September 2024. Engage, network, and collaborate with peers and like-minded people in the Python Data community. Sponsoring this event allows you to meet with data professionals ranging from startup CTOs to corporate developers to senior technology executives from all over the world. Take this chance to inform this community about your organization's products, services or job offerings.
 
 Sponsoring PyData Amsterdam allows you to associate your brand with a fast-growing but mature technology community. You will take advantage of participating in a professionally-organized conference run by a neutral nonprofit where content is curated by the community.
 
@@ -16,11 +16,11 @@ You also give back to the open source community. NumFocus reinvests profits from
 
 # Become a Sponsor
 
-You can find the different sponsorship options at the bottom of this page or download the [sponsorship prospectus](/PyData-Amsterdam-2023-Sponsorship-Prospectus.pdf). 
+Sponsor information for the 2024 conference will follow soon! 
+
 If you want to sponsor PyData Amsterdam or if you have any further questions, please reach out to us at amsterdam@pydata.org. 
 
-[![prospectus](/img/prospectus-cover.png)](/PyData-Amsterdam-2023-Sponsorship-Prospectus.pdf)
-
+<!-- 
 
 # Sponsor benefits FAQ
 
@@ -59,4 +59,4 @@ submitted links.
 
 ### What is the Job Board?
 Your company’s job listings will be published on the event website and emailed out to all event
-attendees. Limit 5 job listings per sponsor. 
+attendees. Limit 5 job listings per sponsor.  -->
