@@ -1,5 +1,5 @@
-+++
-title = "Call for Proposals: Share Your Insights at PyData Amsterdam 2023!"
+<!-- +++
+title = "Call for Proposals: Share Your Insights at PyData Amsterdam 2024!"
 description = "Submit a talk"
 +++
 
@@ -18,15 +18,16 @@ We welcome proposals across a wide range of topics related to data analysis, mac
 
 ## How to submit a proposal?
 
-Submitting a proposal is simple! Just visit our [cfp platform (https://amsterdam2023.pydata.org/cfp/cfp)](https://amsterdam2023.pydata.org/cfp/cfp) and fill out the proposal submission form. Please provide a clear and concise description of your talk, along with your background and any relevant experience. Don't worry if you're a first-time speaker &ndash; we are eager to provide support and guidance to help you deliver an exceptional presentation.
+Call for proposal will open soon, we will publish the proposal submission form on this page. 
+<!-- Submitting a proposal is simple! Just visit our [cfp platform (https://amsterdam2023.pydata.org/cfp/cfp)](https://amsterdam2023.pydata.org/cfp/cfp) and fill out the proposal submission form. Please provide a clear and concise description of your talk, along with your background and any relevant experience. Don't worry if you're a first-time speaker &ndash; we are eager to provide support and guidance to help you deliver an exceptional presentation. -->
 
 ## Key Dates:
 
 
-- Proposal submission deadline: **June 11, 2023**
-- Notification of acceptance: **July 25, 2023.**
-- Conference dates: September **14-16, 2023**
+- Proposal submission deadline: **June, 2024**
+- Notification of acceptance: **July, 2024.**
+- Conference dates: September **18-20 Sept, 2024**
 
-Join us in making PyData Amsterdam 2023 an unforgettable event! We look forward to receiving your proposals and having you on our list of speakers.
+Join us in making PyData Amsterdam 2024 an unforgettable event! We look forward to receiving your proposals and having you on our list of speakers.
 
-Should you have any questions or need further assistance, please don't hesitate to reach out to our organizing team at amsterdam@pydata.org
+Should you have any questions or need further assistance, please don't hesitate to reach out to our organizing team at amsterdam@pydata.org -->
