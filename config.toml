@@ -52,11 +52,11 @@ pluralizelisttitles = false
     url        = "/sponsor/"
     weight     = 6
 
-[[menu.main]]
-    name       = "Program"
-    identifier = "menu.program"
-    url        = "/program/"
-    weight     = 6
+# [[menu.main]]
+#    name       = "Program"
+#    identifier = "menu.program"
+#    url        = "/program/"
+#    weight     = 6
 
 [[menu.main]]
     name       = "Gallery"
@@ -211,7 +211,7 @@ pluralizelisttitles = false
     # All sponsors are defined in their own files. You can find example items
     # at 'exampleSite/data/sponsors'.
     # For more information take a look at the README.
-    title = "Our Sponsors"
+    title = "Last year's Sponsors"
     subtitle = ""
 
 [params.recent_posts]
