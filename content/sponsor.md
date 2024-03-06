@@ -16,36 +16,40 @@ You also give back to the open source community. NumFocus reinvests profits from
 
 # Become a Sponsor
 
-Sponsor information for the 2024 conference will follow soon! 
+You can find the different sponsorship options at the bottom of this page or download the [sponsorship prospectus](/PyData-Amsterdam-2024-Sponsorship-Prospectus.pdf).
+
+
 
 If you want to sponsor PyData Amsterdam or if you have any further questions, please reach out to us at amsterdam@pydata.org. 
 
-<!-- 
 
 # Sponsor benefits FAQ
 
 ## What is included with an Expo Booth?
-An expo booth is a 3x3 area with table and chairs, plus wi-fi and electricity.
+For the sponsor booths at our conference we are working with a partner [PLAAT](https://www.plaatreklame.nl).
+
+An expo booth is a 3x3 area (or 6x3 for diamond sponsors) with table and chairs, plus wi-fi and electricity.
+Please review the [sponsorship prospectus](/PyData-Amsterdam-2024-Sponsorship-Prospectus.pdf) for more details and
+customization options.
+
 Sponsor booths are integrated into common areas where they will attract attendee traffic. Sponsors
 are responsible for shipping charges to and from the conference. 
 
 Monitors and other technical equipment are not a standard part of an expo booth, but can be supplied by us.
 
-### What is Premium Logo Placement?
-Diamond and Platinum sponsor logos receive preferential treatment on all logo-related benefits (top
-line, centered, or first; larger than others). Includes the opportunity to place your company logo on
-attendee badges and/or lanyards.
 
-### What is Top Billing?
-Diamond sponsors are always listed first, before any other sponsor. Diamond sponsors are acknowledged in the
-title of the event as Special Thanks To Our Diamond Sponsors with your logo.
-
-
-### Do Sponsor Talks and Tutorials Go Through the Regular Review Process?
-Diamond and Platinum sponsors are able to present a talk or tutorial at the event. While sponsor talks and
-tutorials do not go through the regular review process, presentation proposals must be submitted for
+### What are sponsored talks?
+If you have a sponsored talk included with your benefits, please make sure the talk and speaker description are uploaded correctly in our CfP system.
+While sponsor talks and tutorials do not go through the regular review process, presentation proposals must be submitted for
 approval by the review committee. The committee will help ensure that your presentation’s content is
 appropriate and relevant to the audience at the event.
+
+Please also indicate the availability of the speaker for the conference days. Given that scheduling is a difficult task for us we would appreciate some flexibility here.
+
+Talk requirements:
+- 25 minutes + 5 minutes Q&A
+- Please avoid pure commercial pitches as they will be less appreciated by the audience
+- Feel free to reach out to us for any feedback on your talk proposal
 
 ###  What is included in access to the Attendee List?
 The list will be a .csv file with attendee name, email, job title, and company from those who have opted
@@ -56,7 +60,6 @@ During registration, attendees are invited to provide a url that links to their 
 or LinkedIn profile to be shared with event sponsors. All PyData sponsors have access to the
 submitted links.
 
-
 ### What is the Job Board?
 Your company’s job listings will be published on the event website and emailed out to all event
-attendees. Limit 5 job listings per sponsor.  -->
+attendees. Limit 5 job listings per sponsor.  
