@@ -18,6 +18,7 @@ You also give back to the open source community. NumFocus reinvests profits from
 
 You can find the different sponsorship options at the bottom of this page or download the [sponsorship prospectus](/PyData-Amsterdam-2024-Sponsorship-Prospectus.pdf).
 
+[![prospectus](/img/prospectus-cover.png)](/PyData-Amsterdam-2024-Sponsorship-Prospectus.pdf)
 
 
 If you want to sponsor PyData Amsterdam or if you have any further questions, please reach out to us at amsterdam@pydata.org. 
@@ -25,6 +26,8 @@ If you want to sponsor PyData Amsterdam or if you have any further questions, pl
 
 # Sponsor benefits FAQ
 
+
+![sponsor-benefits](/img/sponsor-benefits.png)
 ## What is included with an Expo Booth?
 For the sponsor booths at our conference we are working with a partner [PLAAT](https://www.plaatreklame.nl).
 
