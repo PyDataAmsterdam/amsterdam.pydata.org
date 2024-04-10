@@ -8,7 +8,7 @@ Contributions are always welcome. Please open an issue first to discuss what you
 
 ## Installation
 
-The PyData site is developed using [Hugo](https://https://gohugo.io/), a static site generator in Go. 
+The PyData site is developed using [Hugo](https://gohugo.io/), a static site generator in Go. 
 
 To run the site locally, use `hugo server -D`
 
