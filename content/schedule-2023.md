@@ -2,5 +2,5 @@
 title = "Program"
 description = "Program"
 keywords = ["program"]
-type = "program"
+type = "schedule2023"
 +++
