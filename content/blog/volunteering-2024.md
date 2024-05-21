@@ -1,5 +1,6 @@
-+++ title = "Join Us as a Volunteer!" date = "2024-05-15T08:35:20+02:00"
-
++++ 
+title = "Join Us as a Volunteer!" 
+date = "2024-05-15T08:35:20+02:00"
 +++
 
 We're delighted to announce that the call for volunteers is officially open! With the volunteers' commitment and collaboration, we made 2023 Conference a huge success. And guess what? This year we want it to be even more successful and we need your help.
