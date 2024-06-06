@@ -7,7 +7,7 @@ const WhatToExpectSection = () => {
       <div className="flex flex-col md:flex-row items-center mb-8 pt-10 pb-8">
         <div className="w-full md:w-1/2">
           <img
-            src="/images/impression-1.JPG"
+            src="/images/impression/impression-1.JPG"
             alt="Description"
             className="w-full h-auto p-4"
           />
