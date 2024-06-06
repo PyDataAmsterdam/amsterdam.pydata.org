@@ -1,0 +1,44 @@
+{
+  "name": "py-data2024-alt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "py-data2024-alt",
+  "author": "Mark Berger",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.3",
+    "@mdx-js/react": "^2.3.0",
+    "autoprefixer": "^10.4.19",
+    "cobe": "^0.6.3",
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-mdx": "^5.13.1",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-slick": "^0.30.2",
+    "react-youtube": "^10.1.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.4.3"
+  },
+  "resolutions": {
+    "react-image-lightbox/react": "^18.2.0"
+  }
+}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpy_data2024_alt=self.webpackChunkpy_data2024_alt||[]).push([[847],{5691:function(e,t,a){a.r(t);var l=a(6540),r=a(1211);t.default=()=>l.createElement(r.A,null,l.createElement("iframe",{src:"https://amsterdam2024.pydata.org/cfp/cfp",style:{width:"100%",border:"none",overflow:"hidden"},title:"Submit"}))}}]);
+//# sourceMappingURL=component---src-pages-submit-js-eb06eb8eaf72efdd6ac4.js.map

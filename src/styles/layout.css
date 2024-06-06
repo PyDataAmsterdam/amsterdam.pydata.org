@@ -1,0 +1,288 @@
+.home-banner {
+  position: relative;
+  height: calc(100vh); /* Adjust 64px to the height of your navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Changed to space-around to prevent overlap */
+  color: #fff;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.home-banner .video-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.home-banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1; /* Adjust opacity for desired effect */
+  filter: saturate(100%); /* Adjust saturation level as needed */
+  z-index: -1;
+}
+
+.home-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the pseudo-element */
+  /* Add any additional styling here */
+}
+
+
+.globe-element {
+  position: relative;
+  left: 5%;
+}
+
+.pydata-logo {
+  position: relative;
+  bottom: 4px;
+}
+
+.newsitem-page-date {
+  margin-top: 20px
+}
+
+.buy-tickets-button {
+  background-color: #ed9042;
+}
+
+.buy-tickets-button:hover {
+  background-color: green
+}
+
+.submit-talk-button {
+  background-color: #459cb8;
+}
+
+.submit-talk-button:hover {
+  background-color: green
+}
+
+@media (max-width: 640px) { /* Adjusting for typical mobile screen sizes */
+  .feature-cell {
+      max-width: 120px; /* Set a max-width that suits your design */
+      white-space: normal; /* Ensure text wraps */
+  }
+}
+
+#ticketIframe {
+  width: 100%;
+  border: none;
+  height: 2000px; /* default height for desktop */
+  overflow: hidden;
+}
+
+@media (max-width: 599px) {
+  #ticketIframe {
+    height: 2350px; /* larger height for mobile */
+    overflow: hidden;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scroll-content {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-content::after {
+  content: '';
+  display: block;
+  flex: none;
+  width: 100%;
+}
+
+.scroll-item {
+  flex: none;
+  margin: 0 2rem;
+  transition: filter 0.3s;
+}
+
+.scroll-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.scroll-item:hover img {
+  filter: grayscale(0%);
+}
+
+.scroll-pause:hover .scroll-content {
+  animation-play-state: paused;
+}
+
+.custom-booking-logo {
+  margin-top: 1.7rem !important; 
+}
+
+.custom-hopsworks-logo {
+  margin-top: 1rem !important;
+}
+
+.custom-adyen-logo {
+  margin-top: 0.5rem !important; 
+}
+
+.custom-coiled-logo {
+  margin-bottom: 1rem !important; 
+}
+
+.custom-snowflake-logo {
+  margin-top: 1.3rem !important; 
+}
+
+.custom-bdr-logo {
+  margin-top: 1.7rem !important; 
+}
+
+.custom-axi-logo {
+  width: 6%;
+  margin-top: 1.5rem !important; 
+}
+
+.banner {
+  background: linear-gradient(90deg, #000428, #004e92); /* Example gradient background */
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  padding: 10px 20px;
+  height: 50px; /* Set a fixed height for the banner */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  font-size: 16px;
+}
+
+.banner-content {
+  flex: 1; /* Allow the content to take up available space */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center;
+}
+
+.banner-text {
+  display: flex;
+  align-items: center;
+  text-align: center; /* Center text inside the content */
+}
+
+.countdown {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+
+.banner-offset {
+  padding-top: 50px; /* Offset by the height of the banner */
+}
+
+
+/* Define custom utility classes */
+.who-is-attending {
+  right: auto;
+  width: auto;
+}
+
+@media (min-width: 1024px) {
+  .who-is-attending {
+    position: relative;
+    right: 10%;
+    width: 120%;
+  }
+}
+
+.committee-member {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .committee-member {
+    top: auto !important;
+    left: auto !important;
+    position: relative !important;
+    margin-bottom: 20px;
+  }
+}
+
+.map-container {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* height: 21rem; */
+}
+
+@media (min-width: 768px) {
+  .buttons-breakpoint\:w-2\/3 {
+    padding-bottom: 40% !important;
+  }
+}
+
+.testimonials-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+}
+
+.testimonial-item {
+  flex: 1 1 calc(33.333% - 2rem);
+  margin: 1rem;
+  padding: 2rem;
+  /* border: 1px solid #ddd;
+  border-radius: 8px; */
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .testimonial-item {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-item {
+    flex: 1 1 100%;
+  }
+}
+
+.grey-background-section {
+  background-color: #FAF9F8
+}

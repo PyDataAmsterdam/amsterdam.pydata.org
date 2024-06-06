@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body {
+    @apply bg-default;
+  } */
+
+
+body {
+  font-family: 'Helvetica', 'Avenir', sans-serif;
+  color: #565656;
+}
+
+* {
+  font-family: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+

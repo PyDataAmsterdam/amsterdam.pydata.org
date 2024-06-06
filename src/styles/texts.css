@@ -1,0 +1,105 @@
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .1em solid transparent; /* Initially hide the caret */
+  margin: 0 auto;
+  letter-spacing: .1em;
+  display: flex;
+  line-height: 1.2;
+  width: 0; /* Ensure text is initially hidden */
+  animation: 
+    typing 3s steps(50, end) 1s forwards,
+    blink-caret .75s step-end 1s forwards;
+}
+
+.typewriter span {
+  animation: none;
+}
+
+.typewriter .pydata-py {
+  color: #459cb8; 
+  margin-bottom: 10px;
+}
+
+.typewriter .pydata-data {
+  color: #ed9042; 
+  margin-bottom: 10px;
+}
+
+@keyframes typing {
+  from { 
+    width: 0;
+    border-right-color: transparent; /* Ensure caret is hidden initially */
+  }
+  to { 
+    width: 100%; 
+    border-right-color: transparent; 
+  }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+.navbar-item {
+   /* text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; */
+}
+
+.title-text {
+  -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.text-3d {
+  /* text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; */
+}
+
+.text-pydata-orange {
+  color: #ed9042; 
+}
+
+.text-pydata-blue {
+  color: #459cb8; 
+}
+
+.playlist-header {
+  margin-bottom: 15px;
+}
+
+.kromhouthal-sentence {
+  position: relative;
+  bottom: 10px;
+}
+
+.hero-section-title {
+  color: #ffffff;
+}
+
+.attendees-counter {
+  position: relative;
+  left: 5px;
+}
+
+.attendees-ds {
+  position: relative;
+  top: 12px;
+}
