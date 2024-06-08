@@ -78,13 +78,13 @@
 #ticketIframe {
   width: 100%;
   border: none;
-  height: 2000px; /* default height for desktop */
+  height: 1700px; /* default height for desktop */
   overflow: hidden;
 }
 
 @media (max-width: 599px) {
   #ticketIframe {
-    height: 2350px; /* larger height for mobile */
+    height: 2150px; /* larger height for mobile */
     overflow: hidden;
   }
 }
@@ -285,4 +285,16 @@
 
 .grey-background-section {
   background-color: #FAF9F8
+}
+
+.tickets-container {
+  max-height: 1970px;
+  margin-bottom: 0px;
+}
+
+@screen buttons-breakpoint {
+  .tickets-container-desktop {
+    max-height: 1800px;
+    margin-bottom: 0px;
+  }
 }
