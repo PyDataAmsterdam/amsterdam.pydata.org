@@ -6,7 +6,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     <script
       key="plausible"
       defer
-      data-domain="pydata2024.netlify.app"
+      data-domain="amsterdam.pydata.org"
       src="https://plausible.io/js/script.tagged-events.js"
     ></script>,
   ]);

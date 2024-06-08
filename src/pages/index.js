@@ -87,7 +87,7 @@ export const Head = () => (
     <title>PyData Amsterdam 2024</title>
     {/* Open Graph / Facebook */}
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://pydata2024.netlify.app/" />
+    <meta property="og:url" content="https://amsterdam.pydata.org" />
     <meta property="og:title" content="PyData Amsterdam 2024" />
     <meta
       property="og:description"
@@ -95,11 +95,11 @@ export const Head = () => (
     />
     <meta
       property="og:image"
-      content="https://pydata2024.netlify.app/images/pydata-social-image.jpg"
+      content="https://amsterdam.pydata.org/images/pydata-social-image.jpg"
     />
     {/* Twitter */}
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://pydata2024.netlify.app/" />
+    <meta property="twitter:url" content="https://amsterdam.pydata.org" />
     <meta property="twitter:title" content="PyData Amsterdam 2024" />
     <meta
       property="twitter:description"
@@ -107,7 +107,7 @@ export const Head = () => (
     />
     <meta
       property="twitter:image"
-      content="https://pydata2024.netlify.app/images/pydata-social-image.jpg"
+      content="https://amsterdam.pydata.org/images/pydata-social-image.jpg"
     />
   </>
 );

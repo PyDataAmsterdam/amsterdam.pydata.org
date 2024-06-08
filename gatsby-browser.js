@@ -14,7 +14,7 @@ export const onRouteUpdate = () => {
   export const onInitialClientRender = () => {
     const script = document.createElement("script");
     script.defer = true;
-    script.setAttribute("data-domain", "pydata2024.netlify.app");
+    script.setAttribute("data-domain", "amsterdam.pydata.org");
     script.src = "https://plausible.io/js/script.tagged-events.js";
     document.head.appendChild(script);
   };
