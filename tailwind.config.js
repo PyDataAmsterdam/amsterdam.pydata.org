@@ -15,7 +15,7 @@ module.exports = {
         'default': '#e4d1b6', // Your desired default background color
       },
       screens: {
-        'buttons-breakpoint': '1037px',
+        'buttons-breakpoint': '1183px',
         'buttons-breakpoint-xs': '722px',
         'logo-navbar-breakpoint': '820px',
       }

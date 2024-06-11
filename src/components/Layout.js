@@ -8,7 +8,7 @@ import '../styles/texts.css'
 const Layout = ({ children }) => {
   return (
     <>
-      <Banner /> {/* Add the Banner component */}
+      <Banner />
       <Navbar/>
       <main className='pt-16' style={{paddingTop: '100px'}}>{children}</main>
       <Footer />

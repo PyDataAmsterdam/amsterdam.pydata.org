@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { PlusCircleIcon, TicketIcon, FolderArrowDownIcon, EnvelopeIcon, BanknotesIcon } from '@heroicons/react/24/outline';
+import { PlusCircleIcon, TicketIcon, FolderArrowDownIcon, EnvelopeIcon, BanknotesIcon, HandRaisedIcon } from '@heroicons/react/24/outline';
 
 const Button = ({ label, icon, to, color, isExternal, minify, hiddenOnMobile }) => {
   const buttonStyle = {
@@ -25,6 +25,10 @@ const Button = ({ label, icon, to, color, isExternal, minify, hiddenOnMobile }) 
       break;
     case 'sponsor':
       IconComponent = BanknotesIcon;
+      break;
+    case 'volunteer':
+      IconComponent = HandRaisedIcon;
+      break;
     default:
       IconComponent = null;
   }
