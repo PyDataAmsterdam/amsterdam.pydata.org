@@ -33,13 +33,6 @@ const WhatToExpectSection = () => {
           </p>
           <div className="flex space-x-4">
             <Button
-              label="Submit a Talk"
-              isExternal={true}
-              icon="submit"
-              color="blue"
-              to="https://amsterdam2024.pydata.org/cfp/cfp"
-            />
-            <Button
               label="Get Tickets"
               icon="ticket"
               color="orange"
