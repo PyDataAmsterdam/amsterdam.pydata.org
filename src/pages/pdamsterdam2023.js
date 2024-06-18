@@ -107,6 +107,6 @@ const Impression = () => {
   );
 };
 
-export const Head = () => <title>Impression PyData 2023</title>;
+export const Head = () => <title>Impressions PyData 2023</title>;
 
 export default Impression;
