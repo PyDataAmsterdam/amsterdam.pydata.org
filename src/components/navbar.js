@@ -70,8 +70,8 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 logo-navbar-breakpoint:static logo-navbar-breakpoint:inset-auto logo-navbar-breakpoint:ml-6 logo-navbar-breakpoint:pr-0 buttons-breakpoint-xs:pl-4 buttons-breakpoint-xs:pr-0">
-                <Button label="Become a Volunteer" icon="volunteer" color="blue" to="https://docs.google.com/forms/d/e/1FAIpQLSdNCg2K4e59CTRWbwipGZaU1JQY3Wd7j4utZ6smKX8O61wD5w/viewform" minify={true} hiddenOnMobile={true} isExternal={true}/>
                 <Button label="Get Tickets" icon="ticket" color="orange" to="/tickets" minify={true} />
+                <Button label="Become a Volunteer" icon="volunteer" color="blue" to="https://docs.google.com/forms/d/e/1FAIpQLSdNCg2K4e59CTRWbwipGZaU1JQY3Wd7j4utZ6smKX8O61wD5w/viewform" minify={true} hiddenOnMobile={true} isExternal={true}/>
               </div>
             </div>
           </div>
