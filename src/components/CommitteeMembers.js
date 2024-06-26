@@ -23,7 +23,7 @@ const committeeMembers = [
 
 const CommitteeMembers = () => {
   return (
-    <div className="grey-background-section py-16 relative overflow-hidden buttons-breakpoint:p-24">
+    <div className="py-16 relative overflow-hidden buttons-breakpoint:p-24">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-center text-4xl text-black mb-12">
           Our committee members
