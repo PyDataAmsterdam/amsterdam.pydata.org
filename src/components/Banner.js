@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-content">
         <span className="banner-text">
           <Link to="/tickets">
-            🚨 Don’t miss the Early Bird Ticket to save up to €60 until July 14! 🎫
+            🚨 Don’t miss the Early Bird Ticket to save up to €60 🎫 🔗
           </Link>
         </span>
       </div>
