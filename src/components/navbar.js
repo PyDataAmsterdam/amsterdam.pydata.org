@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const navigation = [
   { name: 'About', to: '/about', current: false },
-  // { name: 'News & Updates', to: '/news_n_updates', current: false },
+  // { name: 'Program', to: '/program', current: false},
   { name: 'Sponsor', to: '/sponsor', current: false },
   { name: 'Impressions 2023', to: '/pdamsterdam2023', current: false },
   { name: 'FAQ', to: '/faq', current: false },

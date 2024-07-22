@@ -17,7 +17,7 @@ module.exports = {
       screens: {
         'buttons-breakpoint': '1183px',
         'buttons-breakpoint-xs': '722px',
-        'logo-navbar-breakpoint': '820px',
+        'logo-navbar-breakpoint': '993px',
       }
     },
     variants: {
