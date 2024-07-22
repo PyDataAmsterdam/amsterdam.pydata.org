@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-content">
         <span className="banner-text">
           <Link to="/tickets">
-            🚨 Don’t miss the Early Bird Ticket to save up to €60 🎫 🔗
+            Secure your ticket for the PyData Amsterdam 2024 conference! 🎫 🔗
           </Link>
         </span>
       </div>
