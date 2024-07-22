@@ -9,5 +9,9 @@ export const onRenderBody = ({ setHeadComponents }) => {
       data-domain="amsterdam.pydata.org"
       src="https://plausible.io/js/script.tagged-events.js"
     ></script>,
+    <script
+      type="text/javascript"
+      src="https://amsterdam2024.pydata.org/cfp/schedule/widget/v2.en.js"
+    ></script>,
   ]);
 };
