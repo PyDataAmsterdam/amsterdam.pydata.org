@@ -10,10 +10,12 @@ export const onRenderBody = ({ setHeadComponents }) => {
       src="https://plausible.io/js/script.tagged-events.js"
     ></script>,
     <script
+      key="schedule_js"
       type="text/javascript"
       src="https://amsterdam2024.pydata.org/cfp/schedule/widget/v2.en.js"
     ></script>,
     <link
+      key="schedule_css"
       rel="stylesheet"
       type="text/css"
       href="https://pretalx.com/democon/schedule/widget/v2.css"
