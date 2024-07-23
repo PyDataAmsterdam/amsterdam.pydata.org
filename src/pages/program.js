@@ -1,24 +1,36 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Layout from "../components/Layout";
 
 const ProgramPage = () => {
+  const topRef = useRef(null);
 
   useEffect(() => {
-    // This effect will run after the component mounts
-    const script = document.createElement("script");
-    script.src = "https://pretalx.com/democon/schedule/widget/v2.en.js";
-    script.async = true;
-    document.body.appendChild(script);
+    const timer = setTimeout(() => {
+      const script = document.createElement("script");
+      script.src = "https://pretalx.com/democon/schedule/widget/v2.en.js";
+      script.async = true;
+      document.body.appendChild(script);
+
+      script.onload = () => {
+        // Scroll back to top after widget loads
+        if (topRef.current) {
+          topRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+    }, 100); // Delay widget load by 100ms
 
     return () => {
-      // Cleanup: remove the script when the component unmounts
-      document.body.removeChild(script);
+      clearTimeout(timer);
+      const existingScript = document.querySelector('script[src="https://pretalx.com/democon/schedule/widget/v2.en.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
     };
   }, []);
 
   return (
     <Layout>
-      <div className="pt-8">
+      <div className="pt-8" ref={topRef}>
         <div className="buttons-breakpoint:py-24">
           <h2 className="text-center text-4xl text-black">
             PyData Amsterdam 2024 Program
