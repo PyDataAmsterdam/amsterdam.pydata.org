@@ -13,5 +13,10 @@ export const onRenderBody = ({ setHeadComponents }) => {
       type="text/javascript"
       src="https://amsterdam2024.pydata.org/cfp/schedule/widget/v2.en.js"
     ></script>,
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://pretalx.com/democon/schedule/widget/v2.css"
+    ></link>,
   ]);
 };

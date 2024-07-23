@@ -300,14 +300,18 @@
 }
 
 
-.pretalx-wrapper {
+/* .pretalx-wrapper {
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-}
+} */
 
-.pretalx-wrapper pretalx-schedule {
+/* .pretalx-wrapper pretalx-schedule {
   display: inline-block;
   min-width: 100%;
-  min-height: 400px; /* Adjust this value as needed */
+  min-height: 400px;
+} */
+
+.pretalx-wrapper {
+  overflow: auto;
 }
