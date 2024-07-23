@@ -312,6 +312,14 @@
   min-height: 400px;
 } */
 
-.pretalx-wrapper {
-  overflow: auto;
+.pretalx-wrapper pretalx-schedule {
+  display: block;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide tabs on larger screens */
+@media (min-width: 768px) {
+  .pretalx-wrapper pretalx-schedule::part(header) {
+    display: none;
+  }
 }

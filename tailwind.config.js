@@ -18,6 +18,7 @@ module.exports = {
         'buttons-breakpoint': '1183px',
         'buttons-breakpoint-xs': '722px',
         'logo-navbar-breakpoint': '993px',
+        'pretalx-widget-breakpoint': '710px'
       }
     },
     variants: {

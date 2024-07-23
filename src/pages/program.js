@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 
 const ProgramPage = () => {
+
   useEffect(() => {
     // This effect will run after the component mounts
     const script = document.createElement("script");
@@ -34,7 +35,7 @@ const ProgramPage = () => {
             <i className="fa fa-group"></i> Speakers
           </a>
         </div> */}
-        <div className="pretalx-wrapper">
+        <div className="pretalx-widget-breakpoint:overflow-x-auto sm:overflow-x-visible">
           <pretalx-schedule
             event-url="https://amsterdam2024.pydata.org/cfp/"
             locale="en"
