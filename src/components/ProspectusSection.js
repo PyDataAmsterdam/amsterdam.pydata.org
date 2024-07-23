@@ -6,7 +6,7 @@ const SponsorSection = () => {
     <div className="bg-white py-16 buttons-breakpoint:py-24">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left px-4 sm:px-6 lg:px-8">
         <div className="w-full md:w-1/3 mb-8 md:mb-0 md:pr-8">
-          <a href="/PyData-Amsterdam-2024-Sponsorship-Prospectus.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/PyData Amsterdam 2024 Sponsorship Prospectus - July 2024.pdf" target="_blank" rel="noopener noreferrer">
             <img src="/images/prospectus_cover.png" alt="PDF Cover" className="w-full md:w-auto mx-auto" style={{ maxWidth: '350px' }} />
           </a>
         </div>
@@ -28,7 +28,7 @@ const SponsorSection = () => {
                 label="Download sponsorship prospectus" 
                 icon="download" 
                 color="orange" 
-                to="/PyData-Amsterdam-2024-Sponsorship-Prospectus.pdf"
+                to="/PyData Amsterdam 2024 Sponsorship Prospectus - July 2024.pdf"
                 isExternal={true} 
                 />
             </div>
