@@ -318,8 +318,19 @@
 }
 
 /* Hide tabs on larger screens */
-@media (min-width: 768px) {
-  .pretalx-wrapper pretalx-schedule::part(header) {
-    display: none;
+@media (min-width: 710px) {
+  .pretalx-wrapper pretalx-schedule .bunt-tabs-header {
+    display: none !important;
+  }
+}
+
+/* Ensure the schedule content is visible when tabs are hidden */
+@media (min-width: 710px) {
+  .pretalx-wrapper pretalx-schedule .bunt-tabs-body {
+    display: flex !important;
+  }
+  .pretalx-wrapper pretalx-schedule .bunt-tabs-body .bunt-tab {
+    display: block !important;
+    flex: 1;
   }
 }

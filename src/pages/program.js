@@ -18,30 +18,18 @@ const ProgramPage = () => {
 
   return (
     <Layout>
-      <div>
+      <div className="pt-8">
         <div className="buttons-breakpoint:py-24">
           <h2 className="text-center text-4xl text-black">
             PyData Amsterdam 2024 Program
           </h2>
         </div>
-        {/* <div className="navigation">
-          <a href="https://amsterdam2024.pydata.org/cfp/schedule/" className="btn btn-outline-success  active">
-            <i className="fa fa-calendar"></i> Schedule
-          </a>
-          <a href="https://amsterdam2024.pydata.org/cfp/talk/" className="btn btn-outline-success ">
-            <i className="fa fa-comments-o"></i> Sessions
-          </a>
-          <a href="https://amsterdam2024.pydata.org/cfp/speaker/" className="btn btn-outline-success ">
-            <i className="fa fa-group"></i> Speakers
-          </a>
-        </div> */}
-        <div className="pretalx-widget-breakpoint:overflow-x-auto sm:overflow-x-visible">
+        <div className="pretalx-wrapper pretalx-widget-breakpoint:overflow-x-auto sm:overflow-x-visible">
           <pretalx-schedule
             event-url="https://amsterdam2024.pydata.org/cfp/"
             locale="en"
             style={{
               "--pretalx-clr-primary": "#3aa57c",
-              '--schedule-max-width': "500px"
             }}
           ></pretalx-schedule>
         </div>
