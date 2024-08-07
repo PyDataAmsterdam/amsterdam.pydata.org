@@ -11,6 +11,7 @@ const BrandLogos = () => {
         { src: "/images/sponsors/snowflake.png", alt: "Snowflake", url: "https://www.snowflake.com", className: "custom-snowflake-logo", sizeClass: "w-60"},
         { src: "/images/sponsors/bigdatarepublic.png", alt: "Big Data Republic", url: "https://www.bigdatarepublic.com", className: "custom-bdr-logo", sizeClass: "w-32"},
         { src: "/images/sponsors/axi.png", alt: "AXI", url: "https://www.axi.be", className: "custom-axi-logo", sizeClass: "w-32"},
+        { src: "/images/sponsors/builders.png", alt: "Builders", url: "https://builders.studio/", className: "custom-builders-logo", sizeClass: "w-40"},
         // Add more logos as needed
     ];
     
