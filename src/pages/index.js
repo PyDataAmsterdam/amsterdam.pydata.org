@@ -95,7 +95,7 @@ export const Head = () => (
     />
     <meta
       property="og:image"
-      content="https://amsterdam.pydata.org/images/pydata-social-image.jpg"
+      content="https://amsterdam.pydata.org/images/pydata_amsterdam_meta_image.png"
     />
     {/* Twitter */}
     <meta property="twitter:card" content="summary_large_image" />
@@ -107,7 +107,7 @@ export const Head = () => (
     />
     <meta
       property="twitter:image"
-      content="https://amsterdam.pydata.org/images/pydata-social-image.jpg"
+      content="https://amsterdam.pydata.org/images/pydata_amsterdam_meta_image.png"
     />
   </>
 );
