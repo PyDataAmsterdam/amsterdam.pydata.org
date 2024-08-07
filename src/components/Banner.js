@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-content">
         <span className="banner-text">
           <Link to="/program">
-            🎉 PyData Amsterdam 2024 Program is live! 🎉 🔗
+            Don’t miss out on PyData Amsterdam 🐍 - tickets are selling fast, secure your spot now! 🔗 🎟️
           </Link>
         </span>
       </div>
