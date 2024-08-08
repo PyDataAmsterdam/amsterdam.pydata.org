@@ -89,16 +89,9 @@
   }
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
 .scroll-container {
+  --scroll-width: 0px;
+  --animation-duration: 0s;
   display: flex;
   overflow: hidden;
   white-space: nowrap;
@@ -107,14 +100,17 @@
 
 .scroll-content {
   display: inline-flex;
-  animation: scroll 20s linear infinite;
+  animation: scroll var(--animation-duration) linear infinite;
+  will-change: transform;
 }
 
-.scroll-content::after {
-  content: '';
-  display: block;
-  flex: none;
-  width: 100%;
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--scroll-width)));
+  }
 }
 
 .scroll-item {
@@ -136,6 +132,11 @@
   animation-play-state: paused;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .scroll-content {
+    animation: none;
+  }
+}
 .custom-booking-logo {
   margin-top: 1.7rem !important; 
 }
@@ -162,12 +163,15 @@
 
 .custom-axi-logo {
   width: 6%;
-  margin-top: 1.5rem !important; 
+  margin-top: 1.3rem !important; 
+  /* margin-right: 0px !important; */
 }
 
 .custom-builders-logo {
-  width: 10%;
-  margin-top: 1.7rem !important; 
+  width: 6%;
+  margin-left: 1px !important;
+  margin-right: 20px !important;
+  margin-top: 2.3rem !important; 
 }
 
 .banner {
