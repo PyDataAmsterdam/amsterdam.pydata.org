@@ -11,12 +11,22 @@ const BrandLogos = () => {
         { src: "/images/sponsors/snowflake.png", alt: "Snowflake", url: "https://www.snowflake.com", className: "custom-snowflake-logo", sizeClass: "w-60"},
         { src: "/images/sponsors/bigdatarepublic.png", alt: "Big Data Republic", url: "https://www.bigdatarepublic.com", className: "custom-bdr-logo", sizeClass: "w-32"},
         { src: "/images/sponsors/axi.png", alt: "AXI", url: "https://www.axi.be", className: "custom-axi-logo", sizeClass: "w-32"},
-        { src: "/images/sponsors/builders.png", alt: "Builders", url: "https://builders.studio/", className: "custom-builders-logo", sizeClass: "w-40"},
+        { src: "/images/sponsors/builders.png", alt: "Builders", url: "https://builders.studio/", className: "custom-builders-logo", sizeClass: "w-32"},
     ];
     
     const containerRef = useRef(null);
     const observerRef = useRef(null);
     const [visibleLogos, setVisibleLogos] = useState([]);
+
+    const updateScrollAnimation = () => {
+        const container = containerRef.current;
+        const scrollContent = container?.querySelector('.scroll-content');
+        if (scrollContent) {
+            const scrollWidth = scrollContent.scrollWidth / 2;
+            container.style.setProperty('--scroll-width', `${scrollWidth}px`);
+            container.style.setProperty('--animation-duration', `${scrollWidth / 50}s`);
+        }
+    };
 
     useEffect(() => {
         const container = containerRef.current;
@@ -31,7 +41,6 @@ const BrandLogos = () => {
         const callback = (entries) => {
             entries.forEach((entry) => {
                 if (!entry.isIntersecting && entry.target.dataset.index === "0") {
-                    // When the first logo is about to leave the viewport, append a new set of logos
                     setVisibleLogos(prev => [...prev, ...logos]);
                 }
             });
@@ -42,16 +51,11 @@ const BrandLogos = () => {
         // Initial set of logos
         setVisibleLogos([...logos, ...logos]);
 
-        const updateScrollAnimation = () => {
-            const scrollContent = container.querySelector('.scroll-content');
-            if (scrollContent) {
-                const scrollWidth = scrollContent.scrollWidth / 2;
-                container.style.setProperty('--scroll-width', `${scrollWidth}px`);
-                container.style.setProperty('--animation-duration', `${scrollWidth / 50}s`);
-            }
-        };
+        // Use a timeout to ensure the DOM has updated before calculating dimensions
+        setTimeout(() => {
+            updateScrollAnimation();
+        }, 0);
 
-        updateScrollAnimation();
         window.addEventListener('resize', updateScrollAnimation);
 
         return () => {
@@ -71,6 +75,9 @@ const BrandLogos = () => {
         if (firstLogo) {
             observerRef.current.observe(firstLogo);
         }
+
+        // Update animation after logos have been rendered
+        updateScrollAnimation();
     }, [visibleLogos]);
 
     return (
