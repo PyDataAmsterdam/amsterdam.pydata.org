@@ -4,9 +4,11 @@ import '../styles/global.css';
 
 const BrandLogos = () => {
     const logos = [
+        { src: "/images/sponsors/adyen.png", alt: "Adyen", url: "https://www.adyen.com", className: "custom-adyen-logo", sizeClass: "w-56"},
         { src: "/images/sponsors/booking.png", alt: "Booking.com", url: "https://www.booking.com", className: "custom-booking-logo", sizeClass: "w-64"},
         { src: "/images/sponsors/hopsworks.png", alt: "Hopsworks", url: "https://www.hopsworks.ai", className: "custom-hopsworks-logo",  sizeClass: "w-64"},
-        { src: "/images/sponsors/adyen.png", alt: "Adyen", url: "https://www.adyen.com", className: "custom-adyen-logo", sizeClass: "w-56"},
+        { src: "/images/sponsors/heineken_alt.png", alt: "Heineken", url: "https://www.heineken.com", className: "custom-heineken-logo",  sizeClass: "w-64"},
+        { src: "/images/sponsors/jetbrains.svg", alt: "JetBrains", url: "https://www.jetbrains.com", className: "custom-jetbrains-logo",  sizeClass: "w-64"},
         { src: "/images/sponsors/coiled.png", alt: "Coiled", url: "https://www.coiled.io", className: "custom-coiled-logo", sizeClass: "w-40"},
         { src: "/images/sponsors/snowflake.png", alt: "Snowflake", url: "https://www.snowflake.com", className: "custom-snowflake-logo", sizeClass: "w-60"},
         { src: "/images/sponsors/bigdatarepublic.png", alt: "Big Data Republic", url: "https://www.bigdatarepublic.com", className: "custom-bdr-logo", sizeClass: "w-32"},
