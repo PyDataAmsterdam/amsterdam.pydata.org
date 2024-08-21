@@ -178,6 +178,10 @@
   margin-top: 1rem !important;
 }
 
+.custom-neo4j-logo {
+  margin-top: 1rem !important;
+}
+
 .banner {
   background: linear-gradient(90deg, #000428, #004e92); /* Example gradient background */
   color: #fff;
