@@ -182,6 +182,11 @@
   margin-top: 1rem !important;
 }
 
+.custom-roseman-logo {
+  position: relative;
+  bottom: 15%;
+}
+
 .banner {
   background: linear-gradient(90deg, #000428, #004e92); /* Example gradient background */
   color: #fff;
