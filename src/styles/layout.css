@@ -187,6 +187,12 @@
   bottom: 15%;
 }
 
+.custom-probabl-logo {
+  margin-top: 2rem !important;
+  margin-left: 0px !important;
+  margin-right: 50px;
+}
+
 .banner {
   background: linear-gradient(90deg, #000428, #004e92); /* Example gradient background */
   color: #fff;
