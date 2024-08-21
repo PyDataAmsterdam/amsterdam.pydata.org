@@ -13,6 +13,18 @@ const sponsors = [
     tier: "platinum",
     url: "https://www.hopsworks.ai",
   },
+  {
+    company: "Heineken",
+    logo: "/images/sponsors/heineken_alt.png",
+    tier: "platinum",
+    url: "https://www.heineken.com"
+  },
+  {
+    company: "JetBrains",
+    logo: "/images/sponsors/jetbrains.svg",
+    tier: "platinum",
+    url: "https://www.jetbrains.com"
+  }
 ];
 
 const SponsorColumns = () => {
