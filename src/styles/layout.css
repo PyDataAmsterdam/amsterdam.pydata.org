@@ -155,7 +155,7 @@
 }
 
 .custom-snowflake-logo {
-  margin-top: 1.3rem !important; 
+  margin-top: 1.2rem !important; 
 }
 
 .custom-bdr-logo {
@@ -171,7 +171,7 @@
 .custom-builders-logo {
   margin-left: 1px !important;
   margin-right: 20px !important;
-  margin-top: 2rem !important; 
+  margin-top: 2.5rem !important; 
 }
 
 .custom-jetbrains-logo {
@@ -179,7 +179,7 @@
 }
 
 .custom-neo4j-logo {
-  margin-top: 1rem !important;
+  margin-top: 0.9rem !important;
 }
 
 .custom-roseman-logo {
@@ -191,6 +191,10 @@
   margin-top: 2rem !important;
   margin-left: 0px !important;
   margin-right: 50px;
+}
+
+.custom-zencoder-logo {
+  margin-top: 1.4rem !important;
 }
 
 .banner {

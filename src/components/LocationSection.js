@@ -17,18 +17,25 @@ const LocationSection = () => {
             Join us on September 18 - 20
           </h3>
           <h3 className="text-2xl text-left playlist-header kromhouthal-sentence pl-4 text-black">
-            at de Kromhouthal, Amsterdam
+            at de Kromhouthal, Amsterdam & at the OBA Oosterdok
           </h3>
           <p className="text-lg pl-4">
-            PyData Amsterdam will be hosted in de Kromhouthal. This used to be
-            the home base of De Kromhout, manufacturer of large marine engines.
-            For years the site was the backdrop of hard work. That rich history
-            is not only cherished in the name, but is also still visible and
-            tangible everywhere. Kromhouthal is located in Amsterdam North.
+            PyData Amsterdam main event will be hosted in de Kromhouthal. This
+            used to be the home base of De Kromhout, manufacturer of large
+            marine engines. For years the site was the backdrop of hard work.
+            That rich history is not only cherished in the name, but is also
+            still visible and tangible everywhere. Kromhouthal is located in
+            Amsterdam North.
           </p>
           <br />
           <p className="text-lg pl-4">
-            You can check out the location using the Google Maps widget below!
+            The tutorials will be held at the Oosterdok OBA (University Library)
+            location.
+          </p>
+          <br />
+          <p className="text-lg pl-4">
+            You can check out the location of the main event using the Google
+            Maps widget below!
           </p>
         </div>
       </div>
