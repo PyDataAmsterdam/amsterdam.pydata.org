@@ -11,6 +11,10 @@ module.exports = {
         '40p': '40%',
         '56p': '56%',
       },
+      colors: {
+        'pydata-blue': '#459cb8',
+        'pydata-orange': '#ed9042',
+      },
       backgroundColor: {
         'default': '#e4d1b6', // Your desired default background color
       },

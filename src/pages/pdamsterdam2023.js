@@ -1,15 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Gallery from "../components/Gallery";
+import ImpressionsHeader from "../components/ImpressionsHeader";
 
 const Impression = () => {
   return (
     <Layout>
-      <div className="w-full pt-12 pb-12 mt-8 mb-4 buttons-breakpoint:py-24">
-        <h2 className="text-center text-5xl pt-4 pb-4 mt-4 mb-4 p-2 text-black">
-          PyData Amsterdam 2023 Vibes
-        </h2>
-      </div>
+      <ImpressionsHeader />
       <Gallery />
       <div className="w-full grey-background-section flex flex-col items-center pt-8 mt-8 pb-12 buttons-breakpoint:pt-24">
         <div className="w-full text-center mb-8">

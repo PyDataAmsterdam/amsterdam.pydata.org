@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Layout from "../components/Layout";
+import ProgramHeader from "../components/ProgramHeader";
 
 const ProgramPage = () => {
   const topRef = useRef(null);
@@ -30,12 +31,7 @@ const ProgramPage = () => {
 
   return (
     <Layout>
-      <div className="pt-8" ref={topRef}>
-        <div className="buttons-breakpoint:py-24">
-          <h2 className="text-center text-4xl text-black">
-            PyData Amsterdam 2024 Program
-          </h2>
-        </div>
+      <ProgramHeader />
         <div className="pretalx-wrapper pretalx-widget-breakpoint:overflow-x-auto sm:overflow-x-visible">
           <pretalx-schedule
             event-url="https://amsterdam2024.pydata.org/cfp/"
@@ -61,7 +57,6 @@ const ProgramPage = () => {
             </div>
           </div>
         </noscript>
-      </div>
     </Layout>
   );
 };
