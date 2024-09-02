@@ -183,8 +183,7 @@
 }
 
 .custom-roseman-logo {
-  position: relative;
-  bottom: 15%;
+  margin-top: 1.2rem !important;
 }
 
 .custom-probabl-logo {

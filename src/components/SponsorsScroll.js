@@ -10,7 +10,7 @@ const BrandLogos = () => {
         { src: "/images/sponsors/heineken_alt.png", alt: "Heineken", url: "https://www.heineken.com", className: "custom-heineken-logo",  sizeClass: "w-64"},
         { src: "/images/sponsors/jetbrains.svg", alt: "JetBrains", url: "https://www.jetbrains.com", className: "custom-jetbrains-logo",  sizeClass: "w-64"},
         { src: "/images/sponsors/polars.svg", alt: "Polars", url: "https://www.pola.rs", className: "custom-polars-logo", sizeClass: "w-48"},
-        { src: "/images/sponsors/roseman_labs.png", alt: "Roseman Labs", url: "https://rosemanlabs.com/en/", className: "custom-roseman-logo", sizeClass: "w-64"},
+        { src: "/images/sponsors/roseman_labs.svg", alt: "Roseman Labs", url: "https://rosemanlabs.com/en/", className: "custom-roseman-logo", sizeClass: "w-64"},
         { src: "/images/sponsors/zencoder.svg", alt: "Zencoder", url: "https://zencoder.ai", className: "custom-zencoder-logo", sizeClass: "w-64"},
         { src: "/images/sponsors/coiled.png", alt: "Coiled", url: "https://www.coiled.io", className: "custom-coiled-logo", sizeClass: "w-40"},
         { src: "/images/sponsors/snowflake.png", alt: "Snowflake", url: "https://www.snowflake.com", className: "custom-snowflake-logo", sizeClass: "w-60"},
