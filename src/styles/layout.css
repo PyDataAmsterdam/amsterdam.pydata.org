@@ -189,12 +189,20 @@
 .custom-probabl-logo {
   margin-top: 2rem !important;
   margin-left: 0px !important;
-  margin-right: 50px;
+  margin-right: 10px;
+  position: relative;
+  right: 40px;
 }
 
 .custom-zencoder-logo {
   margin-top: 1.4rem !important;
 }
+
+.custom-dexter-logo {
+  position: relative;
+  bottom: 22px;
+}
+
 
 .banner {
   background: linear-gradient(90deg, #000428, #004e92); /* Example gradient background */
