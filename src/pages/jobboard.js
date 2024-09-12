@@ -17,6 +17,25 @@ const JobBoard = () => {
                  ],
       url: "https://grnh.se/dbca8bc71us",
     },
+    {
+      company: "Builders",
+      logo: "/images/sponsors/builders.png",
+      title: "CTO in Residence",
+      description: ["As a CTO at Builders, you will wear multiple hats.",
+                    "Not only will you be an experienced, hands-on builder with in-depth full-stack knowledge, but your entrepreneurial spirit will also see you play a pivotal role as a co-founder, navigating product tech challenges and devising market entry strategies."],
+      url: "https://careers.builders.studio/o/cto-in-residence-1",
+    },
+    {
+      company: "Builders",
+      logo: "/images/sponsors/builders.png",
+      title: "Become a founder",
+      description: ["Join Builders: Crafting the future of work & life",
+                    "At Builders Startup Studio, we're not just creating companies; we're reshaping the work-life experience. ",
+                    "Our ambition goes beyond mere problem-solving — it's about redefining how millions find joy and functionality in their daily routines.",
+                    "We've positively impacted over a million working lives, and we're just getting started."],
+      url: "https://careers.builders.studio/o/become-a-founder",
+    },
+
     // Add more job listings as needed
   ];
 
