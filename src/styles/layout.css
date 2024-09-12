@@ -365,3 +365,17 @@
     flex: 1;
   }
 }
+
+/* Hide the header of the pretalx widget */
+.pretalx-schedule .settings {
+  display: none !important;
+}
+
+#flip-bottom{
+  transform: rotateX(90deg);
+}
+
+
+.countdown-container {
+  background: linear-gradient(90deg, #004e92, #000428);
+}
