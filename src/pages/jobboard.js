@@ -76,6 +76,31 @@ const JobBoard = () => {
       ],
       url: "https://grnh.se/30ad6cff1us",
     },
+    {
+      company: "Big Data Republic",
+      logo: "/images/sponsors/bigdatarepublic.png",
+      title: "Data Engineer",
+      description: ["As data engineer at BigData Republic you'll consult the biggest companies in the Netherlands on complex challenges. Roll up your sleeves to write production ready code, advise on business decisions or coach your team to the next level."
+      ],
+      url: "https://bigdatarepublic.nl/join-us/data-engineer/",
+    },
+    {
+      company: "Big Data Republic",
+      logo: "/images/sponsors/bigdatarepublic.png",
+      title: "Data Scientist",
+      description: ["You have deep expertise in a technical field, dare to tackle the nitty gritty mathematical issues, and can put the Science in Data Science where needed. You also recognize when a more pragmatic approach is required, and always try to understand the bigger picture.",
+                    "Bringing solutions to production is key, so scalable deployment, model interfacing and monitoring are aspects that you will come across"
+      ],
+      url: "https://bigdatarepublic.nl/join-us/research-data-scientist/",
+    }, 
+    {
+      company: "Big Data Republic",
+      logo: "/images/sponsors/bigdatarepublic.png",
+      title: "Machine Learning Engineer",
+      description: ["When you join us, you will work on complex challenges for large organizations. Take a look at our services page for an impression of industries and use cases. At the same time, you are part of a small, informal team of peers that know each other really well, share knowledge and inspire each other."
+      ],
+      url: "https://bigdatarepublic.nl/join-us/machine-learning-engineer/",
+    },
     // Add more job listings as needed
   ];
 
