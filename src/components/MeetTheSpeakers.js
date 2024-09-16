@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 const speakers = [
-  { name: "Ines Montani", image: "/images/speakers/ines-montani.jpeg", affiliation: "explosion.io",
+  { name: "Ines Montani", image: "/images/speakers/ines-montani.jpeg", affiliation: "explosion.ai",
     url: "https://www.linkedin.com/in/inesmontani/"
   },
   { name: "Merve Noyan", image: "/images/speakers/merve-noyan.png", affiliation: "HuggingFace 🤗",
