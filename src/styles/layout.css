@@ -387,3 +387,19 @@
 .countdown-container {
   background: linear-gradient(90deg, #004e92, #000428);
 }
+
+
+.tutorial-pass-container {
+  position: relative;
+  top: 150px;
+}
+
+
+.faq-container {
+  position: relative;
+  top: 100px;
+}
+
+.faq-items {
+  margin-top: 70px;
+}

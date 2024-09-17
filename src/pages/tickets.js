@@ -16,7 +16,7 @@ const TicketPage = () => {
       </div>
       {/* ------- Tutorial pass ------- */}
 
-      <div className="buttons-breakpoint:pb-24 pb-12">
+      <div className="buttons-breakpoint:pb-24 pb-12 tutorial-pass-container">
         <div className="pt-8 pb-8">
           <h2 className="text-center text-4xl text-black">
             What is a Tutorial Pass?
@@ -51,7 +51,7 @@ const TicketPage = () => {
       </div>
 
       {/* ------- FAQ------- */}
-      <div className="pt-8 pb-8">
+      <div className="pt-8 pb-8 faq-container">
         <h2 className="text-center text-4xl text-black">
           Frequently Asked Questions
         </h2>
