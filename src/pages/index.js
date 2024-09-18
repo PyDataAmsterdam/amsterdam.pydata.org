@@ -14,7 +14,7 @@ import Countdown from "../components/Countdown";
 const HomePage = () => {
   return (
     <Layout>
-      <Countdown/>
+      {/* <Countdown/> */}
       <div className="home-banner">
         <div className="video-container">
           <video
