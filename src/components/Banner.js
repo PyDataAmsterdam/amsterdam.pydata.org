@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-content">
         <span className="banner-text">
           <Link to="/tickets">
-            We kick off tomorrow! Secure your ticket now! 🔗 🎟️
+            We kicked off! You can still secure your ticket and join the fun! 🔗 🎟️
           </Link>
         </span>
       </div>

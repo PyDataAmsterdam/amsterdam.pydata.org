@@ -9,7 +9,6 @@ import Testimonials from "../components/Testimonials";
 import HeroSectionTitle from "../components/HeroSectionTitle";
 import LocationSection from "../components/LocationSection";
 import WhatToExpectSection from "../components/WhatToExpect";
-import Countdown from "../components/Countdown";
 
 const HomePage = () => {
   return (
