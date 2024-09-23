@@ -23,6 +23,18 @@ module.exports = {
         'buttons-breakpoint-xs': '722px',
         'logo-navbar-breakpoint': '993px',
         'pretalx-widget-breakpoint': '710px'
+      },
+      keyframes: {
+        flipDown: {
+          '100%': {transform: 'rotateX(90deg)'}
+        },
+        flipUp: {
+          '100%': {transform: 'rotateX(0deg)'}
+        }
+      },
+      animation: {
+        'flipDown': 'flipDown 200ms ease-in',
+        'flipUp': 'flipUp 200ms ease-out 200ms',
       }
     },
     variants: {

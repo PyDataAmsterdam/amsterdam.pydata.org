@@ -189,12 +189,20 @@
 .custom-probabl-logo {
   margin-top: 2rem !important;
   margin-left: 0px !important;
-  margin-right: 50px;
+  margin-right: 10px;
+  position: relative;
+  right: 40px;
 }
 
 .custom-zencoder-logo {
   margin-top: 1.4rem !important;
 }
+
+.custom-dexter-logo {
+  position: relative;
+  bottom: 22px;
+}
+
 
 .banner {
   background: linear-gradient(90deg, #000428, #004e92); /* Example gradient background */
@@ -364,4 +372,34 @@
     display: block !important;
     flex: 1;
   }
+}
+
+/* Hide the header of the pretalx widget */
+.pretalx-schedule .settings {
+  display: none !important;
+}
+
+#flip-bottom{
+  transform: rotateX(90deg);
+}
+
+
+.countdown-container {
+  background: linear-gradient(90deg, #004e92, #000428);
+}
+
+
+.tutorial-pass-container {
+  position: relative;
+  top: 150px;
+}
+
+
+.faq-container {
+  position: relative;
+  top: 100px;
+}
+
+.faq-items {
+  margin-top: 70px;
 }

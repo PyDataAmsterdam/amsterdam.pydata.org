@@ -31,14 +31,14 @@ const WhatToExpectSection = () => {
             participate in workshops, attend live keynote sessions and talks, as
             well as get to know fellow members of the PyData Community.
           </p>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <Button
               label="Get Tickets"
               icon="ticket"
               color="orange"
               to="/tickets"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -20,6 +20,7 @@ const BrandLogos = () => {
         { src: "/images/sponsors/axi.png", alt: "AXI", url: "https://www.axi.be", className: "custom-axi-logo", sizeClass: "w-32"},
         { src: "/images/sponsors/probabl.svg", alt: "probabl", url: "https://probabl.ai/", className: "custom-probabl-logo", sizeClass: "w-36"},
         { src: "/images/sponsors/builders.png", alt: "Builders", url: "https://builders.studio/", className: "custom-builders-logo", sizeClass: "w-32"},
+        { src: "/images/sponsors/dexter_logo.svg", alt: "Dexter Energy", url: "https://dexterenergy.ai/", className: "custom-dexter-logo", sizeClass: "w-40"},
     ];
     
     const containerRef = useRef(null);

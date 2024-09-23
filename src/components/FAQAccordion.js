@@ -35,7 +35,7 @@ const FAQAccordion = () => {
     ];
 
     return (
-        <div className="mx-auto max-w-6xl p-5 buttons-breakpoint:py-24 pb-12">
+        <div className="mx-auto max-w-6xl p-5 buttons-breakpoint:py-24 pb-8 faq-items">
             <div className="border border-gray-200 dark:border-gray-700">
                 {faqData.map((item, index) => (
                     <div key={index} className="border-b border-gray-200 dark:border-gray-700 last:border-b-0">

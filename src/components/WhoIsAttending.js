@@ -13,7 +13,7 @@ const WhoIsAttending = () => {
             <div className="text-xl text-black mt-4">Attendees</div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <div className="text-5xl text-black">40+</div>
+            <div className="text-5xl text-black">70+</div>
             <div className="text-xl text-black mt-4">Speakers</div>
           </div>
           <div className="flex flex-col items-center justify-center attendees-ds">
