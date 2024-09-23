@@ -35,9 +35,9 @@ const MeetTheSpeakers = () => {
             </div>
           ))}
         </div>
-        <div className="mt-8 flex justify-center">
+        {/* <div className="mt-8 flex justify-center">
           <Button label="Join us" icon="ticket" color="orange" to="/tickets" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

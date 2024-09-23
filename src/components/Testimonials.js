@@ -21,9 +21,9 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <Button label="Get tickets" color="orange" to="/tickets" icon="ticket"/>
-      </div>
+      </div> */}
     </div>
   );
 };
