@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner">
       <div className="banner-content">
         <span className="banner-text">
-          PyData Amsterdam 2024 is a wrap! See you next year!
+          SAVE THE DATE 🗓️: Upcoming Meetups: Jan 21 @ Databricks & Feb 20 @ IKEA
         </span>
       </div>
     </div>
