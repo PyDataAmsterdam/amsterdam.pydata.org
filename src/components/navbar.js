@@ -13,7 +13,7 @@ const navigation = [
   { name: 'Job Board', to: '/jobboard', current: false },
   { name: 'Impressions 2023', to: '/pdamsterdam2023', current: false },
   { name: 'FAQ', to: '/faq', current: false },
-  { name: 'Meetups', to: '/meetups', current: false },
+  // { name: 'Meetups', to: '/meetups', current: false },
   // { name: 'Volunteering', to: '/volunteering', current: false}
 ]
 
