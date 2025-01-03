@@ -9,13 +9,13 @@ import OpenSourceImpact from "../components/OpenSourceImpact";
 
 // Step 2: Define your component
 const AboutPage = () => {
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 0.8;
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.playbackRate = 0.8;
+  //   }
+  // }, []);
 
   return (
     <Layout>
@@ -25,7 +25,7 @@ const AboutPage = () => {
 
       {/* ------- VIDEO LOOP COMMITTEE ------- */}
 
-      <div
+      {/* <div
         className="video-container"
         style={{
           position: "relative",
@@ -52,7 +52,14 @@ const AboutPage = () => {
           <source src="/videos/committee.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
+      <div className="w-full">
+          <img
+            src="/images/pydata_team_aboutpage.jpg"
+            alt="Description"
+            className="w-full h-auto p-4"
+          />
+        </div>
 
       <div className="m-2 buttons-breakpoint:py-24">
         <div class="max-w-6xl mx-auto p-5">
