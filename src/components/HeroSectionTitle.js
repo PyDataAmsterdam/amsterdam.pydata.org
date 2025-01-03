@@ -9,9 +9,9 @@ const HeroSectionTitle = () => {
             PyData Amsterdam
           </span>
         </div>
-        <h1 className="text-2xl md:text-7xl font-bold hero-section-title">
+        {/* <h1 className="text-2xl md:text-7xl font-bold hero-section-title">
           September 18-20, 2024
-        </h1>
+        </h1> */}
       </div>
     </div>
   );
